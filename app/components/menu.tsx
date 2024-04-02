@@ -18,8 +18,8 @@ export const MenuUi = () => {
     return (
         <div className={`${jost.className} flex self-end text-right sm:hidden`}>
             <Menu>
-           <MenuButton className='text-green-400'>
-            {BiMenu(Icon)}
+           <MenuButton className=' text-green-400'>
+           <BiMenu size={'24px'}/>
            </MenuButton>
                 <MenuList width={'fit-content'} background={'black'} textAlign={'right'}  color={'rgb(74 222 128)'}>
                     <MenuItem icon={BiNews(Icon)}  background={'black'}>
