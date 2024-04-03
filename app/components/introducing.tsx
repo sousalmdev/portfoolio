@@ -24,7 +24,7 @@ export const Introducing = () => {
           <p
             className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light ${jost.className}`}
           >
-            Since 2022, I've been dedicating my life to solve problems and
+            Since my very first contact, I've been dedicating my life to solve problems and
             translate ideas into code, it's not different right now, and that's
             why this portfolio exists.
           </p>

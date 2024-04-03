@@ -52,6 +52,7 @@ const Carrossel = () => {
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
                         <Link
+                        target="_blank"
                           href={"https://debsigner.vercel.app"}
                           className="flex items-center gap-1"
                         >
@@ -61,6 +62,7 @@ const Carrossel = () => {
                       <Divider stroke={"black"} />
                       <li className="p-1">
                         <Link
+                        target="_blank"
                           href={"https://github.com/sousalmdev/debsigner"}
                           className="flex items-center gap-1"
                         >
@@ -85,7 +87,7 @@ const Carrossel = () => {
                 className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-blue-400 ${jost.className}`}
               >
                 This one was a 
-                improved and deployed job task, my first ever app using NextJS.
+                improved and deployed job task for an USA enterprise, my first ever app using NextJS (and the first version was my first app using <span className="text-red-500 ">Angular</span>).
               </p>{" "}
               <br />
               <Image src={houses8} alt="houses8" />
@@ -98,7 +100,8 @@ const Carrossel = () => {
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
                         <Link
-                          href={"https://debsigner.vercel.app"}
+                        target="_blank"
+                          href={"https://nextask-c8jux3y1k-leo-sousas-projects.vercel.app/"}
                           className="flex items-center gap-1"
                         >
                           Official Website <span>{BiWorld(Icon)}</span>{" "}
@@ -107,7 +110,8 @@ const Carrossel = () => {
                       <Divider stroke={"black"} />
                       <li className="p-1">
                         <Link
-                          href={"https://github.com/sousalmdev/debsigner"}
+                        target="_blank"
+                          href={"https://github.com/sousalmdev/nextask"}
                           className="flex items-center gap-1"
                         >
                           Github Repo <span>{BiLogoGithub(Icon)}</span>

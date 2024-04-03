@@ -3,27 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 import leo from '@/app/assets/OIG2.png';
 import { Metadata } from "next";
-import { Jost } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import { DM_Serif_Display } from "next/font/google";
 import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
 
-interface ActiveLinkProps {
-  href: string;
-  children: React.ReactNode;
-}
 
-export const ActiveLink = ({ href, children }: ActiveLinkProps) => {
-  return (
-    
-    <Link href={href} passHref>
-     {children}
-    </Link>
-  );
-};
 
-export const jost = Jost({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
+export const jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
 
 export const dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
 
@@ -37,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" translate="yes" className="scroll-smooth">  
+    <html translate="yes" className="scroll-smooth">  
       <ChakraProvider>
         <body className='bg-black flex-col h-min-screen flex text-left items-center'>
           <header className={`${jost.className} bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}>
@@ -51,16 +39,16 @@ export default function RootLayout({
             <nav className=" hidden sm:flex justify-end">
               <ul className="flex text-sm md:text-base gap-5 items-center">
                 <li className="hover:text-green-400 transition-all">
-                  <ActiveLink href="#presentation">Home & Articles</ActiveLink>
+                  <Link href="#presentation">Home & Articles</Link>
                 </li>
                 <li className="hover:text-green-400 transition-all">
-                  <ActiveLink href="#projects">Projects</ActiveLink>
+                  <Link href="#projects">Projects</Link>
                 </li>
                 <li className="hover:text-green-400 transition-all">
-                  <ActiveLink href="#skills">Skills</ActiveLink>
+                  <Link href="#skills">Skills</Link>
                 </li>
                 <li className="hover:text-green-400 transition-all">
-                  <ActiveLink href="#me">About</ActiveLink>
+                  <Link href={"/about"}>About</Link>
                 </li>
               </ul>
             </nav> 
@@ -74,9 +62,7 @@ export default function RootLayout({
                 <p className="font-bold">©2024</p>
                 <Link href='/' className="underline"><p>Leo Sousa</p></Link>
               </li>
-              <li className="flex flex-col"><p className="font-bold">Work</p>
-                <p>None...yet.</p>
-              </li>
+
               <li className="flex flex-col"><p className="font-bold">Social</p>
                 <div className="flex gap-2">
                  <p><Link className="underline" href={'https:linkedin.com/in/leosousadev'}>LinkedIn</Link></p>

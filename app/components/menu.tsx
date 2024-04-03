@@ -10,9 +10,11 @@ import {
 } from '@chakra-ui/react';
 import { jost } from '../layout';
 import { TbMenu } from 'react-icons/tb';
-import { BiBrain, BiHome, BiMap, BiMenu, BiNews, BiSolidBrain, BiSolidHome, BiSolidMap, BiSolidUser, BiUser } from 'react-icons/bi';
+import { BiBrain, BiHome, BiLinkExternal, BiMap, BiMenu, BiNews, BiSolidBrain, BiSolidHome, BiSolidLock, BiSolidMap, BiSolidUser, BiUser } from 'react-icons/bi';
 import Link from 'next/link';
 
+import { MdLink } from 'react-icons/md';
+import { SiGo } from 'react-icons/si';
 
 export const MenuUi = () => {
     return (
@@ -21,20 +23,15 @@ export const MenuUi = () => {
            <MenuButton className=' text-green-400'>
            <BiMenu size={'24px'}/>
            </MenuButton>
-                <MenuList width={'fit-content'} background={'black'} textAlign={'right'}  color={'rgb(74 222 128)'}>
-                    <MenuItem icon={BiNews(Icon)}  background={'black'}>
-                   <Link href="#presentation">Home & Articles</Link>
+                <MenuList  background={'black'} textAlign={'right'}  color={'rgb(74 222 128)'}>
+                    <MenuItem className='flex justify-between' icon={BiUser(Icon)}  background={'black'}>
+                   <Link passHref href="/about">About</Link> 
                     </MenuItem>
                 
-                    <MenuItem  icon={BiSolidMap(Icon)}   background={'black'}>
-                    <Link href="#projects">Projects</Link>
+                    <MenuItem disabled className='flex justify-between' icon={BiSolidLock(Icon)}   background={'black'}>
+                    <Link passHref href="/privacy">Legal (not ready yet calm down!!!)</Link>
                     </MenuItem>
-                    <MenuItem  icon={BiSolidBrain(Icon)}  background={'black'}>
-                    <Link href="#skills">Skills</Link>
-                    </MenuItem>
-                    <MenuItem icon={BiSolidUser(Icon)}  background={'black'}>
-                   <Link href="#me">About</Link>
-                    </MenuItem>
+                  
                 </MenuList>
             </Menu>
         </div>
