@@ -23,6 +23,7 @@ export const MenuUi = () => {
           textAlign={"right"}
           color={"rgb(74 222 128)"}
         >
+
           <MenuItem
             as={Link}
             href={"/about"}
@@ -30,7 +31,7 @@ export const MenuUi = () => {
             icon={BiUser(Icon)}
             background={"black"}
           >
-            
+            About
             
           </MenuItem>
 
