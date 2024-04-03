@@ -31,7 +31,7 @@ export const MenuUi = () => {
             icon={BiUser(Icon)}
             background={"black"}
           >
-            About
+            About (prototype)
           </MenuItem>
 
           <MenuItem
