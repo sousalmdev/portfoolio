@@ -9,7 +9,6 @@ import {
   MenuDivider,
 } from "@chakra-ui/react";
 import { jost } from "../layout";
-import { TbMenu } from "react-icons/tb";
 import { BiMenu, BiSolidLock, BiUser } from "react-icons/bi";
 import Link from "next/link";
 export const MenuUi = () => {
@@ -25,22 +24,24 @@ export const MenuUi = () => {
           color={"rgb(74 222 128)"}
         >
           <MenuItem
-            as={'a'}
+            as={Link}
             href={"/about"}
             className="flex justify-between"
             icon={BiUser(Icon)}
             background={"black"}
           >
-            About (prototype)
+            
+            
           </MenuItem>
 
           <MenuItem
-            disabled
-            as={'a'}
-            href="https://leonewport.vercel.app/privacy"
+            
+            as={Link}
+            href="/privacy"
             className="flex justify-between"
             icon={BiSolidLock(Icon)}
             background={"black"}
+            disabled
           >
             Legal (not ready yet calm down!!!)
           </MenuItem>
