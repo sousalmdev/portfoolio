@@ -9,7 +9,7 @@ import {
   MenuDivider,
 } from "@chakra-ui/react";
 import { jost } from "../layout";
-import { BiMenu, BiSolidLock, BiUser } from "react-icons/bi";
+import { BiMenu, BiSolidArchive, BiSolidLock, BiUser } from "react-icons/bi";
 import Link from "next/link";
 export const MenuUi = () => {
   return (
@@ -26,7 +26,7 @@ export const MenuUi = () => {
 
           <MenuItem
             as={Link}
-            href={"/about"}
+            href={"#about"}
             className="flex justify-between"
             icon={BiUser(Icon)}
             background={"black"}
@@ -38,13 +38,13 @@ export const MenuUi = () => {
           <MenuItem
             
             as={Link}
-            href="/privacy"
+            href="#projects"
             className="flex justify-between"
-            icon={BiSolidLock(Icon)}
+            icon={BiSolidArchive(Icon)}
             background={"black"}
-            disabled
+          
           >
-            Legal (not ready yet calm down!!!)
+            Projects
           </MenuItem>
         </MenuList>
       </Menu>
