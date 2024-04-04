@@ -12,7 +12,6 @@ import { MdVerified } from "react-icons/md";
 
 
 export const jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
-
 export const dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
 interface ActiveLinkProps {
   href: string;
@@ -41,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html translate="yes" className="scroll-smooth">  
+    <html lang="pt-br" className="scroll-smooth">  
       <ChakraProvider>
         <body className='bg-black flex-col h-min-screen flex text-left items-center'>
           <header className={`${jost.className} bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}>
@@ -64,7 +63,7 @@ export default function RootLayout({
                   <Link href="#skills">Skills</Link>
                 </li>
                 <li className="hover:text-green-400 transition-all">
-                  <Link href={"/about"}>About</Link>
+                  <Link href="#about">About</Link>
                 </li>
               </ul>
             </nav> 

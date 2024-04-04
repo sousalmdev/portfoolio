@@ -8,7 +8,7 @@ export const About = () => {
     return (
       <>
         <div
-          id="#presentation"
+          id="#about"
           className="animate-fade-in-bottom pb-32 text-left w-11/12 md:w-full"
         > <div className="py-20 flex flex-col md:flex-row items-center md:justify-between">
          <div className=""> <h2
