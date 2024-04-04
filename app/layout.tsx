@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa"
 };
 
-export default function RootLayout({
+ function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -85,3 +85,4 @@ export default function RootLayout({
     </ChakraProvider>
   );
 }
+export default RootLayout;
