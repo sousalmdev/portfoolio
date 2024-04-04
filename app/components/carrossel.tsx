@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { jost } from "@/app/layout";
-import { dm } from "@/app/layout";
 import Image from "next/image";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -30,7 +29,7 @@ const Carrossel = () => {
         <Carousel className="w-3/4 md:self-start self-center ">
           <CarouselContent>
             <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl ${dm.className}`}>
+              <h1 className={`flex text-3xl md:text-5xl `}>
                 <span className="text-pink-600">Deb</span>signer
               </h1>
               <br />
@@ -79,7 +78,7 @@ const Carrossel = () => {
             </CarouselItem>
 
             <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl ${dm.className}`}>
+              <h1 className={`flex text-3xl md:text-5xl `}>
                 Houses<span className="text-blue-400">8</span>  
            </h1>
            <br />

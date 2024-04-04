@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { dm, jost } from '../layout';
+import { jost } from '../layout';
 
 export const Introducing = () => {
     return (
@@ -15,7 +15,7 @@ export const Introducing = () => {
             HELLO, MY NAME IS LEO AND IM A
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
+          <h1 className={`text-3xl md:text-6xl`}>
             Front End / UI
             <br />
             Developer.

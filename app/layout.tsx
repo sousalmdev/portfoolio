@@ -10,7 +10,7 @@ import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
 
 export const jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
-export const dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
+
 
 interface ActiveLinkProps {
   href: string;

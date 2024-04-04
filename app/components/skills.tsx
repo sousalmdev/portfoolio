@@ -3,7 +3,7 @@ import React from 'react'
 import { BiData, BiLogoAngular, BiLogoHtml5, BiLogoJavascript, BiLogoMongodb, BiLogoReact, BiLogoTypescript, BiSolidBrain } from "react-icons/bi";
 import { SiMongodb, SiMysql, SiNextdotjs, SiSequelize } from "react-icons/si";
 import { TbBrain, TbHammer, TbLanguage, TbMoodHappy, TbMoodHappyFilled, TbPaintFilled } from "react-icons/tb";
-import { dm,jost } from '@/app/layout';
+import {jost } from '@/app/layout';
 import { Divider,Icon } from '@chakra-ui/react';
 export const Skills = () => {
     return (
@@ -17,7 +17,7 @@ export const Skills = () => {
           </h2>
   
           <br />
-          <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Skills.</h1>
+          <h1 className={`text-4xl md:text-6xl`}>Skills.</h1>
   
           <br />
           <p className="w-full md:w-2/4 text-xl h-auto md:text-3xl font-light">

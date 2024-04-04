@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { dm, jost } from '../layout';
+import {jost } from '../layout';
 import Image from 'next/image';
 import Leo from '@/app/assets/Imagem do WhatsApp de 2024-04-03 à(s) 23.48.16_d7ef4f48.png'
 import { Divider } from '@chakra-ui/react';
@@ -19,7 +19,7 @@ export const About = () => {
             , NOW, YOU'RE GONNA KNOW
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
+          <h1 className={`text-3xl md:text-6xl`}>
             Who I am
           </h1>
           <br />
@@ -41,7 +41,7 @@ export const About = () => {
            KNOW MY
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
+          <h1 className={`text-3xl md:text-6xl`}>
             Hobbies
           </h1>
           <br /><br />

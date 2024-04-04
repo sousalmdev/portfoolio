@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { dm} from '../layout';
+
 
 import Carrossel from './carrossel';
 
@@ -12,7 +12,7 @@ export const Projects = () => {
             EVERY GOOD DEVELOPER HAS TO HAVE MANY GOOD
           </h2>
           <br />
-          <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Projects.</h1>
+          <h1 className={`text-4xl md:text-6xl`}>Projects.</h1>
           <br />
           <p className=" w-full xl:w-2/5 md:w-4/5 sm:w-4/5 text-lg h-auto md:text-3xl font-light">
             There's some of my most important projects, that I created for
