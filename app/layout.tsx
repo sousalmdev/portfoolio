@@ -51,7 +51,6 @@ export default function RootLayout({
           </div>
           <div>
             <MenuUi />
-
           </div>
           <nav className=" hidden sm:flex justify-end">
             <ul className="flex text-sm md:text-base gap-5 items-center">
