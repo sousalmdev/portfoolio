@@ -10,20 +10,6 @@ import { MdVerified } from "react-icons/md";
 import { jost } from "./layout-font";
 
 
-
-interface ActiveLinkProps {
-  href: string;
-  children: React.ReactNode;
-}
-
-export const ActiveLink = ({ href, children }: ActiveLinkProps) => {
-  return (
-    <Link href={href} passHref>
-      {children}
-    </Link>
-  );
-};
-
 export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa"
 };
