@@ -5,7 +5,6 @@ import leo from "@/app/assets/OIG2.png";
 import { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
-import { DM_Serif_Display } from "next/font/google";
 import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
 
@@ -13,6 +12,19 @@ import { MdVerified } from "react-icons/md";
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
+interface ActiveLinkProps {
+  href: string;
+  children: React.ReactNode;
+}
+
+export const ActiveLink = ({ href, children }: ActiveLinkProps) => {
+  return (
+    
+    <Link href={href} passHref>
+     {children}
+    </Link>
+  );
+};
 
 export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa",
@@ -24,8 +36,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }> ){
   return (
-    <ChakraProvider>
+  
       <html className="scroll-smooth">
+          <ChakraProvider>
         <body className="bg-black flex-col h-min-screen flex text-left items-center">
           <header
             className={`${jost.className} bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}
@@ -103,8 +116,8 @@ export default function RootLayout({
               </li>
             </ul>
           </footer>
-        </body>
+        </body> </ChakraProvider>
       </html>
-    </ChakraProvider>
+   
   );
 }
