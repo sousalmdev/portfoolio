@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { dm, jost } from '../layout';
+
 import Image from 'next/image';
 import Leo from '@/app/assets/Imagem do WhatsApp de 2024-04-03 à(s) 23.48.16_d7ef4f48.png'
 import { Divider } from '@chakra-ui/react';
@@ -19,14 +19,14 @@ export const About = () => {
             , NOW, YOU'RE GONNA KNOW
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
+          <h1 className={`text-3xl md:text-6xl `}>
             Who I am
           </h1>
           <br />
           <br />
          
           <p
-            className={`text-left w-full xl:w-3/5 md:w-4/5 sm:w-4/5 md:text-3xl text-sm font-light ${jost.className}`}
+            className={`text-left w-full xl:w-3/5 md:w-4/5 sm:w-4/5 md:text-3xl text-sm font-light `}
           >
            My name is Leandro Medeiros de Sousa, I'm 19 years old, and I'm a brazilian developer, born in Rio de Janeiro.
           I had my first touch with programming through the CC50 Harvard Course, first meeting C language and Programming Logic.
@@ -41,12 +41,12 @@ export const About = () => {
            KNOW MY
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
+          <h1 className={`text-3xl md:text-6xl `}>
             Hobbies
           </h1>
           <br /><br />
           <p
-            className={`text-left w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light ${jost.className}`}
+            className={`text-left w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light `}
           >
             <span className="font-bold text-green-400">I am a musician</span> since 2016, I play three different instruments: Guitar, Electric Guitar and Bass.   <span className="font-bold text-green-400">I like to sing as well. </span> I have some personal music taste which involves Metal, Bossa Nova, Samba, R&B and Jazz.
             <br /><br />

@@ -8,12 +8,11 @@ import {
   Icon,
   MenuDivider,
 } from "@chakra-ui/react";
-import { jost } from "../layout";
 import { BiMenu, BiSolidArchive, BiSolidLock, BiUser } from "react-icons/bi";
 import Link from "next/link";
 export const MenuUi = () => {
   return (
-    <div className={`${jost.className} flex self-end text-right sm:hidden`}>
+    <div className={` flex self-end text-right sm:hidden`}>
       <Menu>
         <MenuButton className=" text-green-400">
           <BiMenu size={"24px"} />

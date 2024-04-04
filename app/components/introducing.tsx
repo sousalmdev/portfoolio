@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { jost } from '../layout';
+
 
 export const Introducing = () => {
     return (
@@ -22,7 +22,7 @@ export const Introducing = () => {
           </h1>
           <br />
           <p
-            className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light ${jost.className}`}
+            className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light `}
           >
             Since my very first contact, I've been dedicating my life to solve problems and
             translate ideas into code, it's not different right now, and that's

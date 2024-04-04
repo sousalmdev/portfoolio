@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { jost } from "@/app/layout";
 import Image from "next/image";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -34,7 +33,7 @@ const Carrossel = () => {
               </h1>
               <br />
               <p
-                className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-pink-600 ${jost.className}`}
+                className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-pink-600 `}
               >
                 It was my very first freelancer project, and I'm really proud
                 about this. It tells the story and the work arsenal of a very
@@ -46,7 +45,7 @@ const Carrossel = () => {
               <div className="flex items-center w-full justify-center">
                 <Popover>
                   <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-pink-600 text-pink-600 ${jost.className}`}
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-pink-600 text-pink-600 `}
                   >
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
@@ -83,7 +82,7 @@ const Carrossel = () => {
            </h1>
            <br />
               <p
-                className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-blue-400 ${jost.className}`}
+                className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-blue-400 `}
               >
                 This one was a 
                 improved and deployed job task for an USA enterprise, my first ever app using NextJS (and the first version was my first app using <span className="text-red-500 ">Angular</span>).
@@ -94,7 +93,7 @@ const Carrossel = () => {
               <div className="flex items-center w-full justify-center">
                 <Popover>
                   <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-blue-400 text-blue-400 ${jost.className}`}
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-blue-400 text-blue-400 `}
                   >
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">

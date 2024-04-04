@@ -8,7 +8,7 @@ import {
   AccordionIcon,
   Box,
 } from "@chakra-ui/react";
-import { jost } from "@/app/layout";
+
 export const Accordionn = () => {
   return (
     <Accordion
@@ -22,7 +22,7 @@ export const Accordionn = () => {
             _expanded={{ bg: "rgb(74 222 128)", color: "black" }}
         className="text-sm md:text-xl">
             <Box
-              className={`font-bold ${jost.className} text-sm md:text-xl`}
+              className={`font-bold  text-sm md:text-xl`}
               as="span"
               flex="1"
               textAlign="left"
@@ -86,7 +86,7 @@ export const Accordionn = () => {
             _expanded={{ bg: "rgb(74 222 128)", color: "black" }}
         className="text-sm md:text-xl">
             <Box
-              className={`font-bold ${jost.className} text-sm md:text-xl`}
+              className={`font-bold  text-sm md:text-xl`}
               as="span"
               flex="1"
               textAlign="left"
@@ -131,7 +131,7 @@ export const Accordionn = () => {
       <AccordionItem className="w-11/12 xl:w-2/5 md:w-2/5">
   <h2>
     <AccordionButton color={"rgb(74 222 128)"} className="text-sm md:text-xl" _expanded={{ bg: "rgb(74 222 128)", color: "black" }}>
-      <Box className={`font-bold ${jost.className} text-sm md:text-xl`} as="span" flex="1" textAlign="left">
+      <Box className={`font-bold  text-sm md:text-xl`} as="span" flex="1" textAlign="left">
         How to maintain a studying routine:
       </Box>
       <AccordionIcon />
@@ -206,7 +206,7 @@ A developer like you. A student like you.
 <AccordionItem className="w-11/12 xl:w-2/5 md:w-2/5">
   <h2>
     <AccordionButton color={"rgb(74 222 128)"} className="text-sm md:text-xl" _expanded={{ bg: "rgb(74 222 128)", color: "black" }}>
-      <Box className={`font-bold ${jost.className} text-sm md:text-xl`} as="span" flex="1" textAlign="left">
+      <Box className={`font-bold  text-sm md:text-xl`} as="span" flex="1" textAlign="left">
         To what extent is Artificial Intelligence an ally? 
       </Box>
       <AccordionIcon />
