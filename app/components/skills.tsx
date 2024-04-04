@@ -3,8 +3,8 @@ import React from 'react'
 import { BiData, BiLogoAngular, BiLogoHtml5, BiLogoJavascript, BiLogoMongodb, BiLogoReact, BiLogoTypescript, BiSolidBrain } from "react-icons/bi";
 import { SiMongodb, SiMysql, SiNextdotjs, SiSequelize } from "react-icons/si";
 import { TbBrain, TbHammer, TbLanguage, TbMoodHappy, TbMoodHappyFilled, TbPaintFilled } from "react-icons/tb";
+import {jost } from '@/app/layout';
 import { Divider,Icon } from '@chakra-ui/react';
-import { jost } from '../layout-font';
 export const Skills = () => {
     return (
       <>

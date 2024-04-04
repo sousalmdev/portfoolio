@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { jost } from "@/app/layout";
 import Image from "next/image";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -20,7 +21,6 @@ import debsigner from "@/app/assets/Captura de tela 2024-03-26 230222.png";
 import Link from "next/link";
 import { BiLogoCss3, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoReact, BiWorld } from "react-icons/bi";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import { jost } from "../layout-font";
 
 const Carrossel = () => {
   return (

@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { jost } from '../layout-font';
-
+import { jost } from '../layout';
 
 export const Introducing = () => {
     return (

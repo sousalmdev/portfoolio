@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Accordionn } from './accordion';
-import { jost } from '../layout-font';
+import {jost } from '../layout';
 export const Articles = () => {
     return (
       <div

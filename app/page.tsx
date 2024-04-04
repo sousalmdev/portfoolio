@@ -4,8 +4,8 @@ import { Introducing } from "./components/introducing";
 import { Articles } from "./components/articles";
 import { Skills } from "./components/skills";
 import { Projects } from "./components/projects";
+import { jost } from "./layout";
 import { About } from "./components/about";
-import { jost } from "./layout-font";
 
 
 

@@ -3,20 +3,21 @@ import Link from "next/link";
 import Image from "next/image";
 import leo from '@/app/assets/OIG2.png';
 import { Metadata } from "next";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import { DM_Serif_Display } from "next/font/google";
 import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
-import { jost } from "./layout-font";
 
-
+export const jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
+export const dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
 
 interface ActiveLinkProps {
   href: string;
   children: React.ReactNode;
 }
 
- const ActiveLink = ({ href, children }: ActiveLinkProps) => {
+export const ActiveLink = ({ href, children }: ActiveLinkProps) => {
   return (
     <Link href={href} passHref>
       {children}
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa"
 };
 
- export default function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

@@ -1,10 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-
+import {jost } from '../layout';
 import Image from 'next/image';
 import Leo from '@/app/assets/Imagem do WhatsApp de 2024-04-03 à(s) 23.48.16_d7ef4f48.png'
 import { Divider } from '@chakra-ui/react';
-import { jost } from '../layout-font';
 export const About = () => {
     return (
       <>
