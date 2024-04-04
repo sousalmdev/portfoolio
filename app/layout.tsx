@@ -34,7 +34,7 @@ export default function RootLayout({
           <ChakraProvider>
         <body className="bg-black flex-col h-min-screen flex text-left items-center">
           <header
-            className={`${jost.className} bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}
+            className={` bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}
           >
             <div id="title" className="flex gap-4 py-2 items-center">
               <Image src={leo} alt="leo" height={30} className="rounded-full" />
