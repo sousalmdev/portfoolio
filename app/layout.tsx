@@ -16,13 +16,19 @@ interface ActiveLinkProps {
   children: React.ReactNode;
 }
 
-
+ const ActiveLink = ({ href, children }: ActiveLinkProps) => {
+  return (
+    <Link href={href} passHref>
+      {children}
+    </Link>
+  );
+};
 
 export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa"
 };
 
- function RootLayout({
+ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -78,4 +84,3 @@ export const metadata: Metadata = {
     </ChakraProvider>
   );
 }
-export default RootLayout;
