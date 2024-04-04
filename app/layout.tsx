@@ -9,8 +9,8 @@ import { DM_Serif_Display } from "next/font/google";
 import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
 
-export const jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
-export const dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
+export let jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
+export let dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
 
 interface ActiveLinkProps {
   href: string;
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa"
 };
 
- function RootLayout({
+export function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -85,4 +85,5 @@ export const metadata: Metadata = {
     </ChakraProvider>
   );
 }
+
 export default RootLayout;
