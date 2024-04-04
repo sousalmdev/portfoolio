@@ -5,6 +5,7 @@ import { Articles } from "./components/articles";
 import { Skills } from "./components/skills";
 import { Projects } from "./components/projects";
 import { jost } from "./layout";
+import { About } from "./components/about";
 
 
 
@@ -20,6 +21,7 @@ const Page = () => {
       <Articles />
       <Projects />
       <Skills />
+      <About/>
     </div>
   );
 };

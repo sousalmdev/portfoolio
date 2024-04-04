@@ -27,9 +27,9 @@ export const Skills = () => {
           </p>
           <br />
   <div className="py-10 flex items-center gap-1 justify-center">
-    <Divider width={300} />
-          <h2 className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold ${jost.className} `}>WORK SKILLS</h2>
-          <Divider width={300} />
+    <Divider width={200} />
+          <h2 className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold ${jost.className} `}>WORK <br />SKILLS</h2>
+          <Divider width={200} />
           </div>
           <ul className="w-full list-none gap-5 flex flex-col">
             <li className={`gap-2 flex flex-col ${jost.className}`}>
@@ -122,9 +122,9 @@ export const Skills = () => {
               </p>
             </li>
             <div className="py-10 flex items-center gap-1 justify-center">
-    <Divider width={300} />
-            <h2 className={`text-green-400 text-center py-2 text-lg md:text-4xl font-semibold ${jost.className} `}>PERSONAL SKILLS</h2>
-  <Divider width={300}/>
+    <Divider width={200} />
+            <h2 className={`text-green-400 text-center py-2 text-xl md:text-4xl font-semibold ${jost.className} `}>PERSONAL <br />SKILLS</h2>
+  <Divider width={200}/>
   </div>
             <li className={`gap-2 flex flex-col ${jost.className}`}>
               {" "}
