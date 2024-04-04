@@ -8,7 +8,7 @@ import {
   AccordionIcon,
   Box,
 } from "@chakra-ui/react";
-import { jost } from "../layout";
+import { jost } from "../layout-font";
 export const Accordionn = () => {
   return (
     <Accordion

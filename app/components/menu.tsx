@@ -8,9 +8,9 @@ import {
   Icon,
   MenuDivider,
 } from "@chakra-ui/react";
-import { jost } from "../layout";
 import { BiMenu, BiSolidArchive, BiSolidLock, BiUser } from "react-icons/bi";
 import Link from "next/link";
+import { jost } from "../layout-font";
 export const MenuUi = () => {
   return (
     <div className={`${jost.className} flex self-end text-right sm:hidden`}>
