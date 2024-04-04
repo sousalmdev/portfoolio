@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Accordionn } from './accordion';
-import {raleway } from '../layout';
+import {jost } from '../layout';
 export const Articles = () => {
     return (
       <div
@@ -16,7 +16,7 @@ export const Articles = () => {
         <h1 className={`text-3xl md:text-6xl`}>Articles</h1>
         <br />
         <p
-          className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl  text-lg font-light ${raleway.className}`}
+          className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl  text-lg font-light ${jost.className}`}
         >
           As 2023 was passing by, I decided to write some stuff I knew, aiming to
           help either newcomers and experienced professional with fun facts, or

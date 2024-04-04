@@ -9,7 +9,9 @@ import { DM_Serif_Display } from "next/font/google";
 import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
 
-export const raleway = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
+
+
+export const jost = Raleway({ subsets:['latin'],weight:["100","200","300","400","500","600","700","800"] });
 export const dm = DM_Serif_Display({subsets:['latin'],weight:["400"]});
 
 interface ActiveLinkProps {
@@ -39,7 +41,7 @@ export default function RootLayout({
   return (
     <ChakraProvider>
       <div className="scroll-smooth">
-        <header className={`${raleway.className} bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}>
+        <header className={`${jost.className} bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}>
           <div id="title" className="flex gap-4 py-2 items-center">
             <Image src={leo} alt="leo" height={30} className="rounded-full" />
             <h2 className="font-bold flex items-center gap-1">Leo Sousa <span><MdVerified className="text-blue-500" /></span> </h2>
@@ -65,7 +67,7 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
-        <footer className={`absolute bottom-0 h-24 p-4 w-full text-white flex items-center justify-center border-t border-white ${raleway.className}`}>
+        <footer className={`absolute bottom-0 h-24 p-4 w-full text-white flex items-center justify-center border-t border-white ${jost.className}`}>
           <ul className="flex items-center md:justify-evenly md:gap-0 justify-center text-center md:w-3/4 w-11/12 gap-7  text-sm md:text-lg">
             <li className="flex flex-col">
               <p className="font-bold">©2024</p>

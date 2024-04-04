@@ -3,7 +3,7 @@ import React from 'react'
 import { BiData, BiLogoAngular, BiLogoHtml5, BiLogoJavascript, BiLogoMongodb, BiLogoReact, BiLogoTypescript, BiSolidBrain } from "react-icons/bi";
 import { SiMongodb, SiMysql, SiNextdotjs, SiSequelize } from "react-icons/si";
 import { TbBrain, TbHammer, TbLanguage, TbMoodHappy, TbMoodHappyFilled, TbPaintFilled } from "react-icons/tb";
-import {raleway } from '@/app/layout';
+import {jost} from '@/app/layout';
 import { Divider,Icon } from '@chakra-ui/react';
 export const Skills = () => {
     return (
@@ -28,11 +28,11 @@ export const Skills = () => {
           <br />
   <div className="py-10 flex items-center gap-1 justify-center">
     <Divider width={200} />
-          <h2 className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold ${raleway.className} `}>WORK <br />SKILLS</h2>
+          <h2 className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold ${jost.className} `}>WORK <br />SKILLS</h2>
           <Divider width={200} />
           </div>
           <ul className="w-full list-none gap-5 flex flex-col">
-            <li className={`gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold text-yellow-500 md:text-3xl text-lg items-center flex gap-2`}
@@ -48,7 +48,7 @@ export const Skills = () => {
             </li>
   
             <li
-              className={`gap-2 items-end text-right justify-end flex flex-col ${raleway.className}`}
+              className={`gap-2 items-end text-right justify-end flex flex-col ${jost.className}`}
             >
               {" "}
               <span
@@ -66,7 +66,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-red-600 md:text-3xl text-lg items-center flex gap-2`}
@@ -82,7 +82,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`gap-2 items-end text-right flex flex-col ${raleway.className}`}>
+            <li className={`gap-2 items-end text-right flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-white md:text-3xl text-lg items-center flex gap-2`}
@@ -95,7 +95,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-blue-500 md:text-3xl text-lg items-center flex gap-2`}
@@ -109,7 +109,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`items-end text-right gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`items-end text-right gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-blue-300 md:text-3xl text-lg items-center flex gap-2`}
@@ -123,10 +123,10 @@ export const Skills = () => {
             </li>
             <div className="py-10 flex items-center gap-1 justify-center">
     <Divider width={200} />
-            <h2 className={`text-green-400 text-center py-2 text-xl md:text-4xl font-semibold ${raleway.className} `}>PERSONAL <br />SKILLS</h2>
+            <h2 className={`text-green-400 text-center py-2 text-xl md:text-4xl font-semibold ${jost.className} `}>PERSONAL <br />SKILLS</h2>
   <Divider width={200}/>
   </div>
-            <li className={`gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-white md:text-3xl text-lg items-center flex gap-2`}
@@ -139,7 +139,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`items-end text-right gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`items-end text-right gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-cyan-400 md:text-3xl text-lg items-center flex gap-2`}
@@ -152,7 +152,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-red-600 md:text-3xl text-lg items-center flex gap-2`}
@@ -165,7 +165,7 @@ export const Skills = () => {
               </p>
             </li>
   
-            <li className={`items-end text-right gap-2 flex flex-col ${raleway.className}`}>
+            <li className={`items-end text-right gap-2 flex flex-col ${jost.className}`}>
               {" "}
               <span
                 className={`font-bold  text-yellow-400 md:text-3xl text-lg items-center flex gap-2`}
