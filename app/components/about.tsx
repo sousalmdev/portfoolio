@@ -28,7 +28,7 @@ export const About = () => {
           <p
             className={`text-left w-full xl:w-3/5 md:w-4/5 sm:w-4/5 md:text-3xl text-sm font-light `}
           >
-           My name is Leandro Medeiros de Sousa, I'm 19 years old, and I'm a brazilian developer, born in Rio de Janeiro.
+           My name is Leandro Medeiros de Sousa, a brazilian developer, born in Rio de Janeiro.
           I had my first touch with programming through the CC50 Harvard Course, first meeting C language and Programming Logic.
           After that, I went full on Front End Development, because I feel familiar to art and creative stuff.
           </p></div>
