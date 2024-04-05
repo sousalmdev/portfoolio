@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
-import leo from "@/app/assets/OIG2.png";
+import leo from '@/app/assets/Imagem do WhatsApp de 2024-04-04 à(s) 23.13.22_5cc7a10f.jpg';
 import { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
