@@ -32,7 +32,7 @@ export const PeopleCard = () => {
               </div>
             </CardHeader>
             <Text className="md:ml-5 m-0 w-full text-sm md:text-2xl py-2">
-              'Leo is a very efforted and productive guy, his skills to learning the enough to work with a different thing is unbelievable, an 'out of the box' communication, which makes people feel no need to ask a question twice.'
+              'Leo is a very effortful and productive guy, his skills to learning the enough to work with a different thing is unbelievable, an 'out of the box' communication, which makes people feel no need to ask a question twice.'
             </Text>
           </CardBody>
         </Stack>
