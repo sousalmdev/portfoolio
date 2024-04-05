@@ -34,7 +34,7 @@ const Carrossel = () => {
               </h1>
               <br />
               <p
-                className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-pink-600 `}
+                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-pink-600 `}
               >
                 It was my very first freelancer project, and I'm really proud
                 about this. It tells the story and the work arsenal of a very
@@ -83,7 +83,7 @@ const Carrossel = () => {
            </h1>
            <br />
               <p
-                className={`w-full md:w-full text-sm h-auto md:text-3xl font-bold text-blue-400 `}
+                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-blue-400 `}
               >
                 This one was a 
                 improved and deployed job task for an USA enterprise, my first ever app using NextJS (and the first version was my first app using <span className="text-red-500 ">Angular</span>).

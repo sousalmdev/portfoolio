@@ -10,10 +10,10 @@ export const About = () => {
       <>
         <div
           id="about"
-          className="animate-fade-in-bottom py-20 text-left w-11/12 md:w-full"
-        > <div className="py-20 flex flex-col md:flex-row items-center md:justify-between">
+          className="animate-fade-in-bottom pb-20 text-left w-11/12 md:w-full"
+        > <div className="py-20 flex flex-col xl:flex-row items-center md:justify-between">
          <div className=""> <h2
-            className={`text-green-400 md:text-lg text-sm tracking-wider font-bold`}
+            className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
           >
             YOU ALREADY SAW WHAT I CAN DO
 
@@ -24,12 +24,12 @@ export const About = () => {
             Who I am
           </h1>
           <br />
-          <br />
+     
          
           <p
-            className={`text-left w-full xl:w-3/5 md:w-4/5 sm:w-4/5 md:text-3xl text-sm font-light `}
+            className={`text-left w-full xl:w-3/5 md:w-full sm:w-4/5 md:text-3xl text-base font-light `}
           >
-           My name is Leandro Medeiros de Sousa, a brazilian developer, born in Rio de Janeiro.
+            <span className="font-bold text-green-400">My name is</span> Leandro Medeiros de Sousa, a brazilian developer, born in Rio de Janeiro.
           I had my first touch with programming through the CC50 Harvard Course, first meeting C language and Programming Logic.
           After that, I went full on Front End Development, because I feel familiar to art and creative stuff.
           </p></div>
@@ -38,7 +38,7 @@ export const About = () => {
           <Image style={{border:'1px solid  rgb(74 222 128) '}} src={Leo.src} width={350} height={300}  alt='abu' /></div>
          
          <h2
-            className={`text-green-400 md:text-lg text-sm tracking-wider font-bold`}
+            className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
           >
            KNOW MY
           </h2>
@@ -46,9 +46,9 @@ export const About = () => {
           <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
             Hobbies
           </h1>
-          <br /><br />
+          <br />
           <p
-            className={`text-left w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light `}
+            className={`text-left w-full xl:w-3/5 md:w-full sm:w-4/5 md:text-3xl text-lg font-light `}
           >
             <span className="font-bold text-green-400">I am a musician</span> since 2016, I play three different instruments: Guitar, Electric Guitar and Bass.   <span className="font-bold text-green-400">I like to sing as well. </span> I have some personal music taste which involves Metal, Bossa Nova, Samba, R&B and Jazz.
             <br /><br />
