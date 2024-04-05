@@ -30,7 +30,7 @@ export default function RootLayout({
 }> ){
   return (
   
-      <html className="scroll-smooth">
+      <html className={`${jost.className} scroll-smooth`}>
           <ChakraProvider>
         <body className="bg-black flex-col h-min-screen flex text-left items-center">
           <header
