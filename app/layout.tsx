@@ -65,9 +65,9 @@ export default function RootLayout({
               </ul>
             </nav>
           </header>
-
+<div className="my-20">
           {children}
-
+</div>
           <footer
             className={` absolute bottom-0  pb-20 bg-green-400 w-full text-black flex items-center justify-center  ${jost.className}`}
           >
