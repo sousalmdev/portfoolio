@@ -69,7 +69,7 @@ export default function RootLayout({
           {children}
 
           <footer
-            className={`absolute bottom-0  bg-green-400 w-full text-black flex items-center justify-center  ${jost.className}`}
+            className={` absolute bottom-0  pb-20 bg-green-400 w-full text-black flex items-center justify-center  ${jost.className}`}
           >
             <ul className="flex items-center md:justify-evenly md:gap-0 justify-center text-center md:w-3/4 w-11/12 gap-7  text-sm md:text-base">
               <li className="flex flex-col">
