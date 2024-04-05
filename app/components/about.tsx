@@ -2,14 +2,14 @@
 import React from 'react'
 
 import Image from 'next/image';
-import Leo from '@/app/assets/Imagem do WhatsApp de 2024-04-03 à(s) 23.48.16_d7ef4f48.png'
+import Leo from '@/app/assets/Imagem do WhatsApp de 2024-04-04 à(s) 23.13.22_5cc7a10f.jpg'
 import { Divider } from '@chakra-ui/react';
 export const About = () => {
     return (
       <>
         <div
-          id="#about"
-          className="animate-fade-in-bottom pb-32 text-left w-11/12 md:w-full"
+          id="about"
+          className="animate-fade-in-bottom py-20 text-left w-11/12 md:w-full"
         > <div className="py-20 flex flex-col md:flex-row items-center md:justify-between">
          <div className=""> <h2
             className={`text-green-400 md:text-lg text-sm tracking-wider font-bold`}
@@ -33,9 +33,10 @@ export const About = () => {
           After that, I went full on Front End Development, because I feel familiar to art and creative stuff.
           </p></div>
           <br />
-          
-          <Image src={Leo.src} width={400} height={400}  alt='abu' /></div>
-          <h2
+
+          <Image style={{border:'1px solid  rgb(74 222 128) '}} src={Leo.src} width={350} height={300}  alt='abu' /></div>
+         
+         <h2
             className={`text-green-400 md:text-lg text-sm tracking-wider font-bold`}
           >
            KNOW MY
@@ -54,7 +55,9 @@ export const About = () => {
          
         <br />
         <br />
-        I'm a football supporter too. A passionated and born <span className="font-bold text-red-600">Flamengo</span> supporter. One time Flamengo, always Flamengo.
+        I'm a football supporter too. A passionated and born Flamengo supporter. One time Flamengo, always Flamengo.
+         <br /><br />
+         I'm a gym guy. It's been a year and six months since I started, and never ever wanted to stop since then. It helps either my body and my mind. Why should I stop?
          </p></div>
       </>
     );

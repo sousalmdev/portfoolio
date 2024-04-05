@@ -34,7 +34,7 @@ export default function RootLayout({
           <ChakraProvider>
         <body className={`${jost.className} bg-black flex-col h-min-screen flex text-left items-center`}>
           <header
-            className={` bg-black sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}
+            className={` bg-black/50 backdrop-blur sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}
           >
             <div id="title" className="flex gap-4 py-2 items-center">
               <Image src={leo} alt="leo" height={30} className="rounded-full" />
@@ -69,9 +69,9 @@ export default function RootLayout({
           {children}
 
           <footer
-            className={`absolute bottom-0 h-24 p-4 w-full text-white flex items-center justify-center border-t border-white ${jost.className}`}
+            className={`absolute bottom-0  bg-green-400 w-full text-black flex items-center justify-center  ${jost.className}`}
           >
-            <ul className="flex items-center md:justify-evenly md:gap-0 justify-center text-center md:w-3/4 w-11/12 gap-7  text-sm md:text-lg">
+            <ul className="flex items-center md:justify-evenly md:gap-0 justify-center text-center md:w-3/4 w-11/12 gap-7  text-sm md:text-base">
               <li className="flex flex-col">
                 <p className="font-bold">©2024</p>
                 <Link href="/" className="underline">

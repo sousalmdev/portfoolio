@@ -9,7 +9,7 @@ export const Skills = () => {
       <>
         <div
           id="skills"
-          className="animate-fade-in-bottom pt-0 md:pt-20 pb-40 text-left w-11/12 md:w-full"
+          className="animate-fade-in-bottom py-20 text-left w-11/12 md:w-full"
         >
           <h2 className={`text-green-400 tracking-wider font-bold`}>
             THERE'S NO DEVELOPER WITHOUT SOME

@@ -23,7 +23,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 const Carrossel = () => {
   return (
-    <div className="pt-10 pb-40 justify-center w-11/12 md:w-4/5  self-center">
+    <div className="py-5 justify-center w-11/12 md:w-4/5  self-center">
       <div className="w-full flex justify-center items-center">
         <Carousel className="w-3/4 md:self-start self-center ">
           <CarouselContent>
