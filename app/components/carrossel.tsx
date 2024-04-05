@@ -99,7 +99,7 @@ const Carrossel = () => {
                       <li className="p-1">
                         <Link
                         target="_blank"
-                          href={"https://nextask-c8jux3y1k-leo-sousas-projects.vercel.app/"}
+                          href={"https://houses8.vercel.app/"}
                           className="flex items-center gap-1"
                         >
                           Official Website <span>{BiWorld(Icon)}</span>{" "}
