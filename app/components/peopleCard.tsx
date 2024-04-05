@@ -39,7 +39,7 @@ export const PeopleCard = () => {
                 <span className="text-green-400 font-bold ">@<Link className='underline decoration-green-400' href={'https://www.linkedin.com/in/lucasrlfonseca/' }target="_blank"> lucasfonseca</Link></span></Text>
               </div>
             </CardHeader>
-            <Text className="md:ml-5 m-0 w-full text-sm md:text-2xl py-2">
+            <Text className="md:ml-5 m-0 md:w-3/4 w-full text-sm md:text-2xl py-2">
               'Leo is a very effortful and productive guy, his skills to learning the enough to work with a different thing is unbelievable, an 'out of the box' communication, which makes people feel no need to ask a question twice.'
             </Text>
           </CardBody>
@@ -69,7 +69,7 @@ export const PeopleCard = () => {
                 <span className="text-green-400 font-bold ">@<Link className='underline decoration-green-400' href={'https://www.linkedin.com/in/victor-lucena-2ba1b6175/'} target="_blank"> victorlucena</Link></span></Text>
               </div>
             </CardHeader>
-            <Text className="md:ml-5 m-0 w-full text-sm md:text-2xl py-2">
+            <Text className="md:ml-5 m-0 md:w-3/4 w-full text-sm md:text-2xl py-2">
               'Leo is an excellent developer. He has great dedication and care with his projects, as well as a quick ability to adapt to the use of different technologies.'
             </Text>
           </CardBody>
