@@ -15,7 +15,7 @@ export const Accordionn = () => {
       className="py-4 flex flex-col text-lg justify-center"
       allowToggle
     >
-      <AccordionItem className="w-11/12 xl:w-2/5">
+      <AccordionItem className="w-11/12 md:w-3/5 xl:w-2/5">
         <h2>
           <AccordionButton color={"rgb(74 222 128)"}
         
@@ -80,7 +80,7 @@ export const Accordionn = () => {
           </ul>
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem className="w-11/12 xl:w-2/5 md:w-2/5">
+      <AccordionItem className="w-11/12 md:w-3/5 xl:w-2/5">
         <h2>
           <AccordionButton color={"rgb(74 222 128)"}
             _expanded={{ bg: "rgb(74 222 128)", color: "black" }}
@@ -128,7 +128,7 @@ export const Accordionn = () => {
         </AccordionPanel>
       </AccordionItem>
 
-      <AccordionItem className="w-11/12 xl:w-2/5 md:w-2/5">
+      <AccordionItem className="w-11/12 md:w-3/5 xl:w-2/5">
   <h2>
     <AccordionButton color={"rgb(74 222 128)"} className="text-sm md:text-xl" _expanded={{ bg: "rgb(74 222 128)", color: "black" }}>
       <Box className={`font-bold  text-sm md:text-xl`} as="span" flex="1" textAlign="left">
@@ -203,7 +203,7 @@ Here are some general tips, and speaking of myself, I have been applying them fo
 A developer like you. A student like you.
   </AccordionPanel>
 </AccordionItem>
-<AccordionItem className="w-11/12 xl:w-2/5 md:w-2/5">
+<AccordionItem className="w-11/12 md:w-3/5 xl:w-2/5">
   <h2>
     <AccordionButton color={"rgb(74 222 128)"} className="text-sm md:text-xl" _expanded={{ bg: "rgb(74 222 128)", color: "black" }}>
       <Box className={`font-bold  text-sm md:text-xl`} as="span" flex="1" textAlign="left">

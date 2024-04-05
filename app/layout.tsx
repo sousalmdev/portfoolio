@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={`scroll-smooth`}>
+    <html className="scroll-smooth" translate="yes">
       <ChakraProvider>
         <body
           className={`${jost.className} bg-black flex-col h-min-screen flex text-left items-center`}
