@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Accordionn } from './accordion';
+import { dm } from '../fonts/dm-sans';
 export const Articles = () => {
     return (
       <div
@@ -12,7 +13,7 @@ export const Articles = () => {
           'MAN SHALL NOT LIVE BY CODE ALONE', SO FEEL WELCOME TO MY
         </h2>
         <br />
-        <h1 className={`text-3xl md:text-6xl`}>Articles</h1>
+        <h1 className={`text-3xl md:text-6xl ${dm.className}`}>Articles</h1>
         <br />
         <p
           className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl  text-lg font-light `}

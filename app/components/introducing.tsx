@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import { dm } from '../fonts/dm-sans';
 
 
 export const Introducing = () => {
@@ -15,7 +16,7 @@ export const Introducing = () => {
             HELLO, MY NAME IS LEO AND IM A
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl`}>
+          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
             Front End / UI
             <br />
             Developer.

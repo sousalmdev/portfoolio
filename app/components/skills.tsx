@@ -4,19 +4,20 @@ import { BiData, BiLogoAngular, BiLogoHtml5, BiLogoJavascript, BiLogoMongodb, Bi
 import { SiMongodb, SiMysql, SiNextdotjs, SiSequelize } from "react-icons/si";
 import { TbBrain, TbHammer, TbLanguage, TbMoodHappy, TbMoodHappyFilled, TbPaintFilled } from "react-icons/tb";
 import { Divider,Icon } from '@chakra-ui/react';
+import { dm } from '../fonts/dm-sans';
 export const Skills = () => {
     return (
       <>
         <div
           id="skills"
-          className="animate-fade-in-bottom py-20 text-left w-11/12 md:w-full"
+          className="animate-fade-in-bottom py-20 text-left md:w-full w-11/12"
         >
           <h2 className={`text-green-400 tracking-wider font-bold`}>
             THERE'S NO DEVELOPER WITHOUT SOME
           </h2>
   
           <br />
-          <h1 className={`text-4xl md:text-6xl`}>Skills.</h1>
+          <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Skills.</h1>
   
           <br />
           <p className="w-full md:w-2/4 text-xl h-auto md:text-3xl font-light">

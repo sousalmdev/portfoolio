@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 import Leo from '@/app/assets/Imagem do WhatsApp de 2024-04-04 à(s) 23.13.22_5cc7a10f.jpg'
 import { Divider } from '@chakra-ui/react';
+import { dm } from '../fonts/dm-sans';
 export const About = () => {
     return (
       <>
@@ -19,7 +20,7 @@ export const About = () => {
             , NOW, YOU'RE GONNA KNOW
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl `}>
+          <h1 className={` ${dm.className} text-3xl md:text-6xl `}>
             Who I am
           </h1>
           <br />
@@ -42,7 +43,7 @@ export const About = () => {
            KNOW MY
           </h2>
           <br />
-          <h1 className={`text-3xl md:text-6xl `}>
+          <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
             Hobbies
           </h1>
           <br /><br />

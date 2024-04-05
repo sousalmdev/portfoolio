@@ -20,6 +20,7 @@ import debsigner from "@/app/assets/Captura de tela 2024-03-26 230222.png";
 import Link from "next/link";
 import { BiLogoCss3, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoReact, BiWorld } from "react-icons/bi";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { dm } from "../fonts/dm-sans";
 
 const Carrossel = () => {
   return (
@@ -28,7 +29,7 @@ const Carrossel = () => {
         <Carousel className="w-3/4 md:self-start self-center ">
           <CarouselContent>
             <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl `}>
+              <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
                 <span className="text-pink-600">Deb</span>signer
               </h1>
               <br />
@@ -77,7 +78,7 @@ const Carrossel = () => {
             </CarouselItem>
 
             <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl `}>
+              <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
                 Houses<span className="text-blue-400">8</span>  
            </h1>
            <br />
