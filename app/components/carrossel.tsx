@@ -86,7 +86,7 @@ const Carrossel = () => {
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-blue-400 `}
               >
                 This one was a 
-                improved and deployed job task for an USA enterprise, my first ever app using NextJS (and the first version was my first app using <span className="text-red-500 ">Angular</span>).
+                improved and deployed job task for an USA enterprise, my first ever app using NextJS (and the first version was my first app using Angular).
               </p>{" "}
               <br />
               <Image src={houses8} alt="houses8" />
