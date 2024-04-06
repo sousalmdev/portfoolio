@@ -37,7 +37,7 @@ export const PeopleCard = () => {
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-2/4 text-sm md:text-3xl pt-2">
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
                   'Leo is a very effortful and productive guy, his skills to
                   learning the enough to work with a different thing is
                   unbelievable, an 'out of the box' communication, which makes
@@ -84,7 +84,7 @@ export const PeopleCard = () => {
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-2/4 text-sm md:text-3xl pt-2">
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
                   'Leo is an excellent developer. He has great dedication and
                   care with his projects, as well as a quick ability to adapt to
                   the use of different technologies.'
@@ -132,7 +132,7 @@ export const PeopleCard = () => {
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-2/4 text-sm md:text-3xl pt-2">
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
                   'Leo is a skilled programmer, for him, there's no easy or
                   difficult job. There is something to be done. He is the type
                   of person addicted to technology who can learn anything if he

@@ -8,7 +8,7 @@ import {
   Icon,
   MenuDivider,
 } from "@chakra-ui/react";
-import { BiChat, BiMenu, BiSolidArchive, BiSolidHeart, BiSolidLock, BiUser } from "react-icons/bi";
+import { BiChat, BiMenu, BiSolidArchive, BiSolidContact, BiSolidHeart, BiSolidLock, BiUser } from "react-icons/bi";
 import Link from "next/link";
 import { TbPuzzle } from "react-icons/tb";
 export const MenuUi = () => {
@@ -58,9 +58,9 @@ export const MenuUi = () => {
           >
             About
           </MenuItem>
-          <MenuItem as={Link} href={"/contact"}
-          icon={BiChat(Icon)}
-          background={"black"} isDisabled>
+          <MenuItem as={Link} href={"#contact"}
+          icon={BiSolidContact(Icon)}
+          background={"black"}>
             Contact
           </MenuItem>
           

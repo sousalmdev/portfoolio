@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider,Button, Icon } from "@chakra-ui/react";
 import { Avatar, AvatarBadge, AvatarGroup } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,6 +8,7 @@ import { Raleway } from "next/font/google";
 import "./globals.css";
 import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
+import { BiSolidContact } from "react-icons/bi";
 
 const jost = Raleway({
   subsets: ["latin"],
@@ -43,7 +44,7 @@ export default function RootLayout({
                 src={leo.src}
                 objectFit={`cover`}
               />
-              <h2 className="font-bold flex items-center gap-1">
+              <h2 className="font-bold flex items-center">
                 Leo Sousa{" "}
                 <span>
                   <MdVerified className="text-blue-500" />
@@ -56,7 +57,7 @@ export default function RootLayout({
             <nav className=" hidden sm:flex justify-end">
               <ul className="flex text-sm md:text-base gap-5 items-center">
                 <li className="hover:text-green-400 transition-all">
-                  <Link href="#presentation">Home & Articles</Link>
+                  <Link href="#presentation">Home</Link>
                 </li>
                 <li className="hover:text-green-400 transition-all">
                   <Link href="#projects">Projects</Link>
@@ -66,6 +67,11 @@ export default function RootLayout({
                 </li>
                 <li className="hover:text-green-400 transition-all">
                   <Link href="#about">About</Link>
+                </li>
+                <li>
+                  <Button as={Link} href={'#contact'} variant={'outline'} borderColor={'rgb(74 222 128)'} color={'rgb(74 222 128)'} rightIcon={BiSolidContact(Icon)}>
+                    Contact
+                  </Button>
                 </li>
               </ul>
             </nav>

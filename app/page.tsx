@@ -6,6 +6,7 @@ import { Skills } from "./components/skills";
 import { Projects } from "./components/projects";
 
 import { About } from "./components/about";
+import { Contact } from "./components/contact";
 
 
 
@@ -22,6 +23,7 @@ const Page = () => {
       <Projects />
       <Skills />
       <About/>
+      <Contact/>
     </div>
   );
 };
