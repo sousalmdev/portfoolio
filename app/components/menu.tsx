@@ -60,7 +60,7 @@ export const MenuUi = () => {
           </MenuItem>
           <MenuItem as={Link} href={"/contact"}
           icon={BiChat(Icon)}
-          background={"black"}>
+          background={"black"} isDisabled>
             Contact
           </MenuItem>
           
