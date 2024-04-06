@@ -73,7 +73,7 @@ export const About = () => {
           its mysteries.
           <br />
           <br />
-          I'm a huge fan of football (soccer). A passionate and born Flamengo
+          I'm a huge fan of soccer. A passionate and born Flamengo
           supporter. One time Flamengo, always Flamengo.
           <br />
           <br />
