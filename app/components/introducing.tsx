@@ -25,9 +25,8 @@ export const Introducing = () => {
           <p
             className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light `}
           >
-            Since my very first contact, I've been dedicating my life to solve problems and
-            translate ideas into code, it's not different right now, and that's
-            why this portfolio exists.
+            Since my very first contact, I've been dedicating my days to solve problems and
+            translate ideas into code, feel free to see how it goes.
           </p>
         </div>
       </>
