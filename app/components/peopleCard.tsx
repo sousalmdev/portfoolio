@@ -192,7 +192,7 @@ An example to be followed as a person and as a professional.'
                     @
                     <Link
                       className="underline decoration-green-400"
-                      href={"http://linkedin.com/in/débora-viana-294b20272target="_blank"}
+                      href={"http://linkedin.com/in/débora-viana-294b20272"}
                       target="_blank"
  
                     >
