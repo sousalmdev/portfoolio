@@ -133,7 +133,7 @@ export const PeopleCard = () => {
                   />
                 </CardHeader>
                 <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo is a skilled programmer, for him, there's no easy or
+                  'Leo is a skillful programmer, for him, there's no easy or
                   difficult job. There is something to be done. He is the type
                   of person addicted to technology who can learn anything if he
                   has the time to do so. It's impressive.'
@@ -158,6 +158,54 @@ export const PeopleCard = () => {
             </Stack>
           </Card>
         </li>
+<li>
+          <Card
+            direction={{ base: "row", sm: "row" }}
+            overflow="hidden"
+            outlineColor={"rgb(74 222 128)"}
+            bg={"black"}
+            color={"rgb(74 222 128)"}
+            className="w-full flex flex-col items-center justify-center"
+            padding={0}
+          >
+            <Stack>
+              <CardBody className=" w-full flex flex-col items-center justify-center">
+                <CardHeader className="w-full flex items-center justify-center text-white">
+                  <Avatar
+                    name="Debora Viana"
+                    alignSelf={"center"}
+                    src=""
+                    size={{ base: "sm", sm: "lg" }}
+                  />
+                </CardHeader>
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
+                  'Leo is an amazing person, who chases his goals despite the obstacles, his ability
+                  to absorb knowledge about whatever he wants to 
+                  learn it's a beautiful thing. And at the same time he learns, he gave his time to help whoever needs his help.
+An example to be followed as a person and as a professional.'
+                </Text>
+              </CardBody>{" "}
+              <CardFooter>
+                <Text className="text-sm md:text-2xl text-white w-full">
+                  ~ Debora Viana - Graphic Designer / DebSigner CEO <br />
+                  <span className="text-green-400 font-bold ">
+                    @
+                    <Link
+                      className="underline decoration-green-400"
+                      href={"http://linkedin.com/in/débora-viana-294b20272target="_blank"}
+                      target="_blank"
+ 
+                    >
+                      {" "}
+                      deboraviana
+                    </Link>
+                  </span>
+                </Text>
+              </CardFooter>
+            </Stack>
+          </Card>
+        </li>
+
       </ul>
     </div>
   );
