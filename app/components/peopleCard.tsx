@@ -174,7 +174,7 @@ export const PeopleCard = () => {
                   <Avatar
                     name="Debora Viana"
                     alignSelf={"center"}
-                    src=""
+                    src="https://images.app.goo.gl/XzKXQsbuDEGPw6iq5"
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
