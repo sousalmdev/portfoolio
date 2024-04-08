@@ -33,7 +33,7 @@ export const PeopleCard = () => {
                   <Avatar
                     name="Lucas Fonseca"
                     alignSelf={"center"}
-                    src="https://media.licdn.com/dms/image/D4D03AQGNdXp8srncpA/profile-displayphoto-shrink_800_800/0/1710185956336?e=1717632000&v=beta&t=DwRdalwIO3pgqo6Z7xNt_fa7pOnJH8jvgonc8Cfz2uI"
+                    src="https://media.licdn.com/dms/image/D4D03AQHj5xU6lZ7e2Q/profile-displayphoto-shrink_200_200/0/1712514674464?e=1718236800&v=beta&t=tkJHMlOVj-Lg3-yQ8F5o4CY4PEVZz2J0w0WWC67vtGA"
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
@@ -174,7 +174,7 @@ export const PeopleCard = () => {
                   <Avatar
                     name="Debora Viana"
                     alignSelf={"center"}
-                    src="https://images.app.goo.gl/XzKXQsbuDEGPw6iq5"
+                    src="https://media.licdn.com/dms/image/D5603AQGOeFEWRQGq3w/profile-displayphoto-shrink_200_200/0/1684949111534?e=1718236800&v=beta&t=DcioNBgIahh0lQt8fQpTLYzV97Tk0KzqieD28yzX40w"
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
