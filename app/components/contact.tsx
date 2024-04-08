@@ -21,7 +21,7 @@ export const Contact = () => {
     
           </div>
     <br />
-    <ButtonGroup spacing={{ base:0,md:16,xl:16}} className='md:gap-0 gap-3 items-center justify-center md:flex-row flex-col'>
+    <ButtonGroup spacing={{ base:0,md:16,xl:16}} className='md:gap-0 gap-3 items-center justify-center xl:flex-row md:flex-col flex-col'>
     <Button as={Link}  fontSize={{base:'medium',md:'x-large',xl:'x-large'}} href={'https://linkedin.com/in/leosousadev'} border={'.5px solid rgb(74 222 128)'} _hover={{bgColor:'black'}} bgColor={'black'} color={'rgb(74 222 128)'} leftIcon={BiLogoLinkedin(Icon)} >Find me on LinkedIn</Button>
     <Button as={Link}  fontSize={{base:'medium',md:'x-large',xl:'x-large'}} href={'https://github.com/sousalmdev'} border={'.5px solid rgb(74 222 128)'} bgColor={'black'} _hover={{bgColor:'black',color:'rgb 74 222 128'}} color={'rgb(74 222 128)'} paddingInline={{base:'23px'}} leftIcon={BiLogoGithub(Icon)}>Find me on Github</Button>
   </ButtonGroup>
