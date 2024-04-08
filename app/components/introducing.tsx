@@ -9,7 +9,7 @@ export const Introducing = () => {
       <> <div className="flex items-center justify-center md:justify-between">
         <div
           id="#presentation"
-          className="animate-fade-in-bottom py-10 text-left w-11/12 md:w-full"
+          className="animate-fade-in-bottom py-12 text-left w-11/12 md:w-full"
         >
          
           <h2
