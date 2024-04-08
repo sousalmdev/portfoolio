@@ -9,8 +9,8 @@ import { TbSend } from 'react-icons/tb';
 
 // Estendendo o tipo Options para incluir a propriedade from_email
 interface CustomOptions  {
-  from_email?: string;
-  from_name?:string;
+  user_email?: string;
+  user_name?:string;
   subject?:string;
   message?:string;
   publicKey?:string;
@@ -29,8 +29,8 @@ export const FormContact: React.FC = () => {
 
       if (form.current) {
         const options: CustomOptions = {
-          from_email: form.current.user_email.value,
-          from_name: form.current.user_name.value,
+          user_email: form.current.user_email.value,
+          user_name: form.current.user_name.value,
           subject: form.current.subject.value,
           message: form.current.message.value,
           publicKey: 'Eku1Fdhoqs81Po5C0',

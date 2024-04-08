@@ -10,6 +10,7 @@ import { MenuUi } from "./components/menu";
 import { MdVerified } from "react-icons/md";
 import { BiSolidContact } from "react-icons/bi";
 
+
 const jost = Raleway({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -21,6 +22,7 @@ interface ActiveLinkProps {
 
 export const metadata: Metadata = {
   title: "Portfolio Leandro Sousa",
+  
 };
 
 export default function RootLayout({
@@ -30,6 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" translate="yes">
+      <head>
+        <meta name="theme-color" content="#1b2631" />
+      </head>
       <ChakraProvider>
         <body
           className={`${jost.className} bg-black flex-col h-min-screen flex text-left items-center`}
@@ -83,36 +88,15 @@ export default function RootLayout({
             className={` absolute bottom-0 pt-2 md:p-1  pb-20 bg-green-400 w-full text-black flex items-center justify-center  ${jost.className}`}
           >
             <ul className="flex items-center md:justify-evenly md:gap-0 justify-center text-center md:w-3/4 w-11/12 gap-7  text-sm md:text-base">
-              <li className="flex flex-col">
+              <li className="flex gap-2">
                 <p className="font-bold">©2024</p>
                 <Link href="/" className="underline">
                   <p>Leo Sousa</p>
                 </Link>
               </li>
 
-              <li className="flex flex-col">
-                <p className="font-bold">Social</p>
-                <div className="flex gap-2">
-                  <p>
-                    <Link
-                      className="underline"
-                      href={"https:linkedin.com/in/leosousadev"}
-                    >
-                      LinkedIn
-                    </Link>
-                  </p>
-                  /
-                  <p>
-                    <Link
-                      className="underline"
-                      href={"https://instagram.com/sousalmd"}
-                    >
-                      Instagram
-                    </Link>
-                  </p>
-                </div>
-              </li>
-              <li className="flex flex-col">
+          
+              <li className="flex gap-2">
                 <p className="font-bold">Legal</p>
                 <Link href={"/privacy"} className="underline">
                   Privacy
