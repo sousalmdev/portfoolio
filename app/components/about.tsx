@@ -44,7 +44,8 @@ export const About = () => {
             src={Leo.src}
             width={350}
             height={300}
-            alt="abu"
+            alt="Leo Sousa"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
         <div className="pb-20">
