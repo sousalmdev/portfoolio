@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export const Introducing = () => {
     return (
-      <> <div className="flex items-center justify-center md:justify-between">
+      <>
         <div
           id="#presentation"
           className="animate-fade-in-bottom py-12 text-left w-11/12 md:w-full"
@@ -32,8 +32,6 @@ export const Introducing = () => {
           </p>
           
           </div>
-          <Image src={skillset} alt='skillset' className='md:flex hidden animate-pulse' />
-        </div>
       </>
     );
   };
