@@ -40,8 +40,10 @@ export const FormContact: React.FC = () => {
         toast({
           title: 'Email sent successfully',
           status: 'success',
-          duration: 5000,
-          isClosable: true,
+          duration: 3000,
+          isClosable: false,
+          position:'bottom-right'
+          
         });
         onClose();
       }
@@ -51,8 +53,9 @@ export const FormContact: React.FC = () => {
         title: 'Failed to send email',
         description: 'An error occurred while sending the email.',
         status: 'error',
-        duration: 5000,
-        isClosable: true,
+        duration: 3000,
+        isClosable: false,
+        position:'bottom-right'
       });
     }
     finally{
@@ -141,14 +144,17 @@ export const FormContact: React.FC = () => {
         <Button
           mt={4}
           backgroundColor={'rgb(78 222 128)'}
+          className='text-black'
           rightIcon={TbSend(Icon)}
           type="submit"
           width="100%"
           isLoading = {isSubmitting}
           loadingText='Submitting...'
-    colorScheme='teal'
+    colorScheme='black'
     variant='outline'
+    
         >
+          
           Send Mail
         </Button>
       </form>
