@@ -42,7 +42,8 @@ export const FormContact: React.FC = () => {
           status: 'success',
           duration: 3000,
           isClosable: false,
-          position:'bottom-right'
+          position:'bottom-right',
+          colorScheme:'white'
           
         });
         onClose();
@@ -150,7 +151,7 @@ export const FormContact: React.FC = () => {
           width="100%"
           isLoading = {isSubmitting}
           loadingText='Submitting...'
-    colorScheme='black'
+    colorScheme='teal'
     variant='outline'
     
         >
