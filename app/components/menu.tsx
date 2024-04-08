@@ -25,7 +25,7 @@ export const MenuUi = () => {
         >
           <MenuItem
             as={Link}
-            href={"#"}
+            href={"#introducing"}
             className="flex justify-between"
             icon={BiUser(Icon)}
             background={"black"}
