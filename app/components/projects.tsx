@@ -16,7 +16,7 @@ export const Projects = () => {
           <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Projects.</h1>
           <br />
           <p className=" w-full xl:w-2/5 md:w-4/5 sm:w-4/5 text-lg h-auto md:text-3xl font-light">
-            There's some of my most important projects, that I created for
+            Here are some of my most important projects, that I created for
             clients, enterprises, voluntary works, and stuff. Take your time and
             appreciate these projects.
           </p>
