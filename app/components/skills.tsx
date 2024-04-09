@@ -38,7 +38,7 @@ export const Skills = () => {
         <br />
         <p className="w-full md:w-2/4 text-xl h-auto md:text-3xl font-light">
           Hard or soft, skills are always skills. And I'm going to list some of
-          my skills, all I can remember by now.
+          my skills, all I can remember for now.
         </p>
         <br />
         <div className="py-10 flex items-center gap-1 justify-center">
