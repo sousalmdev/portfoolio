@@ -13,7 +13,7 @@ export const Contact = () => {
   return (
     <div
     id="contact"
-    className="animate-fade-in-bottom pb-20 text-center w-11/12 md:w-full"
+    className="animate-fade-in-bottom flex flex-col items-center justify-center pb-20 text-center w-11/12 md:w-full"
   >
     <div className="flex items-center gap-1 md:pb-20 p-0 justify-center">
  
@@ -30,10 +30,10 @@ export const Contact = () => {
           <h2 className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold `}>OR</h2>
           <Divider width={100} />
           </div>
-      <div className="flex flex-col w-fit">
+      <div className="flex flex-col w-fit items-center justify center">
 <FormContact/>
 
-<Button as={Link}  fontSize={{base:'medium',md:'x-large',xl:'x-large'}} href={'https://wa.link/sqisqd'} border={'.5px solid rgb(74 222 128)'} bgColor={'black'} marginTop={3} _hover={{bgColor:'black',color:'rgb 74 222 128'}} color={'rgb(74 222 128)'} paddingInline={{base:'23px'}} leftIcon={BiLogoWhatsapp(Icon)}>Send me a message</Button>
+<Button as={Link}  fontSize={{base:'medium',md:'x-large',xl:'x-large'}} href={'https://wa.link/sqisqd'} border={'.5px solid rgb(74 222 128)'} bgColor={'black'} marginTop={4} _hover={{bgColor:'black',color:'rgb 74 222 128'}} color={'rgb(74 222 128)'} paddingInline={{base:'16px'}} leftIcon={BiLogoWhatsapp(Icon)}>Send me a message</Button>
 </div>
     </div>
   )
