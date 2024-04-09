@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { BiArrowBack } from 'react-icons/bi'
 
-export const Page = () => {
+ const Page = () => {
   return (
     <div
     className={` flex items-center min-h-screen flex-col mb-10 p-2 w-11/12 md:w-3/4 text-white`}
