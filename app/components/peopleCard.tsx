@@ -158,7 +158,7 @@ export const PeopleCard = () => {
             </Stack>
           </Card>
         </li>
-<li>
+        <li>
           <Card
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
@@ -179,10 +179,11 @@ export const PeopleCard = () => {
                   />
                 </CardHeader>
                 <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo is an amazing person, who chases his goals despite the obstacles, his ability
-                  to absorb knowledge about whatever he wants to 
-                  learn it's a beautiful thing. And at the same time he learns, he gave his time to help whoever needs his help.
-An example to be followed as a person and as a professional.'
+                  'Leo is an amazing person, who chases his goals despite the
+                  obstacles, his ability to absorb knowledge about whatever he
+                  wants to learn it's a beautiful thing. And at the same time he
+                  learns, he gave his time to help whoever needs his help. An
+                  example to be followed as a person and as a professional.'
                 </Text>
               </CardBody>{" "}
               <CardFooter>
@@ -194,7 +195,6 @@ An example to be followed as a person and as a professional.'
                       className="underline decoration-green-400"
                       href={"http://linkedin.com/in/débora-viana-294b20272"}
                       target="_blank"
- 
                     >
                       {" "}
                       deboraviana
@@ -205,7 +205,6 @@ An example to be followed as a person and as a professional.'
             </Stack>
           </Card>
         </li>
-
       </ul>
     </div>
   );
