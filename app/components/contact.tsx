@@ -4,7 +4,7 @@ import { Divider,ButtonGroup,Button, Icon } from '@chakra-ui/react';
 import { GitHubLogoIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 import { useToast } from '@chakra-ui/react'
-import { BiLogoGithub, BiLogoGmail, BiLogoLinkedin } from 'react-icons/bi';
+import { BiLogoGithub, BiLogoGmail, BiLogoLinkedin, BiLogoWhatsapp } from 'react-icons/bi';
 import { FormContact } from './formContact';
 export const Contact = () => {
     
@@ -31,6 +31,8 @@ export const Contact = () => {
           <Divider width={100} />
           </div>
 <FormContact/>
+<Button as={Link}  fontSize={{base:'medium',md:'x-large',xl:'x-large'}} href={'https://wa.link/sqisqd'} border={'.5px solid rgb(74 222 128)'} bgColor={'black'} _hover={{bgColor:'black',color:'rgb 74 222 128'}} color={'rgb(74 222 128)'} paddingInline={{base:'23px'}} leftIcon={BiLogoWhatsapp(Icon)}>Send me a message</Button>
+
     </div>
   )
 }
