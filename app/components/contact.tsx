@@ -30,9 +30,10 @@ export const Contact = () => {
           <h2 className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold `}>OR</h2>
           <Divider width={100} />
           </div>
+      <div className="flex-col">
 <FormContact/>
 <Button as={Link}  fontSize={{base:'medium',md:'x-large',xl:'x-large'}} href={'https://wa.link/sqisqd'} border={'.5px solid rgb(74 222 128)'} bgColor={'black'} _hover={{bgColor:'black',color:'rgb 74 222 128'}} color={'rgb(74 222 128)'} paddingInline={{base:'23px'}} leftIcon={BiLogoWhatsapp(Icon)}>Send me a message</Button>
-
+</div>
     </div>
   )
 }
