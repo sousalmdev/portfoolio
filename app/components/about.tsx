@@ -86,7 +86,7 @@ export const About = () => {
         <h2
           className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
         >
-        TALKING ABOUT MYSELF IT'S EASY <br />
+        TALKING ABOUT MYSELF IS EASY, <br />
         YOU MIGHT BE WANTING TO KNOW
         </h2>
         <br />
