@@ -2,7 +2,7 @@
 import React from "react";
 import { PeopleCard } from "./peopleCard";
 import Image from "next/image";
-import Leo from "@/app/assets/Imagem do WhatsApp de 2024-04-04 à(s) 23.13.22_5cc7a10f.jpg";
+import Leo from "@/app/assets/leo_image_base.png";
 import { Divider } from "@chakra-ui/react";
 import { dm } from "../fonts/dm-sans";
 export const About = () => {
@@ -40,12 +40,10 @@ export const About = () => {
           <br />
 
           <Image
-            style={{ border: "1px solid  rgb(74 222 128) " }}
             src={Leo.src}
-            width={350}
-            height={300}
+           width={350}
+        height={300}
             alt="Leo Sousa"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
         <div className="pb-20">

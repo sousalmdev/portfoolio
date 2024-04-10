@@ -6,7 +6,8 @@ import Image from "next/image";
 import { MenuUi } from "@/app/components/menu";
 import { MdVerified } from "react-icons/md";
 import { BiSolidContact } from "react-icons/bi";
-import leo from "@/app/assets/Imagem do WhatsApp de 2024-04-04 à(s) 23.13.22_5cc7a10f.jpg";
+import leo from "@/app/assets/leo_image_base.png";
+
 export const Header = () => {
   return (
     <header
