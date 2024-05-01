@@ -25,9 +25,7 @@ export const Contact = () => {
         </h2>
       </div>
       <br />
-      <ButtonGroup
-        className="flex flex-col w-fit items-center justify center gap-4"
-      >
+      <ButtonGroup className="flex flex-col w-fit items-center justify center gap-4">
         <Button
           as={Link}
           fontSize={{ base: "medium", md: "x-large", xl: "x-large" }}
@@ -49,8 +47,8 @@ export const Contact = () => {
           _hover={{ bgColor: "black", color: "rgb 74 222 128" }}
           color={"rgb(74 222 128)"}
           leftIcon={BiLogoGithub(Icon)}
-          padding={'auto'}
-          margin={'0 auto'}
+          padding={"auto"}
+          margin={"0 auto"}
         >
           Find me on Github
         </Button>

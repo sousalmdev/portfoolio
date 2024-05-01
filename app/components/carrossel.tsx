@@ -18,7 +18,14 @@ import { Divider, Icon } from "@chakra-ui/react";
 import houses8 from "@/app/assets/Captura de tela 2024-03-28 175004.png";
 import debsigner from "@/app/assets/Captura de tela 2024-03-26 230222.png";
 import Link from "next/link";
-import { BiLogoCss3, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoReact, BiWorld } from "react-icons/bi";
+import {
+  BiLogoCss3,
+  BiLogoGithub,
+  BiLogoHtml5,
+  BiLogoJavascript,
+  BiLogoReact,
+  BiWorld,
+} from "react-icons/bi";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { dm } from "../fonts/dm-sans";
 
@@ -51,8 +58,8 @@ const Carrossel = () => {
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
                         <Link
-                        target="_blank"
-                          href={"https://debsigner.vercel.app"}
+                          target="_blank"
+                          href={"https://debsignerofficial.vercel.app"}
                           className="flex items-center gap-1"
                         >
                           Official Website <span>{BiWorld(Icon)}</span>{" "}
@@ -61,7 +68,7 @@ const Carrossel = () => {
                       <Divider stroke={"black"} />
                       <li className="p-1">
                         <Link
-                        target="_blank"
+                          target="_blank"
                           href={"https://github.com/sousalmdev/debsigner"}
                           className="flex items-center gap-1"
                         >
@@ -79,14 +86,15 @@ const Carrossel = () => {
 
             <CarouselItem className="w-full">
               <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
-                Houses<span className="text-blue-400">8</span>  
-           </h1>
-           <br />
+                Houses<span className="text-blue-400">8</span>
+              </h1>
+              <br />
               <p
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-blue-400 `}
               >
-                This one was a 
-                improved and deployed job task for an USA enterprise, my first ever app using NextJS (and the first version was my first app using Angular).
+                This one was a improved and deployed job task for an USA
+                enterprise, my first ever app using NextJS (and the first
+                version was my first app using Angular).
               </p>{" "}
               <br />
               <Image src={houses8} alt="houses8" />
@@ -99,7 +107,7 @@ const Carrossel = () => {
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
                         <Link
-                        target="_blank"
+                          target="_blank"
                           href={"https://houses8.vercel.app/"}
                           className="flex items-center gap-1"
                         >
@@ -109,7 +117,7 @@ const Carrossel = () => {
                       <Divider stroke={"black"} />
                       <li className="p-1">
                         <Link
-                        target="_blank"
+                          target="_blank"
                           href={"https://github.com/sousalmdev/nextask"}
                           className="flex items-center gap-1"
                         >

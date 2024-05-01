@@ -8,9 +8,6 @@ import { Projects } from "./components/projects";
 import { About } from "./components/about";
 import { Contact } from "./components/contact";
 
-
-
-
 const Page = () => {
   return (
     <div
@@ -22,8 +19,8 @@ const Page = () => {
       <Articles />
       <Projects />
       <Skills />
-      <About/>
-      <Contact/>
+      <About />
+      <Contact />
     </div>
   );
 };
