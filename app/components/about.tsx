@@ -3,7 +3,6 @@ import React from "react";
 import { PeopleCard } from "./peopleCard";
 import Image from "next/image";
 import Leo from "@/app/assets/leo_image_base.png";
-import { Divider } from "@chakra-ui/react";
 import { dm } from "../fonts/dm-sans";
 export const About = () => {
   return (
