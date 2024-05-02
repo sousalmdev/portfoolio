@@ -23,3 +23,13 @@ In the "About" section, you'll find a brief description about me, highlighting s
 If you'd like to get in touch with me to discuss collaboration opportunities, ask questions, or just say hi, you can find my contact information in this section. Feel free to send an email or connect with me on the listed social media platforms.
 
 Thank you for visiting my portfolio! I hope you find the information you're looking for. If you need anything else, I'm here to help.
+
+## Techs I Used
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Figma](https://www.figma.com/)
+- [Vercel](https://vercel.com/)
+
+You can view the live site [here](https://portfoleosous.vercel.app).
