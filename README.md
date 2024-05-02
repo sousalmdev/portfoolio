@@ -31,5 +31,6 @@ Thank you for visiting my portfolio! I hope you find the information you're look
 ![ReactJS Router](https://img.shields.io/badge/ReactJS-blue?style=for-the-badge&logo=react&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
 
 You can view the live site [here](https://portfoleosous.vercel.app).
