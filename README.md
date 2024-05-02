@@ -30,6 +30,7 @@ Thank you for visiting my portfolio! I hope you find the information you're look
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![ReactJS Router](https://img.shields.io/badge/ReactJS-blue?style=for-the-badge&logo=react&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
 ![Shadcn UI](https://img.shields.io/badge/Shadcn-000000?style=for-the-badge&logo=react&logoColor=white)
