@@ -28,7 +28,7 @@ export const Header = () => {
       <nav className=" hidden sm:flex justify-end">
         <ul className="flex text-sm md:text-base gap-5 items-center">
           <li className="hover:text-green-400 transition-all">
-            <Link href="https://portfoleosous.vercel.app/#presentation">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="hover:text-green-400 transition-all">
             <Link href="#projects">Projects</Link>
