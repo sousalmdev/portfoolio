@@ -33,7 +33,7 @@ export const MenuUi = () => {
         >
           <MenuItem
             as={Link}
-            href={"#presentation"}
+            href={"https://portfoleosous.vercel.app/#presentation"}
             className="flex justify-between"
             icon={BiUser(Icon)}
             background={"black"}
