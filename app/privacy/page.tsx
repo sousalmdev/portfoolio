@@ -9,7 +9,6 @@ const Page = () => {
       className={` flex items-center min-h-screen flex-col mb-10 p-2 w-11/12 md:w-3/4 text-white`}
     >
       <div
-        id="skills"
         className="animate-fade-in-bottom pb-20 text-left xl:w-11/12 md:w-full sm:w-4/5 w-11/12"
       >
         <h1 className=" text-center md:text-6xl text-2xl  font-bold text-green-400 mb-4">
