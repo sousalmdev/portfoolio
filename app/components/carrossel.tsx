@@ -129,7 +129,7 @@ const Carrossel = () => {
             </CarouselItem>
             <CarouselItem className="w-full">
               <h1 className={` flex text-3xl md:text-5xl ${dm.className} `}>
-                <span className="text-red-600">Fran</span>Car
+                Fran<span className="text-red-600">Car</span>
               </h1>
               <br />
               <p
