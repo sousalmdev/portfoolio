@@ -32,11 +32,11 @@ const Carrossel = () => {
           <CarouselContent>
             <CarouselItem className="w-full">
               <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
-                <span className="text-pink-600">Deb</span>signer
+                <span className="text-debpink">Deb</span>signer
               </h1>
               <br />
               <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-pink-600 `}
+                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-debpink `}
               >
                 It was my very first freelancer project, and I'm really proud
                 about this. It tells the story and the work arsenal of a very
@@ -48,7 +48,7 @@ const Carrossel = () => {
               <div className="flex items-center w-full justify-center">
                 <Popover>
                   <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-pink-600 text-pink-600 `}
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-debpink text-debpink `}
                   >
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
@@ -72,7 +72,7 @@ const Carrossel = () => {
                       </li>
                     </ul>
                   </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-pink-600 transition-all text-center bg-pink-600/50 py-1 rounded px-4">
+                  <PopoverTrigger className="text-white hover:bg-debpink transition-all text-center bg-debpink/50 py-1 rounded px-4">
                     See Project
                   </PopoverTrigger>
                 </Popover>
