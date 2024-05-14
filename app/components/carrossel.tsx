@@ -16,7 +16,7 @@ import {
 } from "@/app/components/popover";
 import { Divider, Icon } from "@chakra-ui/react";
 import houses8 from "@/app/assets/Captura de tela 2024-03-28 175004.png";
-import debsigner from "@/app/assets/desbginer.png";
+import debsigner from "@/app/assets/debsigner.png"
 import franCar from "@/app/assets/Capturare.png";
 import Link from "next/link";
 import {
@@ -134,7 +134,7 @@ const Carrossel = () => {
               </h1>
               <br />
               <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-blue-400 `}
+                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-white `}
               >
                 My Angular App made for non-real car selling, using the hybrid
                 stack: Angular + Tailwind, which worked absolutely well. App
