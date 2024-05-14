@@ -147,7 +147,7 @@ const Carrossel = () => {
               <div className="flex items-center w-full justify-center">
                 <Popover>
                   <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-blue-400 text-blue-400 `}
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-red-600 text-red-600 `}
                   >
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
@@ -171,7 +171,7 @@ const Carrossel = () => {
                       </li>
                     </ul>
                   </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-blue-400 transition-all text-center bg-blue-400/50 py-1 rounded px-4">
+                  <PopoverTrigger className="text-white hover:bg-red-600 transition-all text-center bg-red-600/50 py-1 rounded px-4">
                     See Project
                   </PopoverTrigger>
                 </Popover>
