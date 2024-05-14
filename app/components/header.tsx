@@ -14,7 +14,7 @@ export const Header = () => {
       className={` bg-black/50 backdrop-blur sticky top-0 p-2 bg-black z-50  text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between `}
     >
       <div id="title" className="flex gap-4 py-2 items-center">
-        <Avatar size="xs" name="Leo Sousa" src={leo.src} objectFit={`cover`} />
+        <Avatar loading="lazy" size="xs" name="Leo Sousa" src={leo.src} objectFit={`cover`} />
         <h2 className="font-bold flex items-center">
           Leo Sousa{" "}
           <span>
