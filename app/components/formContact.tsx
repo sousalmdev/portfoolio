@@ -23,7 +23,6 @@ import { BiLogoGmail } from "react-icons/bi";
 import { MdSend } from "react-icons/md";
 import { TbSend } from "react-icons/tb";
 
-// Estendendo o tipo Options para incluir a propriedade from_email
 interface CustomOptions {
   user_email?: string;
   user_name?: string;
