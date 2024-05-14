@@ -43,7 +43,7 @@ const Carrossel = () => {
                 talented graphic designer.
               </p>{" "}
               <br />
-              <Image src={debsigner} alt="debsigner" />
+              <Image src={debsigner} alt="debsignersite" />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
