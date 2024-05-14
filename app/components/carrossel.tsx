@@ -14,9 +14,9 @@ import {
   PopoverTrigger,
 } from "@/app/components/popover";
 import { Divider, Icon } from "@chakra-ui/react";
-import houses8 from "@/app/assets/Captura de tela 2024-03-28 175004.png";
-import debsigner from "@/app/assets/debsigner.png"
-import franCar from "@/app/assets/Capturare.png";
+import houses8 from "@/app/assets/images/Captura de tela 2024-03-28 175004.png";
+import debsigner from "@/app/assets/images/debsigner.png";
+import franCar from "@/app/assets/images/Capturare.png";
 import Link from "next/link";
 import {
   BiLogoGithub,
