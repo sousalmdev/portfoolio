@@ -16,7 +16,7 @@ import {
 import { Divider, Icon } from "@chakra-ui/react";
 import houses8 from "@/app/assets/images/Captura de tela 2024-03-28 175004.png";
 import debsigner from "@/app/assets/images/debsigner.png";
-import franCar from "@/app/assets/images/Capturare.png";
+import franCar from "@/app/assets/images/MacBook Pro-1717340115455.jpeg";
 import Link from "next/link";
 import {
   BiLogoGithub,
@@ -43,7 +43,7 @@ const Carrossel = () => {
                 talented graphic designer.
               </p>{" "}
               <br />
-              <Image src={debsigner} alt="debsignersite" />
+              <Image className="border border-white/20"  src={debsigner} alt="debsignersite" />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
@@ -92,7 +92,7 @@ const Carrossel = () => {
                 version was my first app using Angular).
               </p>{" "}
               <br />
-              <Image src={houses8} alt="houses8" />
+              <Image className="border border-white/20" src={houses8} alt="houses8" />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
@@ -129,7 +129,7 @@ const Carrossel = () => {
             </CarouselItem>
             <CarouselItem className="w-full">
               <h1 className={` flex text-3xl md:text-5xl ${dm.className} `}>
-                Fran<span className="text-red-600">Car</span>
+                Fran<span className="text-white/50">Car</span>
               </h1>
               <br />
               <p
@@ -141,12 +141,12 @@ const Carrossel = () => {
                 Vehicle Acquisition.
               </p>{" "}
               <br />
-              <Image src={franCar} alt="francar" />
+              <Image className="border border-white/20" src={franCar} alt="francar" />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
                   <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-red-600 text-red-600 `}
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-white/20 text-white `}
                   >
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
@@ -170,7 +170,7 @@ const Carrossel = () => {
                       </li>
                     </ul>
                   </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-red-600 transition-all text-center bg-red-600/50 py-1 rounded px-4">
+                  <PopoverTrigger className="text-white hover:bg-white hover:text-black transition-all text-center bg-black py-1 border border-white/20 rounded px-4">
                     See Project
                   </PopoverTrigger>
                 </Popover>
