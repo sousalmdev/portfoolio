@@ -5,6 +5,7 @@ import "./globals.css";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import favicon from "@/app/assets/favicon.ico";
+import {Analytics} from '@vercel/analytics/react'
 const jost = Raleway({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -42,6 +43,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <Analytics/>
           <Footer />
         </body>{" "}
       </ChakraProvider>
