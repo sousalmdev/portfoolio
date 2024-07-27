@@ -1,12 +1,13 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { Metadata, Viewport } from "next";
-import { Raleway } from "next/font/google";
+import { Poppins, Raleway } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import favicon from "@/app/assets/favicon.ico";
-import {Analytics} from '@vercel/analytics/react'
-const jost = Raleway({
+import {Analytics} from '@vercel/analytics/react';
+
+const jost = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });

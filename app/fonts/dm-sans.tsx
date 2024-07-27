@@ -1,6 +1,6 @@
-import { DM_Serif_Display } from "next/font/google";
+import {Calistoga } from "next/font/google";
 
-export const dm = DM_Serif_Display({
+export const dm =Calistoga({
   subsets: ["latin"],
   weight: "400",
 });

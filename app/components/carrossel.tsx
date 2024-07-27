@@ -14,7 +14,8 @@ import {
   PopoverTrigger,
 } from "@/app/components/popover";
 import { Divider, Icon } from "@chakra-ui/react";
-import goldHunt from '../assets/images/goldHunt.jpeg';
+import goldHunt from "../assets/images/goldHunt.jpeg";
+import havFinder from '../assets/images/havfinder.jpeg'
 import debsigner from "@/app/assets/images/debsigner.png";
 import franCar from "@/app/assets/images/MacBook Pro-1717340115455.jpeg";
 import Link from "next/link";
@@ -89,7 +90,8 @@ const Carrossel = () => {
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-yellow-500 `}
               >
                 A game which involves GTA V aesthetics, and consists in getting
-                10 random letters right in a limited time (20 seconds), you'll test your logic skills and have fun at the same time!
+                10 random letters right in a limited time (20 seconds), you'll
+                test your logic skills and have fun at the same time!
               </p>{" "}
               <br />
               <Image
@@ -117,7 +119,9 @@ const Carrossel = () => {
                       <li className="p-1">
                         <Link
                           target="_blank"
-                          href={"https://github.com/sousalmdev/teste-cidade-alta"}
+                          href={
+                            "https://github.com/sousalmdev/teste-cidade-alta"
+                          }
                           className="flex items-center gap-1"
                         >
                           Github Repo <span>{BiLogoGithub(Icon)}</span>
@@ -184,6 +188,62 @@ const Carrossel = () => {
                 </Popover>
               </div>
             </CarouselItem>
+            <CarouselItem className="w-full">
+              <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
+                Hav<span className="text-green-500">Finder</span>
+              </h1>
+              <br />
+              <p
+                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-green-500 `}
+              >
+                This application helps you find some people around the world,
+                according to them geographic coordinates, and you'll be able to
+                see their information within a map that the application
+                provides. Plus: You can submit your data to the website and you'll be part of the database and the map will include your info as well.
+              </p>{" "}
+              <br />
+              <Image
+                className="border border-white/20"
+                src={havFinder}
+                alt="havFinder"
+              />
+              <br />
+              <div className="flex items-center w-full justify-center">
+                <Popover>
+                  <PopoverContent
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-green-500 text-green-500 `}
+                  >
+                    <ul className="w-11/12 flex flex-col items-center justify-evenly">
+                      <li className="p-1">
+                        <Link
+                          target="_blank"
+                          href={"https://havira-teste.vercel.app/"}
+                          className="flex items-center gap-1"
+                        >
+                          Official Website <span>{BiWorld(Icon)}</span>{" "}
+                        </Link>
+                      </li>
+                      <Divider stroke={"black"} />
+                      <li className="p-1">
+                        <Link
+                          target="_blank"
+                          href={
+                            "https://github.com/sousalmdev/havira-test"
+                          }
+                          className="flex items-center gap-1"
+                        >
+                          Github Repo <span>{BiLogoGithub(Icon)}</span>
+                        </Link>
+                      </li>
+                    </ul>
+                  </PopoverContent>
+                  <PopoverTrigger className="text-white hover:bg-green-500 transition-all text-center bg-green-500/50 py-1 rounded px-4">
+                    See Project
+                  </PopoverTrigger>
+                </Popover>
+              </div>
+            </CarouselItem>
+         
           </CarouselContent>
           <CarouselPrevious className="bg-white hover:bg-white/50 transition-all  text-black border-none" />
           <CarouselNext className="bg-white hover:bg-white/50 transition-all   text-black border-none" />
