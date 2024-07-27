@@ -18,7 +18,7 @@ export const About = () => {
             <h2
               className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
             >
-              YOU ALREADY SAW WHAT I CAN DO , NOW, YOU'RE GONNA KNOW
+              YOU'VE ALREADY SEEN WHAT I CAN DO, NOW LEARN MORE ABOUT
             </h2>
             <br />
             <h1 className={` ${dm.className} text-3xl md:text-6xl `}>
@@ -32,8 +32,8 @@ export const About = () => {
               Leandro Medeiros de Sousa, a brazilian developer, born in Rio de
               Janeiro. I had my first touch with programming through the CC50
               Harvard Course, first meeting C language and Programming Logic.
-              After that, I went full on Front End Development, because I feel
-              familiar to art and creative stuff.
+              After that, I've pursued Front End Development, because I feel
+              drawn to art and creativity.
             </p>
           </div>
           <br />

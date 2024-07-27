@@ -8,7 +8,7 @@ export const Articles = () => {
       <h2
         className={`text-green-400 text-sm md:text-lg tracking-wider font-bold`}
       >
-        'MAN SHALL NOT LIVE BY CODE ALONE', SO FEEL WELCOME TO MY
+        'MAN SHALL NOT LIVE BY CODE ALONE', SO... WELCOME TO MY
       </h2>
       <br />
       <h1 className={`text-3xl md:text-6xl ${dm.className}`}>Articles</h1>
@@ -16,9 +16,9 @@ export const Articles = () => {
       <p
         className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl  text-lg font-light `}
       >
-        As 2023 was passing by, I decided to write some stuff I knew, aiming to
-        help either newcomers and experienced professional with fun facts, or
-        true lessons. Here I'll show some of them:{" "}
+        As 2023 passed by, I decided to write about what I know, aiming to
+        help both newcomers and experienced professional with fun facts, or
+        lessons I've learned along the way. Here are just a few:
       </p>
       <br />
       <Accordionn />

@@ -29,7 +29,7 @@ export const Skills = () => {
         className="animate-fade-in-bottom py-20 text-left xl:w-11/12 md:w-full sm:w-4/5 w-11/12"
       >
         <h2 className={`text-green-400 tracking-wider font-bold`}>
-          THERE'S NO DEVELOPER WITHOUT SOME
+          A DEVELOPER IS ONLY AS GOOD AS THEIR
         </h2>
 
         <br />
@@ -37,8 +37,11 @@ export const Skills = () => {
 
         <br />
         <p className="w-full md:w-2/4 text-xl h-auto md:text-3xl font-light">
-          Hard or soft, skills are always skills. And I'm going to list some of
-          my skills, all I can remember for now.
+          Hard or soft, skills are always skills. Featured below are a
+          combination of my{" "}
+          <span className="font-black text-green-400">
+            soft and hard skills.
+          </span>
         </p>
         <br />
         <div className="py-10 flex items-center gap-1 justify-center">
@@ -61,9 +64,9 @@ export const Skills = () => {
               <h2 className="text-white">Javascript</h2>
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              This programming language was my first ever, and helped me through
-              my algorithms studying back at the day, and now I keep using, but
-              with Front End Programming.
+              My first ever language! It was helpful for studying algorithms
+              back at the day, and now I use it a lot with Front End
+              Programming.
             </p>
           </li>
 
@@ -78,11 +81,9 @@ export const Skills = () => {
               {BiLogoReact(Icon)}
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Not my first library/framework using JS, but it's my most-used
-              one. I have appreciation for its learning method, it helps a lot a
-              beginner, but using just the basics, showcases a comfortable
-              professional mind, which is{" "}
-              <span className="font-bold text-red-600">dangerous.</span>
+              My most used JS library! I personally like ReactJS for its
+              learning curve, which is, at the beginning, simple, but escalable
+              as well if using ReactJS Frameworks like NextJS.
             </p>
           </li>
 
@@ -94,12 +95,10 @@ export const Skills = () => {
               {BiLogoAngular(Icon)} <h2 className="text-white">Angular</h2>
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Now...yes.
-              <br />
-              That was my first ever framework. And I learned it like an
-              old-fashioned self-taught, under pressure. I needed to do an
-              asessment for a job application, and it went very well, and the
-              safety Angular possess, made myself fall in love with it.
+              My first ever framework. And I learned this one the old-fashioned
+              self-taught way, under some pressure for an asessment for a job
+              application, and it went very well and I fell in love with it
+              along the way.
             </p>
           </li>
 
@@ -112,8 +111,8 @@ export const Skills = () => {
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
               The React/Vercel Framework came into existence to add more
-              strenghtness and versatility to ReactJS, and included in its
-              arsenal of services, a server-side-rendering feature, which being
+              strenght and versatility to ReactJS, and included in its arsenal
+              of services, a server-side-rendering feature, which being
               well-used, can provide a 'Full-Stack' application, with speed and
               effectiveness.
             </p>
@@ -128,10 +127,9 @@ export const Skills = () => {
               <h2 className="text-white">Typescript</h2>
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              The 'Big Brother' of Javascript, T-Script it's a huge guy. Focused
-              on OOP, Typescript keep always both eyes on your code and assures
-              that you're doing the right thing. I feel so much secure using
-              Typescript because of it.
+              The 'Big Brother' of Javascript, focused on Object Orientated
+              Programming. I feel very secure using TypeScript due to the use of
+              static typing.
             </p>
           </li>
 
@@ -164,13 +162,12 @@ export const Skills = () => {
               className={`font-bold  text-white md:text-3xl text-lg items-center flex gap-2`}
             >
               {BiSolidBrain(Icon)}{" "}
-              <h2 className="text-white">Racional Behavior</h2>
+              <h2 className="text-white">Rational Behavior</h2>
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Do you know this kind of person who thinks thirty times before
-              taking a decision? That's me. I can't do for myself or for the
-              clients, what I want to do, I do what I have to, because that's
-              what does a good professional.
+              You know the kind of person who thinks through things times and
+              times before taking a decision? That's me! I'm extremely thorough
+              when it comes to providing solutions to address my client's needs.
             </p>
           </li>
 
@@ -198,11 +195,10 @@ export const Skills = () => {
               {TbLanguage(Icon)} <h2 className="text-white">Communication</h2>
             </span>
             <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Since I was a kid, I was very interested into learning new
-              languages, I did put my first english and spanish words when I was
-              only 6. And I can say through my career, I was able to speak these
-              two languages aside my native one, to improve my worldwide
-              communication.
+              Even as a child, I was interested in learning new languages, I
+              knew my first english and spanish words when I was only 6 (My
+              first language is Portuguese, by the way) . Throughout my career,
+              I was able expand my multilingual abilities through extensive international communication.
             </p>
           </li>
 

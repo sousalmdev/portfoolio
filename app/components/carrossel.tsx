@@ -14,14 +14,11 @@ import {
   PopoverTrigger,
 } from "@/app/components/popover";
 import { Divider, Icon } from "@chakra-ui/react";
-import houses8 from "@/app/assets/images/Captura de tela 2024-03-28 175004.png";
+import goldHunt from '../assets/images/goldHunt.jpeg';
 import debsigner from "@/app/assets/images/debsigner.png";
 import franCar from "@/app/assets/images/MacBook Pro-1717340115455.jpeg";
 import Link from "next/link";
-import {
-  BiLogoGithub,
-  BiWorld
-} from "react-icons/bi";
+import { BiLogoGithub, BiWorld } from "react-icons/bi";
 import { dm } from "../fonts/dm-sans";
 
 const Carrossel = () => {
@@ -43,7 +40,11 @@ const Carrossel = () => {
                 talented graphic designer.
               </p>{" "}
               <br />
-              <Image className="border border-white/20"  src={debsigner} alt="debsignersite" />
+              <Image
+                className="border border-white/20"
+                src={debsigner}
+                alt="debsignersite"
+              />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
@@ -81,29 +82,32 @@ const Carrossel = () => {
 
             <CarouselItem className="w-full">
               <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
-                Houses<span className="text-blue-400">8</span>
+                Gold<span className="text-yellow-500">Hunt</span>
               </h1>
               <br />
               <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-blue-400 `}
+                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-yellow-500 `}
               >
-                This one was a improved and deployed job task for an USA
-                enterprise, my first ever app using NextJS (and the first
-                version was my first app using Angular).
+                A game which involves GTA V aesthetics, and consists in getting
+                10 random letters right in a limited time (20 seconds), you'll test your logic skills and have fun at the same time!
               </p>{" "}
               <br />
-              <Image className="border border-white/20" src={houses8} alt="houses8" />
+              <Image
+                className="border border-white/20"
+                src={goldHunt}
+                alt="Gold Hunt"
+              />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
                   <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-blue-400 text-blue-400 `}
+                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-yellow-500 text-yellow-500 `}
                   >
                     <ul className="w-11/12 flex flex-col items-center justify-evenly">
                       <li className="p-1">
                         <Link
                           target="_blank"
-                          href={"https://houses8.vercel.app/"}
+                          href={"https://cidade-alta-game.vercel.app/"}
                           className="flex items-center gap-1"
                         >
                           Official Website <span>{BiWorld(Icon)}</span>{" "}
@@ -113,7 +117,7 @@ const Carrossel = () => {
                       <li className="p-1">
                         <Link
                           target="_blank"
-                          href={"https://github.com/sousalmdev/nextask"}
+                          href={"https://github.com/sousalmdev/teste-cidade-alta"}
                           className="flex items-center gap-1"
                         >
                           Github Repo <span>{BiLogoGithub(Icon)}</span>
@@ -121,7 +125,7 @@ const Carrossel = () => {
                       </li>
                     </ul>
                   </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-blue-400 transition-all text-center bg-blue-400/50 py-1 rounded px-4">
+                  <PopoverTrigger className="text-white hover:bg-yellow-500 transition-all text-center bg-yellow-500/50 py-1 rounded px-4">
                     See Project
                   </PopoverTrigger>
                 </Popover>
@@ -141,7 +145,11 @@ const Carrossel = () => {
                 Vehicle Acquisition.
               </p>{" "}
               <br />
-              <Image className="border border-white/20" src={franCar} alt="francar" />
+              <Image
+                className="border border-white/20"
+                src={franCar}
+                alt="francar"
+              />
               <br />
               <div className="flex items-center w-full justify-center">
                 <Popover>
