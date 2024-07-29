@@ -24,7 +24,7 @@ import { dm } from "../fonts/dm-sans";
 
 const Carrossel = () => {
   return (
-    <div className="py-5 justify-center w-11/12 md:w-4/5  self-center">
+    <div className="p-5 flex justify-center w-4/5 self-center">
       <div className="w-full flex justify-center items-center">
         <Carousel className="w-3/4 md:self-start self-center ">
           <CarouselContent>
@@ -245,8 +245,8 @@ const Carrossel = () => {
             </CarouselItem>
          
           </CarouselContent>
-          <CarouselPrevious className="bg-white hover:bg-white/50 transition-all  text-black border-none" />
-          <CarouselNext className="bg-white hover:bg-white/50 transition-all   text-black border-none" />
+          <CarouselPrevious className="bg-white hover:bg-white/50 transition-all  text-black border-none sm:block hidden" />
+          <CarouselNext className="bg-white hover:bg-white/50 transition-all   text-black border-none  sm:block hidden" />
         </Carousel>
       </div>
     </div>

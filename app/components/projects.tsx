@@ -19,7 +19,13 @@ export const Projects = () => {
         <br />
         <p className=" w-full xl:w-2/5 md:w-4/5 sm:w-4/5 text-lg h-auto md:text-3xl font-light">
           Here are some of my most important projects, that I created for
-        clients, companies, voluntary works, etc. Feel free to check them out!
+          clients, companies, voluntary works, etc. Feel free to check them out!{" "}
+          <br />
+          <br />
+          <span className="text-green-400 font-bold">
+            {" "}
+            (For mobile users, just swipe!)
+          </span>
         </p>
       </div>
 

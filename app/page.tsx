@@ -11,7 +11,7 @@ import { Contact } from "./components/contact";
 const Page = () => {
   return (
     <div
-      className={` flex items-center min-h-screen mb-20 flex-col p-2 w-11/12 md:w-3/4 text-white`}
+      className={` flex items-center min-h-screen overflow-hidden mb-20 flex-col p-2 w-11/12 md:w-3/4 text-white`}
     >
       <Introducing />
       <br />
