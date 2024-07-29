@@ -245,8 +245,8 @@ const Carrossel = () => {
             </CarouselItem>
          
           </CarouselContent>
-          <CarouselPrevious className="bg-white hover:bg-white/50 transition-all  text-black border-none sm:block hidden" />
-          <CarouselNext className="bg-white hover:bg-white/50 transition-all   text-black border-none  sm:block hidden" />
+          <CarouselPrevious className="bg-white hover:bg-white/50 transition-all  text-black border-none sm:flex hidden" />
+          <CarouselNext className="bg-white hover:bg-white/50 transition-all   text-black border-none  sm:flex hidden" />
         </Carousel>
       </div>
     </div>
