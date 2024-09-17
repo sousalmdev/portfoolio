@@ -90,14 +90,14 @@ export const FormContact: React.FC = () => {
       <Button
         fontSize={{ base: "medium", md: "x-large", xl: "x-large" }}
         border={".5px solid rgb(74 222 128)"}
-        bgColor={"black"}
-        _hover={{ bgColor: "black", color: "rgb 74 222 128" }}
-        color={"rgb(74 222 128)"}
+        _hover={{ bgColor: "rgb(74 222 128)" }}
+          bgColor={"rgb(74 222 128)"}
+          color={"black"}
         paddingInline={{ base: "23px" }}
         leftIcon={BiLogoGmail(Icon)}
         onClick={onOpen}
       >
-        Send me an e-mail
+        Manda um e-mail
       </Button>
       <Modal
         size={{ base: "sm", sm: "lg" }}
@@ -113,17 +113,17 @@ export const FormContact: React.FC = () => {
           border={".5px solid rgb(78 222 128)"}
           color={"rgb(78,222,128)"}
         >
-          <ModalHeader>Contact Me</ModalHeader>
+          <ModalHeader>Fala Comigo!</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
             <form ref={form} onSubmit={sendEmail}>
               <FormControl>
-                <FormLabel>Name</FormLabel>
+                <FormLabel>Nome</FormLabel>
                 <Input
                   _focus={{ borderColor: "rgb(78 222 128)" }}
                   borderColor={"rgb(78 222 128)"}
                   ref={initialRef}
-                  placeholder="Enter your name"
+                  placeholder="Digite seu nome"
                   name="user_name"
                   isRequired
                 />
@@ -134,27 +134,27 @@ export const FormContact: React.FC = () => {
                   _focus={{ borderColor: "rgb(78 222 128)" }}
                   borderColor={"rgb(78 222 128)"}
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder="Digite seu email"
                   name="user_email"
                   isRequired
                 />
               </FormControl>
               <FormControl mt={4}>
-                <FormLabel>Subject</FormLabel>
+                <FormLabel>Assunto</FormLabel>
                 <Input
                   _focus={{ borderColor: "rgb(78 222 128)" }}
                   borderColor={"rgb(78 222 128)"}
-                  placeholder="Enter the subject"
+                  placeholder="Digite o Assunto"
                   name="subject"
                   isRequired
                 />
               </FormControl>
               <FormControl mt={4}>
-                <FormLabel>Message</FormLabel>
+                <FormLabel>Mensagem</FormLabel>
                 <Textarea
                   _focus={{ borderColor: "rgb(78 222 128)" }}
                   borderColor={"rgb(78,222,128)"}
-                  placeholder="Enter your message"
+                  placeholder="Digite sua mensagem"
                   name="message"
                   isRequired
                 />
@@ -167,11 +167,11 @@ export const FormContact: React.FC = () => {
                 type="submit"
                 width="100%"
                 isLoading={isSubmitting}
-                loadingText="Submitting..."
+                loadingText="Enviando..."
                 colorScheme="white"
                 variant="outline"
               >
-                Send Mail
+                Enviar
               </Button>
             </form>
           </ModalBody>

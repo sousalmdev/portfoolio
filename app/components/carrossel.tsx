@@ -36,9 +36,9 @@ const Carrossel = () => {
               <p
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-debpink `}
               >
-                It was my very first freelancer project, and I'm really proud
-                about this. It tells the story and the work arsenal of a very
-                talented graphic designer.
+                Foi o meu primeiro projeto como freelancer, e estou muito
+                orgulhoso disso. Conta a história e o arsenal de trabalho de uma
+                designer gráfica muito talentosa.
               </p>{" "}
               <br />
               <Image
@@ -59,7 +59,7 @@ const Carrossel = () => {
                           href={"https://debsignerofficial.vercel.app"}
                           className="flex items-center gap-1"
                         >
-                          Official Website <span>{BiWorld(Icon)}</span>{" "}
+                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
                         </Link>
                       </li>
                       <Divider stroke={"black"} />
@@ -69,13 +69,13 @@ const Carrossel = () => {
                           href={"https://github.com/sousalmdev/debsigner"}
                           className="flex items-center gap-1"
                         >
-                          Github Repo <span>{BiLogoGithub(Icon)}</span>
+                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
                         </Link>
                       </li>
                     </ul>
                   </PopoverContent>
                   <PopoverTrigger className="text-white hover:bg-debpink transition-all text-center bg-debpink/50 py-1 rounded px-4">
-                    See Project
+                    Ver Projeto
                   </PopoverTrigger>
                 </Popover>
               </div>
@@ -89,9 +89,10 @@ const Carrossel = () => {
               <p
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-yellow-500 `}
               >
-                A game which involves GTA V aesthetics, and consists in getting
-                10 random letters right in a limited time (20 seconds), you'll
-                test your logic skills and have fun at the same time!
+                Um jogo que envolve a estética de GTA V, onde consiste em
+                acertar 10 letras aleatórias em um tempo limitado (20 segundos),
+                você vai testar suas habilidades lógicas e se divertir ao mesmo
+                tempo!
               </p>{" "}
               <br />
               <Image
@@ -112,7 +113,7 @@ const Carrossel = () => {
                           href={"https://cidade-alta-game.vercel.app/"}
                           className="flex items-center gap-1"
                         >
-                          Official Website <span>{BiWorld(Icon)}</span>{" "}
+                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
                         </Link>
                       </li>
                       <Divider stroke={"black"} />
@@ -124,13 +125,13 @@ const Carrossel = () => {
                           }
                           className="flex items-center gap-1"
                         >
-                          Github Repo <span>{BiLogoGithub(Icon)}</span>
+                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
                         </Link>
                       </li>
                     </ul>
                   </PopoverContent>
                   <PopoverTrigger className="text-white hover:bg-yellow-500 transition-all text-center bg-yellow-500/50 py-1 rounded px-4">
-                    See Project
+                    Ver Projeto
                   </PopoverTrigger>
                 </Popover>
               </div>
@@ -143,10 +144,7 @@ const Carrossel = () => {
               <p
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-white `}
               >
-                My Angular App made for non-real car selling, using the hybrid
-                stack: Angular + Tailwind, which worked absolutely well. App
-                includes: First-Screen, Vehicle Showcasing, Vehicle Details and
-                Vehicle Acquisition.
+                Meu aplicativo Angular feito para venda fictícia de carros, usando a stack híbrida: Angular + Tailwind, que funcionou muito bem. O app inclui: Primeira Tela, Exibição de Veículos, Detalhes do Veículo e Aquisição de Veículos.
               </p>{" "}
               <br />
               <Image
@@ -167,7 +165,7 @@ const Carrossel = () => {
                           href={"https://fran-car.vercel.app/"}
                           className="flex items-center gap-1"
                         >
-                          Official Website <span>{BiWorld(Icon)}</span>{" "}
+                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
                         </Link>
                       </li>
                       <Divider stroke={"black"} />
@@ -177,13 +175,13 @@ const Carrossel = () => {
                           href={"https://github.com/sousalmdev/FranCar"}
                           className="flex items-center gap-1"
                         >
-                          Github Repo <span>{BiLogoGithub(Icon)}</span>
+                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
                         </Link>
                       </li>
                     </ul>
                   </PopoverContent>
                   <PopoverTrigger className="text-white hover:bg-white hover:text-black transition-all text-center bg-black py-1 border border-white/20 rounded px-4">
-                    See Project
+                    Ver Projeto
                   </PopoverTrigger>
                 </Popover>
               </div>
@@ -196,10 +194,7 @@ const Carrossel = () => {
               <p
                 className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-green-500 `}
               >
-                This application helps you find some people around the world,
-                according to them geographic coordinates, and you'll be able to
-                see their information within a map that the application
-                provides. Plus: You can submit your data to the website and you'll be part of the database and the map will include your info as well.
+                Este aplicativo ajuda você a encontrar pessoas ao redor do mundo, de acordo com as coordenadas geográficas, e você poderá ver as informações delas em um mapa que o aplicativo fornece. Além disso: Você pode enviar seus dados ao site e fazer parte do banco de dados, o mapa também incluirá suas informações.
               </p>{" "}
               <br />
               <Image
@@ -220,7 +215,7 @@ const Carrossel = () => {
                           href={"https://havira-teste.vercel.app/"}
                           className="flex items-center gap-1"
                         >
-                          Official Website <span>{BiWorld(Icon)}</span>{" "}
+                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
                         </Link>
                       </li>
                       <Divider stroke={"black"} />
@@ -232,13 +227,13 @@ const Carrossel = () => {
                           }
                           className="flex items-center gap-1"
                         >
-                          Github Repo <span>{BiLogoGithub(Icon)}</span>
+                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
                         </Link>
                       </li>
                     </ul>
                   </PopoverContent>
                   <PopoverTrigger className="text-white hover:bg-green-500 transition-all text-center bg-green-500/50 py-1 rounded px-4">
-                    See Project
+                    Ver Projeto
                   </PopoverTrigger>
                 </Popover>
               </div>

@@ -3,7 +3,7 @@ import React from "react";
 import { dm } from "../fonts/dm-sans";
 import skillset from "@/app/assets/Untitled.svg";
 import Image from "next/image";
-
+import jost from '../layout'
 export const Introducing = () => {
   return (
     <>
@@ -14,20 +14,22 @@ export const Introducing = () => {
         <h2
           className={`w-fit px-2 bg-green-400 text-black md:text-lg text-sm tracking-wider font-bold`}
         >
-          HELLO, MY NAME IS LEO AND I'M A
+          OLÁ, MEU NOME É LEO E EU SOU UM
         </h2>
         <br />
         <h1 className={`text-3xl md:text-6xl ${dm.className}`}>
-          Front End / UI
-          <br />
-          Developer.
+          Desenvolvedor Front End/UI <br /> 
+
         </h1>
+        <h2 className = {`text-2xl md:text-5xl md:pt-5 text-green-400 italic font-black`}>(E Designer Gráfico)</h2>
+        <br />
         <br />
         <p
           className={` w-full xl:w-2/5 md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light `}
         >
-          Since my very first introduction to programming, I've been dedicating my days to solve
-          problems and translate ideas into code, feel free to see how it goes.
+          Desde a minha primeira introdução à programação, venho dedicando meus
+          dias a resolver problemas e traduzir ideias em código, fique à vontade
+          para ver isso acontecendo.
         </p>
       </div>
     </>

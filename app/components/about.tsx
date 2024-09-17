@@ -18,22 +18,25 @@ export const About = () => {
             <h2
               className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
             >
-              YOU'VE ALREADY SEEN WHAT I CAN DO, NOW LEARN MORE ABOUT
+              VOCÊ JÁ VIU O QUE EU POSSO FAZER, AGORA SAIBA MAIS SOBRE
             </h2>
             <br />
             <h1 className={` ${dm.className} text-3xl md:text-6xl `}>
-              Who I am
+              Quem Sou Eu
             </h1>
             <br />
             <p
               className={`text-left w-full xl:w-3/5 md:w-full sm:w-4/5 md:text-3xl text-base font-light `}
             >
-              <span className="font-bold text-green-400">My name is</span>{" "}
-              Leandro Medeiros de Sousa, a brazilian developer, born in Rio de
-              Janeiro. I had my first touch with programming through the CC50
-              Harvard Course, first meeting C language and Programming Logic.
-              After that, I've pursued Front End Development, because I feel
-              drawn to art and creativity.
+              <span className="font-bold text-green-400">Meu nome é
+              Leandro Medeiros de Sousa</span>, um desenvolvedor brasileiro, nascido no
+              Rio de Janeiro. Meu primeiro contato com programação foi através
+              do Curso CS50 de Harvard, onde conheci a linguagem C e a Lógica de
+              Programação. <br /> <br /> Depois disso, me dediquei ao Desenvolvimento Front
+              End, pois me sinto atraído pela arte e criatividade.
+              Posteriormente, descobrindo que desenvolvimento front-end e design
+              andavam lado a lado, decidi me dedicar também a esse segmento, e
+              até então, só venho confirmando esta teoria.
             </p>
           </div>
           <br />
@@ -44,7 +47,7 @@ export const About = () => {
           <h2
             className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
           >
-            KNOW MY
+            CONHEÇA MEUS
           </h2>
           <br />
           <h1 className={`text-3xl md:text-6xl ${dm.className}`}>Hobbies</h1>
@@ -52,40 +55,40 @@ export const About = () => {
           <p
             className={`text-left w-full xl:w-3/5 md:w-full sm:w-4/5 md:text-3xl text-lg font-light `}
           >
-            <span className="font-bold text-green-400">I am a musician</span>{" "}
-            since 2016, I play three different instruments: Guitar, Electric
-            Guitar and Bass.{" "}
+            <span className="font-bold text-green-400">Sou músico</span> desde
+            2016, toco três instrumentos diferentes: Violão, Guitarra Elétrica e
+            Baixo.{" "}
             <span className="font-bold text-green-400">
-              I like to sing as well.{" "}
+              Também gosto de cantar.{" "}
             </span>{" "}
-            I have some personal music taste which involves Metal, Bossa Nova,
-            Samba, R&B and Jazz.
+            Tenho um gosto musical pessoal que inclui Metal, Bossa Nova, Samba,
+            R&B e Jazz.
             <br />
             <br />
-            I write poetries since 2018, talking about love, life, lies and all
-            its mysteries.
+            Escrevo poesias desde 2018, abordando temas como amor, vida,
+            mentiras e todos os seus mistérios.
             <br />
             <br />
-            I'm a huge fan of soccer. A passionate and born Flamengo supporter.
-            One time Flamengo, always Flamengo.
+            Sou um grande fã de futebol. Um apaixonado e torcedor do Flamengo.
+            Uma vez Flamengo, sempre Flamengo.
             <br />
             <br />
-            I'm a gym guy. It's been a year and six months since I started, and
-            never ever wanted to stop since then. It helps either my body and my
-            mind. Why should I stop?
+            Sou um frequentador de academia. Já se passaram dois anos
+            desde que comecei, e nunca quis parar desde então. Isso ajuda tanto
+            meu corpo quanto minha mente. Por que eu deveria parar?
           </p>
         </div>
         <h2
           className={`text-green-400 md:text-lg text-base tracking-wider font-bold`}
         >
-          TALKING ABOUT MYSELF IS EASY, <br />
-          YOU MIGHT BE WANTING TO KNOW
+          FALAR SOBRE MIM É FÁCIL, <br />
+          VOCÊ PODE ESTAR QUERENDO SABER
         </h2>
         <br />
         <h1 className={` ${dm.className} text-3xl md:text-6xl `}>
-          What people think
+          O que as pessoas pensam
           <br />
-          About me?
+          Sobre mim?
         </h1>
         <PeopleCard />
       </div>

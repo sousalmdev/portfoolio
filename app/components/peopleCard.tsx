@@ -22,7 +22,7 @@ export const PeopleCard = () => {
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
-            bg={"black"}
+            bg={"#171717"}
             color={"rgb(74 222 128)"}
             className="w-full flex flex-col items-center justify-center"
             padding={0}
@@ -38,15 +38,12 @@ export const PeopleCard = () => {
                   />
                 </CardHeader>
                 <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo is a very effortful and productive guy, his skills to
-                  learning the enough to work with a different thing is
-                  unbelievable, an 'out of the box' communication, which makes
-                  people feel no need to ask a question twice.'
+                  'Leo é um cara muito esforçado e produtivo, suas habilidades para aprender o suficiente para trabalhar com algo diferente são impressionantes, uma comunicação "fora da caixa", o que faz as pessoas não precisarem perguntar uma vez mais.'
                 </Text>
               </CardBody>
               <CardFooter>
                 <Text className="text-center text-sm md:text-2xl w-full text-white">
-                  ~ Lucas Fonseca - Full Stack Developer <br />
+                  ~ Lucas Fonseca - Desenvolvedor Full Stack <br />
                   <span className="text-green-400 font-bold ">
                     @
                     <Link
@@ -69,7 +66,7 @@ export const PeopleCard = () => {
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
-            bg={"black"}
+            bg={"#171717"}
             color={"rgb(74 222 128)"}
             className="w-full flex flex-col items-center justify-center"
             padding={0}
@@ -85,14 +82,12 @@ export const PeopleCard = () => {
                   />
                 </CardHeader>
                 <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo is an excellent developer. He has great dedication and
-                  care with his projects, as well as a quick ability to adapt to
-                  the use of different technologies.'
+                  'Leo é um excelente desenvolvedor. Ele tem grande dedicação e cuidado com seus projetos, bem como uma rápida capacidade de adaptação ao uso de diferentes tecnologias.'
                 </Text>
               </CardBody>{" "}
               <CardFooter>
                 <Text className="text-sm md:text-2xl text-white w-full">
-                  ~ Victor Lucena - Angular + Java Developer <br />
+                  ~ Victor Lucena - Desenvolvedor Angular + Java <br />
                   <span className="text-green-400 font-bold ">
                     @
                     <Link
@@ -117,7 +112,7 @@ export const PeopleCard = () => {
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
-            bg={"black"}
+            bg={"#171717"}
             color={"rgb(74 222 128)"}
             className="w-full flex flex-col items-center justify-center"
             padding={0}
@@ -133,15 +128,12 @@ export const PeopleCard = () => {
                   />
                 </CardHeader>
                 <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo is a skillful programmer, for him, there's no easy or
-                  difficult job. There is something to be done. He is the type
-                  of person addicted to technology who can learn anything if he
-                  has the time to do so. It's impressive.'
+                  'Leo é um programador habilidoso, para ele, não há trabalho fácil ou difícil. Há algo a ser feito. Ele é o tipo de pessoa viciada em tecnologia que pode aprender qualquer coisa se tiver o tempo para isso. É impressionante.'
                 </Text>
               </CardBody>{" "}
               <CardFooter>
                 <Text className="text-sm md:text-2xl text-white w-full">
-                  ~ Matheus Santana - Software Engineer <br />
+                  ~ Matheus Santana - Engenheiro de Software <br />
                   <span className="text-green-400 font-bold ">
                     @
                     <Link
@@ -163,7 +155,7 @@ export const PeopleCard = () => {
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
-            bg={"black"}
+            bg={"#171717"}
             color={"rgb(74 222 128)"}
             className="w-full flex flex-col items-center justify-center"
             padding={0}
@@ -179,16 +171,12 @@ export const PeopleCard = () => {
                   />
                 </CardHeader>
                 <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo is an amazing person, who chases his goals despite the
-                  obstacles, his ability to absorb knowledge about whatever he
-                  wants to learn it's a beautiful thing. And at the same time he
-                  learns, he gave his time to help whoever needs his help. An
-                  example to be followed as a person and as a professional.'
+                  'Leo é uma pessoa incrível, que persegue seus objetivos apesar dos obstáculos, sua capacidade de absorver conhecimento sobre o que quer aprender é algo bonito. E ao mesmo tempo que aprende, ele dedica seu tempo para ajudar quem precisa. Um exemplo a ser seguido como pessoa e profissional.'
                 </Text>
               </CardBody>{" "}
               <CardFooter>
                 <Text className="text-sm md:text-2xl text-white w-full">
-                  ~ Debora Viana - Graphic Designer / DebSigner CEO <br />
+                  ~ Debora Viana - Designer Gráfico / CEO da DebSigner <br />
                   <span className="text-green-400 font-bold ">
                     @
                     <Link

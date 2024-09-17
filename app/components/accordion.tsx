@@ -28,55 +28,56 @@ export const Accordionn = () => {
               flex="1"
               textAlign="left"
             >
-              My Beginning as a Developer
+              Meu Início como Desenvolvedor
             </Box>
             <AccordionIcon />
           </AccordionButton>
         </h2>
         <AccordionPanel>
-          A very interesting topic to discuss is: How does a developer come into
-          being?
+          Um tópico muito interessante para discutir é: Como um desenvolvedor
+          surge?
           <br />
-          As a developer, I can share a bit about how I "came into being" in
-          programming.
+          Como desenvolvedor, posso compartilhar um pouco sobre como eu "surgi"
+          na programação.
           <br />
           <br />
           <ul className="list-none w-full p-0">
             <li>
-              <strong>Learning the Basics:</strong> Like any proper beginning, I
-              realized that the first step was to learn the logic. And after
-              having this foundation, I chose my programming path, Front End.
-              And I believe it can work out this way.
+              <strong>Aprendendo o Básico:</strong> Como todo bom começo,
+              percebi que o primeiro passo era aprender a lógica. E depois de
+              ter essa base, escolhi meu caminho de programação, Front End. E
+              acredito que pode funcionar assim.
             </li>
             <br />
             <li>
-              <strong>Creating Original Projects:</strong> It's essential not
-              just to initially "copy" a project that comes your way, but to put
-              your own spin on it, with your own styles. And later on, use the
-              concepts and create your own project with your touch, no matter if
-              it's just a login screen, just do it.
+              <strong>Criando Projetos Originais:</strong> É essencial não apenas
+              "copiar" um projeto que aparecer, mas colocar seu toque pessoal,
+              com seus próprios estilos. E mais tarde, usar os conceitos e criar
+              seu próprio projeto com seu toque, não importa se é apenas uma
+              tela de login, apenas faça.
             </li>
             <br />
             <li>
-              <strong>Seeking Help and Collaboration:</strong> And this doesn't
-              make me any less of a developer. On the contrary, it will be
-              highly utilized in professional life, so learn to ask for help and
-              gain experience in the area you asked for.
+              <strong>Buscando Ajuda e Colaboração:</strong> E isso não me torna
+              menos desenvolvedor. Pelo contrário, isso será muito útil na vida
+              profissional, então aprenda a pedir ajuda e ganhe experiência na
+              área em que pediu.
             </li>
 
             <br />
             <li>
-              <strong>Embracing Feedback:</strong> I have peers, seniors, tech
-              leads around me who always point out something I can modify to
-              make it more user-friendly. Learn to listen to feedback, no matter
-              how harsh it may be, it will shorten paths in your career.
+              <strong>Aceitando Feedback:</strong> Tenho colegas, seniors, tech
+              leads ao meu redor que sempre apontam algo que posso modificar
+              para tornar o código mais amigável ao usuário. Aprenda a ouvir o
+              feedback, por mais duro que seja, ele encurtará caminhos na sua
+              carreira.
             </li>
             <br />
             <li>
-              <strong>Sharing Knowledge and Helping Others:</strong> Many say
-              that the best way to learn is by teaching. And in some things I am
-              knowledgeable about, I give tips, and it feels fulfilling when it
-              works. It's great to see my colleagues advancing together.
+              <strong>Compartilhando Conhecimento e Ajudando os Outros:</strong>{" "}
+              Muitos dizem que a melhor maneira de aprender é ensinando. E em
+              algumas coisas que domino, dou dicas, e é gratificante quando
+              funciona. É ótimo ver meus colegas avançando juntos.
             </li>
           </ul>
         </AccordionPanel>
@@ -94,35 +95,34 @@ export const Accordionn = () => {
               flex="1"
               textAlign="left"
             >
-              Excited and Efficient or Experienced and Bored?
+              Animado e Eficiente ou Experiente e Entediado?
             </Box>
             <AccordionIcon />
           </AccordionButton>
         </h2>
         <AccordionPanel>
-          There's been a joke circulating in the dev community about the analogy
-          of the duck: the developer who swims, runs, flies, but doesn't do
-          anything right. But to be honest... I'd like to be a duck, but a
-          dedicated one.
+          Há uma piada circulando na comunidade dev sobre a analogia do pato: o
+          desenvolvedor que nada, corre, voa, mas não faz nada direito. Mas para
+          ser sincero... Eu gostaria de ser um pato, mas um dedicado.
           <br />
           <br />
-          What's the point of becoming the old tiger, knowing the stack inside
-          out, and getting comfortable with it? Repeating what I know and not
-          delivering anything? Not even bothering to update myself because I
-          enjoy the comfort of what I've already learned... I don't want that.
+          Qual é o sentido de se tornar o velho tigre, conhecendo a stack de
+          cabo a rabo, e ficando confortável com ela? Repetindo o que já sei e
+          não entregando nada? Nem mesmo me atualizando porque gosto do conforto
+          do que já aprendi... Eu não quero isso.
           <br />
-          <br />I love the adrenaline of being thrown a brick and returning a
-          house. Project in React? Let's go. In Angular? (I love it
-          passionately) Let's go. In Vue? Never seen it. Let's go. Svelte? Do
-          they still use that? Then let's go. Playing with backend? I might fry
-          some neurons for a good few hours, but let's go.
+          <br />Eu adoro a adrenalina de receber um tijolo e devolver uma casa.
+          Projeto em React? Vamos lá. Em Angular? (eu amo apaixonadamente)
+          Vamos lá. Em Vue? Nunca vi. Vamos lá. Svelte? Ainda usam isso? Então
+          vamos lá. Mexendo com backend? Vou fritar alguns neurônios por boas
+          horas, mas vamos lá.
           <br />
           <br />
-          For me, the more tools I have the ability to use, the better "builder"
-          I can be. What's the use of being a specialist in screwdrivers in a
-          project that uses hammers and nails? Combine your curiosity with the
-          desire to add value to your career, and have various situational
-          tools.
+          Para mim, quanto mais ferramentas eu puder usar, melhor "construtor"
+          eu posso ser. De que adianta ser especialista em chaves de fenda em um
+          projeto que usa martelos e pregos? Combine sua curiosidade com o
+          desejo de agregar valor à sua carreira e tenha várias ferramentas
+          situacionais.
         </AccordionPanel>
       </AccordionItem>
 
@@ -139,320 +139,275 @@ export const Accordionn = () => {
               flex="1"
               textAlign="left"
             >
-              How to maintain a studying routine:
+              Como Manter uma Rotina de Estudos:
             </Box>
             <AccordionIcon />
           </AccordionButton>
         </h2>
         <AccordionPanel>
-          Hey everyone, today I'd like to share a personal experience about my
-          study routine and how I developed it. I wanted to break it down into a
-          few topics on how to develop your own routine:
+          E aí pessoal, hoje eu gostaria de compartilhar uma experiência pessoal
+          sobre minha rotina de estudos e como a desenvolvi. Queria dividi-la em
+          alguns tópicos sobre como desenvolver sua própria rotina:
           <br />
           <br />
           <ul>
             <li>
-              <strong>Don't Rush:</strong>
+              <strong>Não Tenha Pressa:</strong>
               <ul>
-                <li>Yes, the market is competitive.</li>
+                <li>Sim, o mercado é competitivo.</li>
                 <li>
-                  But it's competitive largely because of those who fell into
-                  the fallacy of being able to land a job with a 30-hour
-                  bootcamp. Take your time.
+                  Mas é competitivo principalmente por causa daqueles que caíram
+                  na falácia de conseguir um emprego com um bootcamp de 30
+                  horas. Leve seu tempo.
                 </li>
               </ul>
             </li>
             <br />
             <br />
             <li>
-              <strong>Be Consistent:</strong>
+              <strong>Seja Consistente:</strong>
               <ul>
-                <li>1 hour or 8 hours in a day? That's the question.</li>
+                <li>1 hora ou 8 horas em um dia? Essa é a questão.</li>
                 <li>
-                  It could even be 30 minutes, studying every day that you can
-                  (and practicing whenever possible), you learn and avoid
-                  burnout.
+                  Podem ser até 30 minutos, estudando todos os dias que puder (e
+                  praticando sempre que possível), você aprende e evita o
+                  esgotamento.
                 </li>
               </ul>
             </li>
             <br />
             <br />
             <li>
-              <strong>Set Goals:</strong>
+              <strong>Defina Metas:</strong>
               <ul>
-                <li>How cliché, right?</li>
+                <li>Como é clichê, certo?</li>
                 <li>
-                  But have you ever left home without knowing where you were
-                  going, and if you did, surely you felt fear and the desire to
-                  turn back at some point.
+                  Mas você já saiu de casa sem saber para onde estava indo? Se
+                  sim, certamente sentiu medo e a vontade de voltar em algum
+                  momento.
                 </li>
                 <li>
-                  The best thing to do is to calculate your route, and if
-                  something changes your plans, recalculate, but don't stop.
+                  O melhor a fazer é calcular sua rota e, se algo mudar seus
+                  planos, recalcular, mas não parar.
                 </li>
               </ul>
             </li>
             <br />
             <br />{" "}
             <li>
-              <strong>Rest:</strong>
+              <strong>Descanse:</strong>
               <ul>
-                <li>"Work while they sleep!"</li>
-                <li>And end up burnt out.</li>
+                <li>"Trabalhe enquanto eles dormem!"</li>
+                <li>E acabe esgotado.</li>
                 <li>
-                  Even with a few years of experience, I understand that driving
-                  myself crazy studying every day won't get me anywhere.
+                  Mesmo com alguns anos de experiência, entendo que me forçar a
+                  estudar todos os dias não vai me levar a lugar nenhum.
                 </li>
                 <li>
-                  Not to mention it can lead to various mental (and even
-                  physical) health problems. So rest, it's very beneficial.
+                  Sem mencionar que pode levar a vários problemas de saúde
+                  mental (e até física). Então descanse, é muito benéfico.
                 </li>
               </ul>
             </li>
             <br />
             <br />
             <li>
-              <strong>Associate Study with Something You Enjoy:</strong>
+              <strong>Associe o Estudo a Algo que Você Gosta:</strong>
               <ul>
                 <li>
-                  It doesn't hurt (unless it distracts you) to listen to your
-                  playlist, listen to a podcast of people talking nonsense (I
-                  love fifth grade podcasts) while you practice.
+                  Não faz mal (a menos que distraia você) ouvir sua playlist,
+                  ouvir um podcast de pessoas falando besteira (adoro podcasts
+                  de quinta série) enquanto pratica.
                 </li>
                 <li>
-                  What's harmful is making it a occasional distraction in your
-                  studies, there's time for everything and you know it.
+                  O que é prejudicial é fazer disso uma distração ocasional em
+                  seus estudos, há tempo para tudo e você sabe disso.
                 </li>
               </ul>
             </li>
             <br />
             <br />
             <li>
-              <strong>Be Disciplined:</strong>
+              <strong>Seja Disciplinado:</strong>
               <ul>
-                <li>Rest is essential. Laziness is not.</li>
+                <li>Descanso é essencial. Preguiça, não.</li>
                 <li>
-                  There are various ways to stimulate yourself to study and not
-                  get discouraged. Mine is to drink coffee and imagine myself in
-                  about 5 years reaping the fruits of what I'm planting today.
+                  Existem várias maneiras de se estimular a estudar e não se
+                  desanimar. A minha é tomar café e me imaginar daqui a uns 5
+                  anos colhendo os frutos do que estou plantando hoje.
                 </li>
               </ul>
             </li>
             <br />
             <br />
-            <li>
-              <strong>Don't Go Alone:</strong>
-              <ul>
-                <li>Yes, you evolve alone.</li>
-                <li>
-                  But the process when you have someone who knows the ropes by
-                  your side is much smoother.
-                </li>
-                <li>
-                  Today I have some friends and mentors who constantly tell me
-                  where I'm wrong (and that's exactly what I want to hear), and
-                  I can improve, and that's what happens. I improve.
-                </li>
-              </ul>
-            </li>
           </ul>
-          <br />
-          Here are some general tips, and speaking of myself, I have been
-          applying them for months and there are results, so it's not fallacy,
-          it's not a course seller, it's me. A developer like you. A student
-          like you.
         </AccordionPanel>
       </AccordionItem>
       <AccordionItem className="w-11/12 md:w-3/5 xl:w-2/5">
-        <h2>
-          <AccordionButton
-            color={"rgb(74 222 128)"}
-            className="text-sm md:text-xl"
-            _expanded={{ bg: "rgb(74 222 128)", color: "black" }}
-          >
-            <Box
-              className={`font-bold  text-sm md:text-xl`}
-              as="span"
-              flex="1"
-              textAlign="left"
-            >
-              To what extent is Artificial Intelligence an ally?
-            </Box>
-            <AccordionIcon />
-          </AccordionButton>
-        </h2>
-        <AccordionPanel>
-          Since its emergence, there have been numerous discussions surrounding
-          the use or non-use of the famous (and even feared) Artificial
-          Intelligence. I would like to highlight 5 Positive Points and 5
-          Negative Points to indicate the limit of facilitation that the
-          resource can provide us, without taking away our identity.
-          <br />
-          <br />
-          <ul>
-            <li>
-              <strong>✅ Access to documentation:</strong>
-              <br />
-              <ul>
-                <li>
-                  For those who don't want to spend time searching for
-                  documentation on a particular technology or service
-                  instructions, installations, and the like:
-                </li>
-                <li>
-                  Ask the artificial intelligence objectively for the
-                  documentation you want to use, and it will provide it.
-                </li>
-              </ul>
-              <br />
-              <br />
-            </li>
-            <li>
-              <strong>✅ Spelling Corrections:</strong>
-              <br />
-              <ul>
-                <li>
-                  For those who enjoy writing but have some difficulty with
-                  spelling, agreement, and grammar:
-                </li>
-                <li>
-                  Put your text at the disposal of AI, and it will point out
-                  possible errors and suggest changes.
-                </li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>✅ Service Advancement (for devs):</strong>
-              <br />
-              <ul>
-                <li>
-                  You know that project that you can put together entirely but
-                  it's a very busy day or you're feeling lazy?
-                </li>
-                <li>
-                  Make a precise prompt to get a code snippet for markup and
-                  styling, and adapt it to your needs.
-                </li>
-                <li>At least try to work on the site's dynamics.</li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>✅ Personalized Services:</strong>
-              <br />
-              <ul>
-                <li>
-                  From professional matters to the afternoon coffee you invited
-                  your friends for, AI can give some ideas:
-                </li>
-                <li>
-                  Build images, learn concepts, look at your sandwich recipe,
-                  all very quickly, you just need to know how to query.
-                </li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>✅ Be more productive:</strong>
-              <br />
-              <ul>
-                <li>
-                  There are tasks that used to take you days to gather all the
-                  resources you needed within a routine action or a task from
-                  your job.
-                </li>
-                <li>
-                  Now, you can do it within hours, combining your agile thinking
-                  and experience with AI's multi-resource thinking.
-                </li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>⚠️ Complacency:</strong>
-              <br />
-              <ul>
-                <li>
-                  Especially for beginners, abusing the kindness of AI can
-                  generate a lazy developer.
-                </li>
-                <li>
-                  Without authenticity, without logical thinking, and unable to
-                  solve problems because everything is on the shoulders of AI.
-                </li>
-                <li>Stand on your own feet.</li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>⚠️ Saturation:</strong>
-              <br />
-              <ul>
-                <li>
-                  Who has never scrolled through LinkedIn and noticed that out
-                  of 10 posts, 7 start the same and use the same adjectives and
-                  structures?
-                </li>
-                <li>
-                  AI supports human intelligence, but it doesn't possess the
-                  authenticity you do.
-                </li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>⚠️ Risks to communication:</strong>
-              <br />
-              <ul>
-                <li>
-                  Automation is wonderful, but replacing organic and valuable
-                  dialogue, as it is between humans, borders on the ridiculous.
-                </li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>⚠️ Sabotage:</strong>
-              <br />
-              <ul>
-                <li>
-                  Imagine yourself in a technical test where you need to solve a
-                  simple algorithm, but without consulting documentation and
-                  certainly not AIs. What then?
-                </li>
-              </ul>
-            </li>
-            <br />
-            <br />
-            <li>
-              <strong>⚠️ Depreciation:</strong>
-              <br />
-              <ul>
-                <li>This one goes out to juniors:</li>
-                <li>
-                  What sense of achievement will you feel by building a system
-                  entirely constructed by AIs? None.
-                </li>
-                <li>
-                  Do it yourself, correct it with research, and listen to HUMAN
-                  feedback, and you can indeed get there.
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <br />
-          <br />
-          Use AI as a means, not as the end.
-        </AccordionPanel>
-      </AccordionItem>
+  <h2>
+    <AccordionButton
+      color={"rgb(74 222 128)"}
+      className="text-sm md:text-xl"
+      _expanded={{ bg: "rgb(74 222 128)", color: "black" }}
+    >
+      <Box
+        className={`font-bold  text-sm md:text-xl`}
+        as="span"
+        flex="1"
+        textAlign="left"
+      >
+        Até que ponto a Inteligência Artificial é uma aliada?
+      </Box>
+      <AccordionIcon />
+    </AccordionButton>
+  </h2>
+  <AccordionPanel>
+    Desde o seu surgimento, têm havido inúmeras discussões em torno do uso ou não uso da famosa (e até temida) Inteligência Artificial. Gostaria de destacar 5 pontos positivos e 5 pontos negativos para indicar o limite de facilitação que o recurso pode nos proporcionar, sem tirar nossa identidade.
+    <br />
+    <br />
+    <ul>
+      <li>
+        <strong>✅ Acesso à documentação:</strong>
+        <br />
+        <ul>
+          <li>
+            Para quem não quer perder tempo procurando documentação sobre uma determinada tecnologia ou instruções de serviço, instalações e afins:
+          </li>
+          <li>
+            Peça objetivamente à inteligência artificial pela documentação que deseja usar, e ela fornecerá.
+          </li>
+        </ul>
+        <br />
+        <br />
+      </li>
+      <li>
+        <strong>✅ Correções ortográficas:</strong>
+        <br />
+        <ul>
+          <li>
+            Para quem gosta de escrever, mas tem alguma dificuldade com ortografia, concordância e gramática:
+          </li>
+          <li>
+            Coloque seu texto à disposição da IA, e ela apontará possíveis erros e sugerirá mudanças.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>✅ Avanço de serviço (para devs):</strong>
+        <br />
+        <ul>
+          <li>
+            Sabe aquele projeto que você consegue montar inteiro, mas é um dia muito corrido ou você está com preguiça?
+          </li>
+          <li>
+            Faça um prompt preciso para obter um trecho de código para a marcação e estilização e adapte-o às suas necessidades.
+          </li>
+          <li>Pelo menos tente trabalhar na dinâmica do site.</li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>✅ Serviços personalizados:</strong>
+        <br />
+        <ul>
+          <li>
+            Desde questões profissionais até o café da tarde que você convidou seus amigos, a IA pode dar algumas ideias:
+          </li>
+          <li>
+            Criar imagens, aprender conceitos, verificar sua receita de sanduíche, tudo muito rápido, basta saber como consultá-la.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>✅ Seja mais produtivo:</strong>
+        <br />
+        <ul>
+          <li>
+            Existem tarefas que antes levavam dias para reunir todos os recursos que você precisava dentro de uma ação rotineira ou de uma tarefa no trabalho.
+          </li>
+          <li>
+            Agora, você pode fazer em poucas horas, combinando seu pensamento ágil e sua experiência com o pensamento multirrecursos da IA.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>⚠️ Complacência:</strong>
+        <br />
+        <ul>
+          <li>
+            Especialmente para iniciantes, abusar da gentileza da IA pode gerar um desenvolvedor preguiçoso.
+          </li>
+          <li>
+            Sem autenticidade, sem pensamento lógico e incapaz de resolver problemas, pois tudo está nos ombros da IA.
+          </li>
+          <li>Fique firme por conta própria.</li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>⚠️ Saturação:</strong>
+        <br />
+        <ul>
+          <li>
+            Quem nunca rolou o feed do LinkedIn e percebeu que, de 10 posts, 7 começam da mesma forma e usam os mesmos adjetivos e estruturas?
+          </li>
+          <li>
+            A IA apoia a inteligência humana, mas não possui a autenticidade que você tem.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>⚠️ Riscos para a comunicação:</strong>
+        <br />
+        <ul>
+          <li>
+            A automação é maravilhosa, mas substituir o diálogo orgânico e valioso, como é entre humanos, beira o ridículo.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>⚠️ Sabotagem:</strong>
+        <br />
+        <ul>
+          <li>
+            Imagine-se em um teste técnico onde você precisa resolver um algoritmo simples, mas sem consultar documentação e, certamente, sem IA. E aí?
+          </li>
+        </ul>
+      </li>
+      <br />
+      <br />
+      <li>
+        <strong>⚠️ Desvalorização:</strong>
+        <br />
+        <ul>
+          <li>Este é para os juniores:</li>
+          <li>
+            Que sensação de conquista você terá ao construir um sistema inteiramente feito por IAs? Nenhuma.
+          </li>
+          <li>
+            Faça você mesmo, corrija com pesquisa e ouça o feedback HUMANO, e aí sim você pode chegar lá.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <br />
+    <br />
+    Use a IA como meio, não como fim.
+  </AccordionPanel>
+</AccordionItem>
+
     </Accordion>
   );
 };

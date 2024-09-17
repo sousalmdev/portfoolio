@@ -20,6 +20,7 @@ const config = {
     extend: {
       colors: {
         "debpink":"rgb(255 5 59)",
+        "default":"#171717",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

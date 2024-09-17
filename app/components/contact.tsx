@@ -11,17 +11,18 @@ import {
   BiLogoWhatsapp,
 } from "react-icons/bi";
 import { FormContact } from "./formContact";
+
 export const Contact = () => {
   return (
     <div
       id="contact"
-      className="animate-fade-in-bottom flex flex-col items-center justify-center pb-20 text-center w-11/12 md:w-full"
+      className="animate-fade-in-bottom flex flex-col items-center justify-center mb-64 text-center w-11/12 md:w-full"
     >
       <div className="flex items-center gap-1 md:pb-20 p-0 justify-center">
         <h2
-          className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold `}
+          className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold`}
         >
-          INTERESTED?
+          INTERESSADO?
         </h2>
       </div>
       <br />
@@ -31,34 +32,34 @@ export const Contact = () => {
           fontSize={{ base: "medium", md: "x-large", xl: "x-large" }}
           href={"https://linkedin.com/in/leosousadev"}
           border={".5px solid rgb(74 222 128)"}
-          _hover={{ bgColor: "black" }}
-          bgColor={"black"}
-          color={"rgb(74 222 128)"}
+          _hover={{ bgColor: "rgb(74 222 128)" }}
+          bgColor={"rgb(74 222 128)"}
+          color={"black"}
           leftIcon={BiLogoLinkedin(Icon)}
         >
-          Find me on LinkedIn
+          Encontre-me no LinkedIn
         </Button>
         <Button
           as={Link}
           fontSize={{ base: "medium", md: "x-large", xl: "x-large" }}
           href={"https://github.com/sousalmdev"}
           border={".5px solid rgb(74 222 128)"}
-          bgColor={"black"}
-          _hover={{ bgColor: "black", color: "rgb 74 222 128" }}
-          color={"rgb(74 222 128)"}
+          _hover={{ bgColor: "rgb(74 222 128)" }}
+          bgColor={"rgb(74 222 128)"}
+          color={"black"}
           leftIcon={BiLogoGithub(Icon)}
           padding={"auto"}
           margin={"0 auto"}
         >
-          Find me on Github
+          Encontre-me no Github
         </Button>
       </ButtonGroup>
       <div className="flex items-center gap-1  md:py-20 py-10  justify-center">
         <Divider width={100} />
         <h2
-          className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold `}
+          className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold`}
         >
-          OR
+          OU
         </h2>
         <Divider width={100} />
       </div>
@@ -70,14 +71,14 @@ export const Contact = () => {
           fontSize={{ base: "medium", md: "x-large", xl: "x-large" }}
           href={"https://wa.link/sqisqd"}
           border={".5px solid rgb(74 222 128)"}
-          bgColor={"black"}
+          _hover={{ bgColor: "rgb(74 222 128)" }}
+          bgColor={"rgb(74 222 128)"}
+          color={"black"}
           marginTop={4}
-          _hover={{ bgColor: "black", color: "rgb 74 222 128" }}
-          color={"rgb(74 222 128)"}
           paddingInline={{ base: "16px" }}
           leftIcon={BiLogoWhatsapp(Icon)}
         >
-          Send me a message
+          Envie-me uma mensagem
         </Button>
       </div>
     </div>

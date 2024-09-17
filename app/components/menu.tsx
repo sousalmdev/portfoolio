@@ -19,11 +19,12 @@ import {
 } from "react-icons/bi";
 import Link from "next/link";
 import { TbPuzzle } from "react-icons/tb";
+
 export const MenuUi = () => {
   return (
     <div className={`sm:hidden`}>
       <Menu>
-        <MenuButton className=" text-green-400">
+        <MenuButton className="text-green-400">
           <BiMenu size={"24px"} />
         </MenuButton>
         <MenuList
@@ -38,7 +39,7 @@ export const MenuUi = () => {
             icon={BiUser(Icon)}
             background={"black"}
           >
-            Home & Articles
+            Início & Artigos
           </MenuItem>
 
           <MenuItem
@@ -48,7 +49,7 @@ export const MenuUi = () => {
             icon={BiSolidArchive(Icon)}
             background={"black"}
           >
-            Projects
+            Projetos
           </MenuItem>
           <MenuItem
             as={Link}
@@ -56,7 +57,7 @@ export const MenuUi = () => {
             icon={TbPuzzle(Icon)}
             background={"black"}
           >
-            Skills
+            Habilidades
           </MenuItem>
           <MenuItem
             as={Link}
@@ -64,7 +65,7 @@ export const MenuUi = () => {
             icon={BiSolidHeart(Icon)}
             background={"black"}
           >
-            About
+            Sobre
           </MenuItem>
           <MenuItem
             as={Link}
@@ -72,7 +73,7 @@ export const MenuUi = () => {
             icon={BiSolidContact(Icon)}
             background={"black"}
           >
-            Contact
+            Contato
           </MenuItem>
         </MenuList>
       </Menu>

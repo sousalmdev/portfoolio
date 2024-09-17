@@ -12,19 +12,20 @@ export const Projects = () => {
         className="animate-fade-in-bottom py-20 md:w-full w-11/12 text-left"
       >
         <h2 className={`text-green-400 tracking-wider font-bold`}>
-          EVERY GOOD DEVELOPER HAS TO HAVE HIGH QUALITY
+          TODO BOM DESENVOLVEDOR TEM QUE TER ALTA QUALIDADE
         </h2>
         <br />
-        <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Projects.</h1>
+        <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Projetos.</h1>
         <br />
         <p className=" w-full xl:w-2/5 md:w-4/5 sm:w-4/5 text-lg h-auto md:text-3xl font-light">
-          Here are some of my most important projects, that I created for
-          clients, companies, voluntary works, etc. Feel free to check them out!{" "}
+          Aqui estão alguns dos meus projetos mais importantes, que eu criei
+          para clientes, empresas, trabalhos voluntários, etc. Fique à vontade
+          para dar uma olhada!
           <br />
           <br />
           <span className="text-green-400 font-bold">
             {" "}
-            (For mobile users, just swipe!)
+            (Para usuários de dispositivos móveis, basta deslizar!)
           </span>
         </p>
       </div>
