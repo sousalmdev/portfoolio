@@ -196,7 +196,7 @@ export const Skills = () => {
             </li>
             <li className="gap-2 flex flex-col">
               <span
-                className={`w-fit bg-gradient-to-r from-cyan-400 from-20% to-purple-500 to-70% bg-clip-text text-transparent font-black text-white flex  md:text-3xl text-lg items-center flex gap-2`}
+                className={`w-fit bg-gradient-to-r from-cyan-400 from-20% to-purple-500 to-90% bg-clip-text text-transparent font-black flex  md:text-3xl text-lg items-center flex gap-2`}
               >
                 <SiCanva className="text-cyan-400" />
                 Canva
