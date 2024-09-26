@@ -40,7 +40,7 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="pt-br">
       <ChakraProvider>
         <body
-          className={`${jost.className} bg-default flex-col h-min-screen flex text-left items-center`}
+          className={`${jost.className} bg-default leading-tight tracking-tighter flex-col h-min-screen flex text-left items-center`}
         >
           <Header />
           {children}
