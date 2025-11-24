@@ -11,7 +11,7 @@ export const Introducing = () => {
       className="animate-fade-in-bottom min-h-screen w-11/12 md:w-full flex flex-col items-center justify-center text-center"
     >
       <h2 className="text-white md:tracking-[1em] tracking-[.5em] font-bold md:text-base text-xs md:text-xl mb-5">
-        HI, MY NAME IS LEO AND I’M A
+        HI, MY NAME IS LEO <br className="md:hidden" /> AND I’M A
       </h2>
 
       <h1

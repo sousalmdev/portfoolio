@@ -4,76 +4,76 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  IconButton,
   Icon,
-  MenuDivider,
 } from "@chakra-ui/react";
 import {
-  BiChat,
   BiMenu,
-  BiSolidArchive,
-  BiSolidContact,
-  BiSolidHeart,
-  BiSolidLock,
   BiUser,
+  BiSolidArchive,
+  BiSolidHeart,
+  BiSolidContact,
 } from "react-icons/bi";
-import Link from "next/link";
 import { TbPuzzle } from "react-icons/tb";
+import Link from "next/link";
 
 export const MenuUi = () => {
   return (
-    <div className={`sm:hidden`}>
+    <div className="sm:hidden">
       <Menu>
         <MenuButton className="text-green-400">
-          <BiMenu size={"24px"} />
+          <BiMenu size="24px" />
         </MenuButton>
+
         <MenuList
-          background={"black"}
-          textAlign={"right"}
-          color={"rgb(74 222 128)"}
+          background="black"
+          textAlign="right"
+          color="rgb(74 222 128)"
         >
           <MenuItem
             as={Link}
-            href={"https://portfoleosous.vercel.app/#presentation"}
+            href="https://portfoleosous.vercel.app/#presentation"
             className="flex justify-between"
-            icon={BiUser(Icon)}
-            background={"black"}
+            icon={<BiUser />}
+            background="black"
           >
-            Início & Artigos
+            Home & Articles
           </MenuItem>
 
           <MenuItem
             as={Link}
             href="#projects"
             className="flex justify-between"
-            icon={BiSolidArchive(Icon)}
-            background={"black"}
+            icon={<BiSolidArchive />}
+            background="black"
           >
-            Projetos
+            Projects
           </MenuItem>
+
           <MenuItem
             as={Link}
-            href={"#skills"}
-            icon={TbPuzzle(Icon)}
-            background={"black"}
+            href="#skills"
+            icon={<TbPuzzle />}
+            background="black"
           >
-            Habilidades
+            Skills
           </MenuItem>
+
           <MenuItem
             as={Link}
-            href={"#about"}
-            icon={BiSolidHeart(Icon)}
-            background={"black"}
+            href="#about"
+            icon={<BiSolidHeart />}
+            background="black"
           >
-            Sobre
+            About
           </MenuItem>
+
           <MenuItem
             as={Link}
-            href={"#contact"}
-            icon={BiSolidContact(Icon)}
-            background={"black"}
+            href="#contact"
+            icon={<BiSolidContact />}
+            background="black"
           >
-            Contato
+            Contact
           </MenuItem>
         </MenuList>
       </Menu>
