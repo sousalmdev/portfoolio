@@ -1,58 +1,72 @@
-import React from "react";
-import { Avatar, AvatarBadge, AvatarGroup, Button } from "@chakra-ui/react";
-import Link from "next/link";
-import { Icon } from "@chakra-ui/react";
-import Image from "next/image";
-import { MenuUi } from "@/app/components/menu";
-import { MdVerified } from "react-icons/md";
-import { BiSolidContact } from "react-icons/bi";
-import leo from "@/app/assets/leo_image_base.png";
+import React from "react"
+import { Avatar, Button, Icon } from "@chakra-ui/react"
+import Link from "next/link"
+import { MenuUi } from "@/app/components/menu"
+import { MdVerified } from "react-icons/md"
+import { BiSolidContact } from "react-icons/bi"
+import leo from "@/app/assets/leo_image_base.png"
 
 export const Header = () => {
   return (
     <header
-      className={` backdrop-blur sticky top-0 p-2  z-50 text-white w-11/12 md:w-3/4 flex items-center md:justify-between justify-between`}
+      className="sticky top-10 z-50 w-11/12 md:w-3/4 mx-auto
+      flex items-center justify-between
+      px-6 py-3
+      backdrop-blur-xl bg-black/20
+      border border-white/10
+      rounded-2xl
+      shadow-[0_0_40px_-15px_rgba(35,243,146,0.2)]"
     >
-      <div id="title" className="flex gap-4 py-2 items-center">
-        <Avatar loading="lazy" size="xs" name="Leo Sousa" src={leo.src} objectFit={`cover`} />
-        <h2 className="font-bold flex items-center">
-          Leo Sousa{" "}
-          <span>
-            <MdVerified className="text-blue-500" />
-          </span>{" "}
+      <div id="title" className="flex gap-3 items-center">
+        <Avatar
+          loading="lazy"
+          size="xs"
+          name="Leo Sousa"
+          src={leo.src}
+          objectFit="cover"
+        />
+        <h2 className="font-semibold flex items-center gap-1 text-[#D9D9D9]">
+          Leo Sousa
+          <MdVerified className="text-[#23F392]" />
         </h2>
       </div>
-      <div>
+
+      <div className="sm:hidden">
         <MenuUi />
       </div>
+
       <nav className="hidden sm:flex justify-end">
-        <ul className="flex text-sm md:text-base gap-5 items-center">
-          <li className="hover:text-green-400 transition-all">
-            <Link href="/">Início</Link>
+        <ul className="flex items-center gap-10 text-sm md:text-base">
+          <li className="text-[#D9D9D9] hover:text-white transition-all duration-200">
+            <Link href="/">Home</Link>
           </li>
-          <li className="hover:text-green-400 transition-all">
-            <Link href="#projects">Projetos</Link>
+          <li className="text-[#D9D9D9] hover:text-white transition-all duration-200">
+            <Link href="#projects">Projects</Link>
           </li>
-          <li className="hover:text-green-400 transition-all">
-            <Link href="#skills">Habilidades</Link>
+          <li className="text-[#D9D9D9] hover:text-white transition-all duration-200">
+            <Link href="#skills">Skills</Link>
           </li>
-          <li className="hover:text-green-400 transition-all">
-            <Link href="#about">Sobre</Link>
+          <li className="text-[#D9D9D9] hover:text-white transition-all duration-200">
+            <Link href="#about">About</Link>
           </li>
           <li>
-            <Button
-              as={Link}
-              href={"#contact"}
-              variant={"outline"}
-              borderColor={"rgb(74 222 128)"}
-              color={"rgb(74 222 128)"}
-              rightIcon={BiSolidContact(Icon)}
+            <Link
+              href="#contact"
+              className="
+              inline-flex items-center gap-2 text-sm
+              bg-gradient-to-r from-[#23F392] to-[#0FFFC8]/80
+              text-black font-semibold
+              px-4 py-2 rounded-full
+              hover:scale-105 active:scale-95
+              transition-transform
+              shadow-[0_0_20px_-5px_rgba(35,243,146,0.4)]
+              "
             >
-              Contato
-            </Button>
+              Talk to me →
+            </Link>
           </li>
         </ul>
       </nav>
     </header>
-  );
-};
+  )
+}

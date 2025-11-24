@@ -7,28 +7,27 @@ import {
   Text,
   Stack,
   CardFooter,
-  Divider,
 } from "@chakra-ui/react";
 import Link from "next/link";
-
 import React from "react";
 
 export const PeopleCard = () => {
   return (
     <div className="flex items-center md:justify-center w-full text-center justify-center py-5 md:py-20 h-auto">
       <ul>
-        <li>
+                <li className=" border border-[#23f392] p-6 md:w-1/2 mx-auto rounded-xl">
+
           <Card
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
             bg={"#171717"}
             color={"rgb(74 222 128)"}
-            className="w-full flex flex-col items-center justify-center"
+            className="w-full border border-[#23f392] rounded-xl flex flex-col items-center justify-center"
             padding={0}
           >
             <Stack>
-              <CardBody className=" w-full flex flex-col items-center justify-center">
+              <CardBody className="w-full flex flex-col items-center justify-center">
                 <CardHeader className="w-full flex items-center justify-center text-white">
                   <Avatar
                     name="Lucas Fonseca"
@@ -37,21 +36,20 @@ export const PeopleCard = () => {
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo é um cara muito esforçado e produtivo, suas habilidades para aprender o suficiente para trabalhar com algo diferente são impressionantes, uma comunicação "fora da caixa", o que faz as pessoas não precisarem perguntar uma vez mais.'
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-lg md:text-xl pt-2 text-white">
+                  "Leo is extremely hardworking and productive. His ability to learn exactly what he needs to tackle new challenges is impressive. His communication is truly 'out of the box,' which means people never have to ask him the same thing twice."
                 </Text>
               </CardBody>
               <CardFooter>
-                <Text className="text-center text-sm md:text-2xl w-full text-white">
-                  ~ Lucas Fonseca - Desenvolvedor Full Stack <br />
-                  <span className="text-green-400 font-bold ">
+                <Text className="text-center text-base md:text-3xl w-full text-white">
+                  ~ Lucas Fonseca – Full Stack Developer <br />
+                  <span className="text-green-400 font-bold">
                     @
                     <Link
                       className="underline decoration-green-400"
                       href={"https://www.linkedin.com/in/lucasrlfonseca/"}
                       target="_blank"
                     >
-                      {" "}
                       lucasrlfonseca
                     </Link>
                   </span>
@@ -60,8 +58,10 @@ export const PeopleCard = () => {
             </Stack>
           </Card>
         </li>
+
         <br />
-        <li>
+
+        <li className=" border border-[#23f392] p-6 md:w-1/2 mx-auto rounded-xl">
           <Card
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
@@ -72,7 +72,7 @@ export const PeopleCard = () => {
             padding={0}
           >
             <Stack>
-              <CardBody className=" w-full flex flex-col items-center justify-center">
+              <CardBody className="w-full flex flex-col items-center justify-center">
                 <CardHeader className="w-full flex items-center justify-center text-white">
                   <Avatar
                     name="Victor Lucena"
@@ -81,23 +81,20 @@ export const PeopleCard = () => {
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo é um excelente desenvolvedor. Ele tem grande dedicação e cuidado com seus projetos, bem como uma rápida capacidade de adaptação ao uso de diferentes tecnologias.'
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-lg md:text-xl pt-2 text-white">
+                  "Leo is an excellent developer. He shows great dedication and care for his projects, along with a fast adaptability to different technologies."
                 </Text>
-              </CardBody>{" "}
+              </CardBody>
               <CardFooter>
-                <Text className="text-sm md:text-2xl text-white w-full">
-                  ~ Victor Lucena - Desenvolvedor Angular + Java <br />
-                  <span className="text-green-400 font-bold ">
+                <Text className="text-base md:text-3xl text-white w-full">
+                  ~ Victor Lucena – Angular + Java Developer <br />
+                  <span className="text-green-400 font-bold">
                     @
                     <Link
                       className="underline decoration-green-400"
-                      href={
-                        "https://www.linkedin.com/in/victor-lucena-2ba1b6175/"
-                      }
+                      href={"https://www.linkedin.com/in/victor-lucena-2ba1b6175/"}
                       target="_blank"
                     >
-                      {" "}
                       victorlucena
                     </Link>
                   </span>
@@ -106,42 +103,44 @@ export const PeopleCard = () => {
             </Stack>
           </Card>
         </li>
+
         <br />
-        <li>
+
+                <li className=" border border-[#23f392] p-6 md:w-1/2 mx-auto rounded-xl">
+
           <Card
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
             bg={"#171717"}
             color={"rgb(74 222 128)"}
-            className="w-full flex flex-col items-center justify-center"
+            className="w-full border border-[#23f392] rounded-xl flex flex-col items-center justify-center"
             padding={0}
           >
             <Stack>
-              <CardBody className=" w-full flex flex-col items-center justify-center">
+              <CardBody className="w-full flex flex-col items-center justify-center">
                 <CardHeader className="w-full flex items-center justify-center text-white">
                   <Avatar
-                    name="Victor Lucena"
+                    name="Matheus Santana"
                     alignSelf={"center"}
                     src="https://media.licdn.com/dms/image/D4D03AQElQtSZ1iN1rQ/profile-displayphoto-shrink_800_800/0/1696209508879?e=1717632000&v=beta&t=PiRqMIk3UuLs5sVLvRHDhW8n4Wz71l_pm9KOiIa71nY"
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo é um programador habilidoso, para ele, não há trabalho fácil ou difícil. Há algo a ser feito. Ele é o tipo de pessoa viciada em tecnologia que pode aprender qualquer coisa se tiver o tempo para isso. É impressionante.'
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-lg md:text-xl pt-2 text-white">
+                  "Leo is a highly skilled developer. For him, there’s no easy or hard task — there’s simply something that needs to be done. He’s a tech-driven guy who can learn absolutely anything if given time. Truly impressive."
                 </Text>
-              </CardBody>{" "}
+              </CardBody>
               <CardFooter>
-                <Text className="text-sm md:text-2xl text-white w-full">
-                  ~ Matheus Santana - Engenheiro de Software <br />
-                  <span className="text-green-400 font-bold ">
+                <Text className="text-base md:text-3xl text-white w-full">
+                  ~ Matheus Santana – Software Engineer <br />
+                  <span className="text-green-400 font-bold">
                     @
                     <Link
                       className="underline decoration-green-400"
                       href={"https://www.linkedin.com/in/omatheussant/"}
                       target="_blank"
                     >
-                      {" "}
                       omatheussant
                     </Link>
                   </span>
@@ -150,18 +149,22 @@ export const PeopleCard = () => {
             </Stack>
           </Card>
         </li>
-        <li>
+
+        <br />
+
+                <li className=" border border-[#23f392] p-6 md:w-1/2 mx-auto rounded-xl">
+
           <Card
             direction={{ base: "row", sm: "row" }}
             overflow="hidden"
             outlineColor={"rgb(74 222 128)"}
             bg={"#171717"}
             color={"rgb(74 222 128)"}
-            className="w-full flex flex-col items-center justify-center"
+            className="w-full border border-[#23f392] rounded-xl flex flex-col items-center justify-center"
             padding={0}
           >
             <Stack>
-              <CardBody className=" w-full flex flex-col items-center justify-center">
+              <CardBody className="w-full flex flex-col items-center justify-center">
                 <CardHeader className="w-full flex items-center justify-center text-white">
                   <Avatar
                     name="Debora Viana"
@@ -170,21 +173,20 @@ export const PeopleCard = () => {
                     size={{ base: "sm", sm: "lg" }}
                   />
                 </CardHeader>
-                <Text className="w-full md:w-4/5 xl:w-2/4 text-sm md:text-3xl pt-2">
-                  'Leo é uma pessoa incrível, que persegue seus objetivos apesar dos obstáculos, sua capacidade de absorver conhecimento sobre o que quer aprender é algo bonito. E ao mesmo tempo que aprende, ele dedica seu tempo para ajudar quem precisa. Um exemplo a ser seguido como pessoa e profissional.'
+                <Text className="w-full md:w-4/5 xl:w-2/4 text-lg md:text-xl pt-2 text-white">
+                  "Leo is an incredible person who chases his goals despite obstacles. His ability to absorb knowledge about what he wants to learn is beautiful — and while learning, he still dedicates his time to help others. An example to follow as both a professional and a human being."
                 </Text>
-              </CardBody>{" "}
+              </CardBody>
               <CardFooter>
-                <Text className="text-sm md:text-2xl text-white w-full">
-                  ~ Debora Viana - Designer Gráfico / CEO da DebSigner <br />
-                  <span className="text-green-400 font-bold ">
+                <Text className="text-base md:text-3xl text-white w-full">
+                  ~ Debora Viana – Graphic Designer / CEO at DebSigner <br />
+                  <span className="text-green-400 font-bold">
                     @
                     <Link
                       className="underline decoration-green-400"
                       href={"http://linkedin.com/in/débora-viana-294b20272"}
                       target="_blank"
                     >
-                      {" "}
                       deboraviana
                     </Link>
                   </span>

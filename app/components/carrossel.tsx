@@ -14,234 +14,134 @@ import {
   PopoverTrigger,
 } from "@/app/components/popover";
 import { Divider, Icon } from "@chakra-ui/react";
-import goldHunt from "../assets/images/goldHunt.jpeg";
-import havFinder from '../assets/images/havfinder.jpeg'
-import debsigner from "@/app/assets/images/debsigner.png";
-import franCar from "@/app/assets/images/MacBook Pro-1717340115455.jpeg";
 import Link from "next/link";
 import { BiLogoGithub, BiWorld } from "react-icons/bi";
 import { dm } from "../fonts/dm-sans";
+
+import linfoMaster from "../assets/images/Screenshot_39.png";
+import leoDev from "../assets/images/Screenshot_38.png";
+import debsigner from "@/app/assets/images/debsigner.png";
+import franCar from "@/app/assets/images/MacBook Pro-1717340115455.jpeg";
+
+const PROJECTS = [
+  {
+    title: "LeoDev — Personal Website",
+    description:
+      "My official website: minimalist visuals, neon contrast, and smooth micro-interactions showcasing UX, motion, and frontend engineering with personality.",
+    image: leoDev,
+    website: "https://leodev.com.br",
+    github: "https://github.com/sousalmdev",
+  },
+  {
+    title: "Linfomaster Mentorship",
+    description:
+      "A strategic landing page created for a high-performance mentorship program. Clean aesthetic, persuasive structure, and conversion-focused design.",
+    image: linfoMaster,
+    website: "https://mentorialinfomaster.com.br/",
+    github: "https://github.com/sousalmdev",
+  },
+  {
+    title: "FranCar",
+    description:
+      "A hybrid Angular + Tailwind application designed for a fictional car dealership. Organized catalog, detailed pages, and a clean, functional interface.",
+    image: franCar,
+    website: "https://fran-car.vercel.app/",
+    github: "https://github.com/sousalmdev/FranCar",
+  },
+  {
+    title: "Debsigner",
+    description:
+      "A modern portfolio built for a graphic designer, featuring fluid navigation, visual storytelling, and a layout crafted to highlight projects with clarity and impact.",
+    image: debsigner,
+    website: "https://debsignerofficial.vercel.app",
+    github: "https://github.com/sousalmdev/debsigner",
+  },
+];
 
 const Carrossel = () => {
   return (
     <div className="p-5 flex justify-center w-4/5 self-center">
       <div className="w-full flex justify-center items-center">
-        <Carousel className="w-3/4 md:self-start self-center ">
+        <Carousel className="w-3/4 md:self-start self-center">
           <CarouselContent>
-            <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
-                <span className="text-debpink">Deb</span>signer
-              </h1>
-              <br />
-              <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-debpink `}
+            {PROJECTS.map((proj, index) => (
+              <CarouselItem
+                key={index}
+                className="w-full flex flex-col items-center justify-center"
               >
-                Foi o meu primeiro projeto como freelancer, e estou muito
-                orgulhoso disso. Conta a história e o arsenal de trabalho de uma
-                designer gráfica muito talentosa.
-              </p>{" "}
-              <br />
-              <Image
-                className="border border-white/20"
-                src={debsigner}
-                alt="debsignersite"
-              />
-              <br />
-              <div className="flex items-center w-full justify-center">
-                <Popover>
-                  <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-debpink text-debpink `}
-                  >
-                    <ul className="w-11/12 flex flex-col items-center justify-evenly">
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={"https://debsignerofficial.vercel.app"}
-                          className="flex items-center gap-1"
-                        >
-                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
-                        </Link>
-                      </li>
-                      <Divider stroke={"black"} />
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={"https://github.com/sousalmdev/debsigner"}
-                          className="flex items-center gap-1"
-                        >
-                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-debpink transition-all text-center bg-debpink/50 py-1 rounded px-4">
-                    Ver Projeto
-                  </PopoverTrigger>
-                </Popover>
-              </div>
-            </CarouselItem>
+                <h1
+                  className={`flex text-3xl mx-auto text-center md:text-5xl ${dm.className} text-[#23F392]`}
+                >
+                  {proj.title}
+                </h1>
 
-            <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
-                Gold<span className="text-yellow-500">Hunt</span>
-              </h1>
-              <br />
-              <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-yellow-500 `}
-              >
-                Um jogo que envolve a estética de GTA V, onde consiste em
-                acertar 10 letras aleatórias em um tempo limitado (20 segundos),
-                você vai testar suas habilidades lógicas e se divertir ao mesmo
-                tempo!
-              </p>{" "}
-              <br />
-              <Image
-                className="border border-white/20"
-                src={goldHunt}
-                alt="Gold Hunt"
-              />
-              <br />
-              <div className="flex items-center w-full justify-center">
-                <Popover>
-                  <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-yellow-500 text-yellow-500 `}
-                  >
-                    <ul className="w-11/12 flex flex-col items-center justify-evenly">
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={"https://cidade-alta-game.vercel.app/"}
-                          className="flex items-center gap-1"
-                        >
-                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
-                        </Link>
-                      </li>
-                      <Divider stroke={"black"} />
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={
-                            "https://github.com/sousalmdev/teste-cidade-alta"
-                          }
-                          className="flex items-center gap-1"
-                        >
-                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-yellow-500 transition-all text-center bg-yellow-500/50 py-1 rounded px-4">
-                    Ver Projeto
-                  </PopoverTrigger>
-                </Popover>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="w-full">
-              <h1 className={` flex text-3xl md:text-5xl ${dm.className} `}>
-                Fran<span className="text-white/50">Car</span>
-              </h1>
-              <br />
-              <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-white `}
-              >
-                Meu aplicativo Angular feito para venda fictícia de carros, usando a stack híbrida: Angular + Tailwind, que funcionou muito bem. O app inclui: Primeira Tela, Exibição de Veículos, Detalhes do Veículo e Aquisição de Veículos.
-              </p>{" "}
-              <br />
-              <Image
-                className="border border-white/20"
-                src={franCar}
-                alt="francar"
-              />
-              <br />
-              <div className="flex items-center w-full justify-center">
-                <Popover>
-                  <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-white/20 text-white `}
-                  >
-                    <ul className="w-11/12 flex flex-col items-center justify-evenly">
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={"https://fran-car.vercel.app/"}
-                          className="flex items-center gap-1"
-                        >
-                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
-                        </Link>
-                      </li>
-                      <Divider stroke={"black"} />
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={"https://github.com/sousalmdev/FranCar"}
-                          className="flex items-center gap-1"
-                        >
-                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-white hover:text-black transition-all text-center bg-black py-1 border border-white/20 rounded px-4">
-                    Ver Projeto
-                  </PopoverTrigger>
-                </Popover>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="w-full">
-              <h1 className={`flex text-3xl md:text-5xl ${dm.className} `}>
-                Hav<span className="text-green-500">Finder</span>
-              </h1>
-              <br />
-              <p
-                className={`w-full md:w-full text-base h-auto md:text-3xl font-bold text-green-500 `}
-              >
-                Este aplicativo ajuda você a encontrar pessoas ao redor do mundo, de acordo com as coordenadas geográficas, e você poderá ver as informações delas em um mapa que o aplicativo fornece. Além disso: Você pode enviar seus dados ao site e fazer parte do banco de dados, o mapa também incluirá suas informações.
-              </p>{" "}
-              <br />
-              <Image
-                className="border border-white/20"
-                src={havFinder}
-                alt="havFinder"
-              />
-              <br />
-              <div className="flex items-center w-full justify-center">
-                <Popover>
-                  <PopoverContent
-                    className={`flex flex-col items-center mt-2 bg-black backdrop-blur-md border-green-500 text-green-500 `}
-                  >
-                    <ul className="w-11/12 flex flex-col items-center justify-evenly">
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={"https://havira-teste.vercel.app/"}
-                          className="flex items-center gap-1"
-                        >
-                          Site Oficial <span>{BiWorld(Icon)}</span>{" "}
-                        </Link>
-                      </li>
-                      <Divider stroke={"black"} />
-                      <li className="p-1">
-                        <Link
-                          target="_blank"
-                          href={
-                            "https://github.com/sousalmdev/havira-test"
-                          }
-                          className="flex items-center gap-1"
-                        >
-                          Repositório no Github <span>{BiLogoGithub(Icon)}</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </PopoverContent>
-                  <PopoverTrigger className="text-white hover:bg-green-500 transition-all text-center bg-green-500/50 py-1 rounded px-4">
-                    Ver Projeto
-                  </PopoverTrigger>
-                </Popover>
-              </div>
-            </CarouselItem>
-         
+                <br />
+
+                <p className="w-3/5 md:text-xl mx-auto text-center text-base font-light text-[#D9D9D9]">
+                  {proj.description}
+                </p>
+
+                <br />
+                <div className="border border-[#23f392]">
+                  <Image
+                    quality={100}
+                    loading="lazy"
+                    src={proj.image}
+                    alt={proj.title}
+                  />
+                </div>
+
+                <br />
+
+                <div className="flex items-center w-full justify-center">
+                  <Popover>
+                    <PopoverContent className="flex flex-col items-center mt-2 bg-[#171717] backdrop-blur-md border-[#23F392] text-[#D9D9D9]">
+                      <ul className="w-11/12 flex flex-col items-center justify-evenly">
+                        <li className="p-1">
+                          <Link
+                            target="_blank"
+                            href={proj.website}
+                            className="flex items-center gap-1"
+                          >
+                            Website <span>{BiWorld(Icon)}</span>
+                          </Link>
+                        </li>
+
+                        <Divider stroke="#23F392" />
+
+                        <li className="p-1">
+                          <Link
+                            target="_blank"
+                            href={proj.github}
+                            className="flex items-center gap-1"
+                          >
+                            GitHub <span>{BiLogoGithub(Icon)}</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </PopoverContent>
+
+                    <PopoverTrigger
+                      className="
+              inline-flex items-center gap-2 text-sm
+              bg-gradient-to-r from-[#23F392] to-[#0FFFC8]/80
+              text-black font-semibold
+              px-4 py-2 rounded-full
+              hover:scale-105 active:scale-95
+              transition-transform
+              shadow-[0_0_20px_-5px_rgba(35,243,146,0.4)]
+              "
+                    >
+                      View Project
+                    </PopoverTrigger>
+                  </Popover>
+                </div>
+              </CarouselItem>
+            ))}
           </CarouselContent>
-          <CarouselPrevious className="bg-white hover:bg-white/50 transition-all  text-black border-none sm:flex hidden" />
-          <CarouselNext className="bg-white hover:bg-white/50 transition-all   text-black border-none  sm:flex hidden" />
+
+          <CarouselPrevious className="bg-white hover:bg-white/50 transition-all text-black border-none sm:flex hidden" />
+          <CarouselNext className="bg-white hover:bg-white/50 transition-all text-black border-none sm:flex hidden" />
         </Carousel>
       </div>
     </div>

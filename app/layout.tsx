@@ -1,25 +1,21 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { Metadata, Viewport } from "next";
-import { Poppins, Raleway } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import favicon from "@/app/assets/favicon.ico";
-import {Analytics} from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
-const jost = Poppins({
+const grotesk = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700"],
 });
-interface ActiveLinkProps {
-  href: string;
-  children: React.ReactNode;
-}
 
 export const metadata: Metadata = {
-  title: "Portfolio Leandro Sousa",
+  title: "Leo Sousa — Portfolio",
   description:
-    "My name is Leandro Medeiros de Sousa, a brazilian developer, born in Rio de Janeiro. I had my first touch with programming through the CC50 Harvard Course, first meeting C language and Programming Logic. After that, I went full on Front End Development, because I feel familiar to art and creative stuff.",
+    "Leo Sousa is a Brazilian Front-End Developer and UI Designer crafting clean, modern and high-impact digital experiences. Specialized in React, Next.js and visual design.",
   icons: {
     shortcut: favicon.src,
     apple:
@@ -28,25 +24,21 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1b2631",
+  themeColor: "#171717",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html className="scroll-smooth" lang="pt-br">
+    <html lang="en" className="scroll-smooth">
       <ChakraProvider>
         <body
-          className={`${jost.className} bg-default leading-tight tracking-tighter flex-col h-min-screen flex text-left items-center`}
+          className={`${grotesk.className} bg-[#171717] text-[#D9D9D9] leading-tight tracking-tight flex flex-col items-center min-h-screen`}
         >
           <Header />
           {children}
-          <Analytics/>
+          <Analytics />
           <Footer />
-        </body>{" "}
+        </body>
       </ChakraProvider>
     </html>
   );

@@ -1,6 +1,6 @@
-import {Calistoga } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
-export const dm =Calistoga({
+export const dm = Space_Grotesk({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["600", "700"],
 });

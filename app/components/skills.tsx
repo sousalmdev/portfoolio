@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import { PiFilmReelFill } from "react-icons/pi";
+import React from "react"
+import { PiFilmReelFill } from "react-icons/pi"
 import {
   BiData,
   BiLogoAngular,
@@ -10,295 +10,194 @@ import {
   BiLogoReact,
   BiLogoTypescript,
   BiSolidBrain,
-} from "react-icons/bi";
+} from "react-icons/bi"
 import {
   SiCanva,
   SiFigma,
   SiInkscape,
-  SiMongodb,
   SiMysql,
   SiNextdotjs,
-  SiSequelize,
-} from "react-icons/si";
+} from "react-icons/si"
 import {
   TbBrain,
   TbHammer,
   TbLanguage,
   TbMoodHappy,
-  TbMoodHappyFilled,
   TbPaintFilled,
-} from "react-icons/tb";
-import { Divider, Icon } from "@chakra-ui/react";
-import { dm } from "../fonts/dm-sans";
+} from "react-icons/tb"
+import { Divider, Icon } from "@chakra-ui/react"
+import { dm } from "../fonts/dm-sans"
 
 export const Skills = () => {
   return (
-    <>
-      <div
-        id="skills"
-        className="animate-fade-in-bottom py-20 text-left xl:w-11/12 md:w-full sm:w-4/5 w-11/12"
-      >
-        <h2 className={`text-green-400 tracking-wider font-bold`}>
-          UM DESENVOLVEDOR É TÃO BOM QUANTO SEUS
+    <div
+      id="skills"
+      className="animate-fade-in-bottom py-24 text-left flex flex-col items-center justify-center xl:w-11/12 md:w-full w-11/12"
+    >
+     <h2 className="text-green-400 mx-auto tracking-wider font-bold">
+        A DEVELOPER IS ONLY AS GOOD AS THEIR
+      </h2>
+
+       <h1 className={`text-4xl mb-5 mx-auto md:text-6xl ${dm.className}`}>
+        Skills.
+      </h1>
+
+       <p className="w-full xl:w-2/5 md:w-4/5 sm:w-4/5 mx-auto text-base md:text-xl font-light">
+        Technical or interpersonal — skills are skills. Below is a combination of my{" "}
+        <span className="font-black text-green-400">technical and personal abilities.</span>
+      </p>
+
+      <div className="py-12 flex items-center gap-2 justify-center">
+        <Divider width={200} />
+        <h2 className="text-green-400 text-center text-2xl md:text-5xl font-semibold">
+          PROFESSIONAL <br /> SKILLS
         </h2>
+        <Divider width={200} />
+      </div>
 
-        <br />
-        <h1 className={`text-4xl md:text-6xl ${dm.className}`}>Habilidades.</h1>
-
-        <br />
-        <p className="w-full md:w-2/4 text-xl h-auto md:text-3xl font-light">
-          Habilidades técnicas ou interpessoais, habilidades são sempre
-          habilidades. Abaixo estão uma combinação das minhas{" "}
-          <span className="font-black text-green-400">
-            habilidades interpessoais e técnicas.
+      <ul className="w-full list-none gap-10 flex flex-col">
+        <li className="gap-3 flex flex-col">
+          <span className="font-bold text-yellow-500 md:text-4xl text-2xl flex items-center gap-2">
+            {BiLogoJavascript(Icon)} <h2 className="text-white">Javascript</h2>
           </span>
-        </p>
-        <br />
-        <div className="py-10 flex items-center gap-1 justify-center">
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            My very first programming language, originally used to study algorithms. Today it's one of my main tools for Front-End development.
+          </p>
+        </li>
+
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-blue-500 md:text-4xl text-2xl flex items-center gap-2">
+            <h2 className="text-white">ReactJS</h2> {BiLogoReact(Icon)}
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            My favorite library. It has a simple learning curve, yet scales beautifully with frameworks like Next.js.
+          </p>
+        </li>
+
+        <li className="gap-3 flex flex-col">
+          <span className="font-bold text-red-600 md:text-4xl text-2xl flex items-center gap-2">
+            {BiLogoAngular(Icon)} <h2 className="text-white">Angular</h2>
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:text-4/5 xl:w-2/5">
+            My first framework — learned in a traditional, self-taught, under-pressure scenario for a job test. Surprisingly fell in love with it.
+          </p>
+        </li>
+
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-white md:text-4xl text-2xl flex items-center gap-2">
+            <h2 className="text-white">NextJS</h2> {SiNextdotjs(Icon)}
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            The powerful React/Vercel framework that brings SSR and full-stack capability into one ecosystem.
+          </p>
+        </li>
+
+        <li className="gap-3 flex flex-col">
+          <span className="font-bold text-blue-500 md:text-4xl text-2xl flex items-center gap-2">
+            {BiLogoTypescript(Icon)} <h2 className="text-white">Typescript</h2>
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            The “big brother” of JavaScript — static typing, organization, and structure. Makes everything feel safer and cleaner.
+          </p>
+        </li>
+
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-blue-300 md:text-4xl text-2xl flex items-center gap-2">
+            <h2 className="text-white">Databases</h2> {BiData(Icon)}
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            Experience with SQL (MySQL) and NoSQL (MongoDB). A dev eventually needs to master data handling to build full-stack apps.
+          </p>
+        </li>
+
+        <div className="py-12 flex items-center gap-2 justify-center">
           <Divider width={200} />
-          <h2
-            className={`text-green-400 text-center py-2 text-base md:text-4xl font-semibold `}
-          >
-            HABILIDADES <br />
-            PROFISSIONAIS
+          <h2 className="text-green-400 text-center text-2xl md:text-5xl font-semibold">
+            DESIGN <br /> TOOLS
           </h2>
           <Divider width={200} />
         </div>
-        <ul className="w-full list-none gap-5 flex flex-col">
-          <li className={`gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold text-yellow-500 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              {BiLogoJavascript(Icon)}{" "}
-              <h2 className="text-white">Javascript</h2>
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Minha primeira linguagem! Foi útil para estudar algoritmos na
-              época, e agora eu a uso muito com Programação Front End.
-            </p>
-          </li>
 
-          <li
-            className={`gap-2 items-end text-right justify-end flex flex-col`}
-          >
-            {" "}
-            <span
-              className={`font-bold  text-blue-500 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              <h2 className="text-white">ReactJS</h2>
-              {BiLogoReact(Icon)}
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Minha biblioteca JS mais usada! Pessoalmente, gosto do ReactJS
-              pela sua curva de aprendizado, que é simples no início, mas
-              escalável também se utilizando de Frameworks ReactJS como o
-              NextJS.
-            </p>
-          </li>
+        <li className="gap-3 flex flex-col">
+          <span className="font-bold text-white md:text-4xl text-2xl flex items-center gap-2">
+            <SiInkscape /> Inkscape
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            My go-to for vector creation and editing, producing scalable and high-quality visual assets.
+          </p>
+        </li>
 
-          <li className={`gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-red-600 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              {BiLogoAngular(Icon)} <h2 className="text-white">Angular</h2>
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Meu primeiro framework. E eu aprendi este da maneira tradicional,
-              autodidata, sob um pouco de pressão para uma avaliação de
-              candidatura a emprego, e correu muito bem e eu me apaixonei por
-              ele ao longo do caminho.
-            </p>
-          </li>
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-orange-400 md:text-4xl text-2xl flex items-center gap-2">
+            Figma <SiFigma />
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            My main UI/UX environment for prototypes, layouts, and team collaboration.
+          </p>
+        </li>
 
-          <li className={`gap-2 items-end text-right flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-white md:text-3xl text-lg items-center flex gap-2`}
-            >
-              <h2 className="text-white">NextJS</h2> {SiNextdotjs(Icon)}
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              O Framework React/Vercel surgiu para adicionar mais força e
-              versatilidade ao ReactJS, e inclui em seu arsenal de serviços, um
-              recurso de renderização no lado do servidor, que, se bem
-              utilizado, pode fornecer uma aplicação 'Full-Stack', com rapidez e
-              eficácia.
-            </p>
-          </li>
+        <li className="gap-3 flex flex-col">
+          <span className="font-black w-fit bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent md:text-4xl text-2xl flex items-center gap-2">
+            <SiCanva className="text-cyan-400" /> Canva
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            Perfect for fast, impactful visuals — from design pieces to social templates and mockup videos.
+          </p>
+        </li>
 
-          <li className={`gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-blue-500 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              {BiLogoTypescript(Icon)}{" "}
-              <h2 className="text-white">Typescript</h2>
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              O 'Grande Irmão' do Javascript, focado em Programação Orientada a
-              Objetos. Sinto-me muito seguro usando TypeScript devido ao uso de
-              tipagem estática.
-            </p>
-          </li>
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-transparent bg-gradient-to-l from-green-400 to-cyan-400 bg-clip-text md:text-4xl text-2xl flex items-center gap-2">
+            CapCut <PiFilmReelFill className="text-green-400" />
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            My tool for promotional videos, showcasing project outcomes and delivering polished visual materials.
+          </p>
+        </li>
 
-          <li className={`items-end text-right gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-blue-300 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              <h2 className="text-white">Bancos de Dados</h2> {BiData(Icon)}
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Todo programador deve lidar com pelo menos um servidor de banco de
-              dados para criar uma aplicação de serviço completo, então estou
-              trabalhando para adquirir experiência com bancos de dados SQL
-              (mySQL) e noSQL (MongoDB).
-            </p>
-          </li>
+        <div className="py-12 flex items-center gap-2 justify-center">
+          <Divider width={200} />
+          <h2 className="text-green-400 text-center text-2xl md:text-5xl font-semibold">
+            PERSONAL <br /> SKILLS
+          </h2>
+          <Divider width={200} />
+        </div>
 
-          <div className="py-10 flex items-center gap-1 justify-center">
-            <Divider width={200} />
-            <h2
-              className={`text-green-400 text-center py-2 text-xl md:text-4xl font-semibold`}
-            >
-              FERRAMENTAS <br />
-              DE DESIGN
-            </h2>
-            <Divider width={200} />
-          </div>
-          <ul className="w-full list-none gap-5 flex flex-col">
-            <li className="gap-2 flex flex-col">
-              <span
-                className={`font-bold text-white md:text-3xl text-lg items-center flex gap-2`}
-              >
-                <SiInkscape /> InkScape
-              </span>
-              <p className="text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-                Sou proficiente no uso do InkScape para criar e editar gráficos
-                vetoriais, o que me permite produzir designs escaláveis e de
-                alta qualidade.
-              </p>
-            </li>
-            <li className="gap-2 flex items-end  flex-col">
-              <span
-                className={`font-bold text-right text-orange-400 md:text-3xl text-lg items-center flex gap-2`}
-              >
-                Figma <SiFigma />
-              </span>
-              <p className="text-white text-right text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-                Uso o Figma para criar protótipos interativos, diversos
-                materiais visuais e colaborar com equipes de design e
-                desenvolvimento, garantindo uma abordagem integrada no design de
-                interfaces.
-              </p>
-            </li>
-            <li className="gap-2 flex flex-col">
-              <span
-                className={`w-fit bg-gradient-to-r from-cyan-400 from-20% to-purple-500 to-90% bg-clip-text text-transparent font-black flex  md:text-3xl text-lg items-center flex gap-2`}
-              >
-                <SiCanva className="text-cyan-400" />
-                Canva
-              </span>
-              <p className="text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-                O Canva é minha ferramenta para criar materiais visuais rápidos
-                e impactantes, ideal para projetos de design gráfico e
-                marketing, uso também para vídeos que necessitem de mockups.
-              </p>
-            </li>
-            <li className="gap-2 flex items-end  flex-col">
-              <span
-                className={`font-bold text-right bg-gradient-to-l from-green-400 to-cyan-400 bg-clip-text  text-transparent md:text-3xl text-lg items-center flex gap-2`}
-              >
-                Capcut <PiFilmReelFill className="text-green-400" />
-              </span>
-              <p className="text-white text-right text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-                Ele é meu recurso para vídeos promocionais, que mostram os
-                resultados dos meus trabalhos, é a demonstração do produto
-                final, e o material de divulgação.
-              </p>
-            </li>
-          </ul>
+        <li className="gap-3 flex flex-col">
+          <span className="font-bold text-white md:text-4xl text-2xl flex items-center gap-2">
+            {BiSolidBrain(Icon)} <h2 className="text-white">Rational Thinking</h2>
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            I'm the type who thinks things through multiple times before making a decision — extremely detail-oriented when solving client needs.
+          </p>
+        </li>
 
-          <div className="py-10 flex items-center gap-1 justify-center">
-            <Divider width={200} />
-            <h2
-              className={`text-green-400 text-center py-2 text-xl md:text-4xl font-semibold `}
-            >
-              HABILIDADES <br />
-              PESSOAIS
-            </h2>
-            <Divider width={200} />
-          </div>
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-cyan-400 md:text-4xl text-2xl flex items-center gap-2">
+            <h2 className="text-white">Creative Mind</h2> {TbPaintFilled(Icon)}
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            Art inspires my work. As a Front-End/UI Developer, I channel creativity into interfaces that feel alive and meaningful.
+          </p>
+        </li>
 
-          <li className={`gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-white md:text-3xl text-lg items-center flex gap-2`}
-            >
-              {BiSolidBrain(Icon)}{" "}
-              <h2 className="text-white">Comportamento Racional</h2>
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Você conhece aquele tipo de pessoa que pensa nas coisas vezes e
-              vezes antes de tomar uma decisão? Sou eu! Sou extremamente
-              minucioso quando se trata de fornecer soluções para atender às
-              necessidades dos meus clientes.
-            </p>
-          </li>
+        <li className="gap-3 flex flex-col">
+          <span className="font-bold text-red-600 md:text-4xl text-2xl flex items-center gap-2">
+            {TbLanguage(Icon)} <h2 className="text-white">Communication</h2>
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            Always loved languages — learned English and Spanish as a kid, and expanded multilingual communication throughout my career.
+          </p>
+        </li>
 
-          <li className={`items-end text-right gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-cyan-400 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              <h2 className="text-white">Mente Criativa</h2>{" "}
-              {TbPaintFilled(Icon)}{" "}
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              E é por isso que sou um Desenvolvedor Front-End / UI. Adoro arte e
-              tudo o que ela traz para a cultura, então posso canalizar a arte
-              para minhas aplicações, trazendo sonhos e idealizações à vida
-              através dos meus códigos.
-            </p>
-          </li>
-
-          <li className={`gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-red-600 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              {TbLanguage(Icon)} <h2 className="text-white">Comunicação</h2>
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Mesmo quando criança, eu estava interessado em aprender novos
-              idiomas, eu conhecia minhas primeiras palavras em inglês e
-              espanhol quando tinha apenas 6 anos (Minha primeira língua é o
-              português, a propósito). Ao longo da minha carreira, consegui
-              expandir minhas habilidades multilíngues através de extensa
-              comunicação internacional.
-            </p>
-          </li>
-
-          <li className={`items-end text-right gap-2 flex flex-col`}>
-            {" "}
-            <span
-              className={`font-bold  text-yellow-400 md:text-3xl text-lg items-center flex gap-2`}
-            >
-              <h2 className="text-white">Sempre de Bom Humor</h2>{" "}
-              {TbMoodHappy(Icon)}{" "}
-            </span>
-            <p className=" text-white text-base md:text-2xl w-full md:w-4/5 xl:w-2/5">
-              Clientes, toneladas de reuniões diárias e alinhamentos, obrigações
-              pessoais, é realmente difícil manter um sorriso. E é por isso que
-              você deve me contratar. Meu principal objetivo é trazer alegria
-              com cada coisa que eu faço, para iluminar o dia de alguém. E
-              geralmente funciona.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </>
-  );
-};
+        <li className="gap-3 flex flex-col items-end text-right">
+          <span className="font-bold text-yellow-400 md:text-4xl text-2xl flex items-center gap-2">
+            <h2 className="text-white">Good Mood Always</h2> {TbMoodHappy(Icon)}
+          </span>
+          <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
+            Clients, deadlines, daily calls — it's hard to keep a smile. That's exactly why I do. Bringing good energy is part of my work.
+          </p>
+        </li>
+      </ul>
+    </div>
+  )
+}

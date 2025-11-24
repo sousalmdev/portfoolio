@@ -14,13 +14,11 @@ import {
   ModalCloseButton,
   Modal,
   ModalBody,
-  ModalFooter,
   ModalHeader,
   useToast,
   Icon,
 } from "@chakra-ui/react";
 import { BiLogoGmail } from "react-icons/bi";
-import { MdSend } from "react-icons/md";
 import { TbSend } from "react-icons/tb";
 
 interface CustomOptions {
@@ -36,6 +34,7 @@ export const FormContact: React.FC = () => {
   const toast = useToast();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isSubmitting, setIsSubmitting] = useState(false);
+
   const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -57,24 +56,22 @@ export const FormContact: React.FC = () => {
           form.current,
           options
         );
+
         toast({
-          title: "Email sent successfully",
+          title: "Email sent successfully!",
           status: "success",
           duration: 3000,
-          isClosable: false,
           position: "bottom-right",
-          colorScheme: "black",
         });
+
         onClose();
       }
     } catch (error) {
-      console.log("FAILED...", error);
       toast({
-        title: "Failed to send email",
-        description: "An error occurred while sending the email.",
+        title: "Something went wrong",
+        description: "Please try again later.",
         status: "error",
         duration: 3000,
-        isClosable: false,
         position: "bottom-right",
       });
     } finally {
@@ -83,95 +80,104 @@ export const FormContact: React.FC = () => {
   };
 
   const initialRef = React.useRef(null);
-  const finalRef = React.useRef(null);
 
   return (
     <>
       <Button
-        fontSize={{ base: "medium", md: "x-large", xl: "x-large" }}
-        border={".5px solid rgb(74 222 128)"}
-        _hover={{ bgColor: "rgb(74 222 128)" }}
-          bgColor={"rgb(74 222 128)"}
-          color={"black"}
-        paddingInline={{ base: "23px" }}
-        leftIcon={BiLogoGmail(Icon)}
+        fontSize={{ base: "medium", md: "xl" }}
+        border=".5px solid rgb(74 222 128)"
+        borderRadius={'50px'}
+        bgColor="rgb(74 222 128)"
+        color="black"
+        _hover={{ bgColor: "white", color: "black" }}
+        paddingInline={{ base: "26px" }}
+        leftIcon={<BiLogoGmail size={16} />}
         onClick={onOpen}
       >
-        Manda um e-mail
+        Send me an Email
       </Button>
+
       <Modal
         size={{ base: "sm", sm: "lg" }}
         initialFocusRef={initialRef}
-        finalFocusRef={finalRef}
         isOpen={isOpen}
         onClose={onClose}
         isCentered
       >
-        <ModalOverlay backdropBlur={"8px"} />
+        <ModalOverlay backdropBlur="8px" />
+
         <ModalContent
-          background={"black"}
-          border={".5px solid rgb(78 222 128)"}
-          color={"rgb(78,222,128)"}
+          background="black"
+          border=".5px solid rgb(74 222 128)"
+          color="rgb(74 222 128)"
         >
-          <ModalHeader>Fala Comigo!</ModalHeader>
+          <ModalHeader className="font-semibold tracking-wide">
+            Talk to Me
+          </ModalHeader>
+
           <ModalCloseButton />
+
           <ModalBody pb={6}>
             <form ref={form} onSubmit={sendEmail}>
               <FormControl>
-                <FormLabel>Nome</FormLabel>
+                <FormLabel>Name</FormLabel>
                 <Input
-                  _focus={{ borderColor: "rgb(78 222 128)" }}
-                  borderColor={"rgb(78 222 128)"}
                   ref={initialRef}
-                  placeholder="Digite seu nome"
+                  placeholder="Your name"
                   name="user_name"
                   isRequired
+                  borderColor="rgb(74 222 128)"
+                  _focus={{ borderColor: "rgb(74 222 128)" }}
                 />
               </FormControl>
+
               <FormControl mt={4}>
                 <FormLabel>Email</FormLabel>
                 <Input
-                  _focus={{ borderColor: "rgb(78 222 128)" }}
-                  borderColor={"rgb(78 222 128)"}
                   type="email"
-                  placeholder="Digite seu email"
+                  placeholder="your@email.com"
                   name="user_email"
                   isRequired
+                  borderColor="rgb(74 222 128)"
+                  _focus={{ borderColor: "rgb(74 222 128)" }}
                 />
               </FormControl>
+
               <FormControl mt={4}>
-                <FormLabel>Assunto</FormLabel>
+                <FormLabel>Subject</FormLabel>
                 <Input
-                  _focus={{ borderColor: "rgb(78 222 128)" }}
-                  borderColor={"rgb(78 222 128)"}
-                  placeholder="Digite o Assunto"
+                  placeholder="Project, question, etc."
                   name="subject"
                   isRequired
+                  borderColor="rgb(74 222 128)"
+                  _focus={{ borderColor: "rgb(74 222 128)" }}
                 />
               </FormControl>
+
               <FormControl mt={4}>
-                <FormLabel>Mensagem</FormLabel>
+                <FormLabel>Message</FormLabel>
                 <Textarea
-                  _focus={{ borderColor: "rgb(78 222 128)" }}
-                  borderColor={"rgb(78,222,128)"}
-                  placeholder="Digite sua mensagem"
+                  placeholder="Write your message here..."
                   name="message"
                   isRequired
+                  borderColor="rgb(74 222 128)"
+                  _focus={{ borderColor: "rgb(74 222 128)" }}
                 />
               </FormControl>
+
               <Button
-                mt={4}
-                backgroundColor={"rgb(78 222 128)"}
-                className="text-black"
-                rightIcon={TbSend(Icon)}
+                mt={5}
+                backgroundColor="rgb(74 222 128)"
+                color="black"
+                rightIcon={<TbSend size={20} />}
                 type="submit"
                 width="100%"
                 isLoading={isSubmitting}
-                loadingText="Enviando..."
-                colorScheme="white"
-                variant="outline"
+                loadingText="Sending..."
+                rounded="md"
+                _hover={{ bgColor: "white", color: "black" }}
               >
-                Enviar
+                Send Message
               </Button>
             </form>
           </ModalBody>

@@ -1,36 +1,54 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import { dm } from "../fonts/dm-sans";
-import skillset from "@/app/assets/Untitled.svg";
-import Image from "next/image";
-import jost from '../layout'
+import React from "react"
+import { dm } from "../fonts/dm-sans"
+import Image from "next/image"
+import skillset from "@/app/assets/Untitled.svg"
+
 export const Introducing = () => {
   return (
-    <>
-      <div
-        id="#presentation"
-        className="animate-fade-in-bottom py-12 text-left w-11/12 md:w-full"
-      >
-        <h2
-          className={`w-fit text-white tracking-tighter md:text-2xl text-sm tracking-wider font-bold`}
-        >
-          OLÁ, MEU NOME É LEO E EU SOU UM
-        </h2>
-        <h1 className={`text-3xl text-green-400 uppercase font-black tracking-tighter md:text-6xl`}>
-          Desenvolvedor <br /> Front End/UI
+    <section
+      id="presentation"
+      className="animate-fade-in-bottom min-h-screen w-11/12 md:w-full flex flex-col items-center justify-center text-center"
+    >
+      <h2 className="text-white tracking-[1em] font-bold text-base md:text-xl mb-5">
+        HI, MY NAME IS LEO AND I’M A
+      </h2>
 
-        </h1>
-        <h2 className = {`text-2xl md:text-6xl  text-white/40 tracking-tighter uppercase font-black`}>E Designer Gráfico.</h2>
-        <br />
-        <br />
-        <p
-          className={` w-full xl:w-2/5 leading-tight md:w-4/5 sm:w-4/5 md:text-3xl text-lg font-light `}
+      <h1
+        className={`text-green-400 uppercase font-black tracking-tight text-4xl md:text-7xl`}
+      >
+        Front-End / UI Developer
+      </h1>
+
+      <h2
+        className={`uppercase font-normal text-white tracking-tight text-2xl md:text-6xl`}
+      >
+        And Graphic Designer.
+      </h2>
+
+      <p
+        className={`mt-10 w-full xl:w-2/5 md:w-4/5 text-base md:text-xl leading-tight text-[#D9D9D9]/90 font-light`}
+      >
+        Since my very first contact with programming, I’ve been dedicating my
+        days to solving problems and translating ideas into high-impact
+        interfaces. Feel free to explore what I’ve been building.
+      </p>
+
+      <div className="mt-12 flex items-center gap-6">
+        <a
+          href="#projects"
+          className="inline-flex items-center gap-2 text-sm md:text-lg bg-gradient-to-r from-[#23F392] to-[#0FFFC8]/80 text-black font-semibold px-6 py-3 rounded-full hover:scale-105 active:scale-95 transition-transform shadow-[0_0_20px_-5px_rgba(35,243,146,0.4)]"
         >
-          Desde a minha primeira introdução à programação, venho dedicando meus
-          dias a resolver problemas e traduzir ideias em código, fique à vontade
-          para ver isso acontecendo.
-        </p>
+          View My Work →
+        </a>
+
+        <a
+          href="#contact"
+          className="inline-flex items-center gap-2 text-sm md:text-lg border border-[#d9d9d9] text-[#d9d9d9] px-6 py-3 rounded-full hover:bg-[#23F392]/20 transition-all"
+        >
+          Contact Me
+        </a>
       </div>
-    </>
-  );
-};
+    </section>
+  )
+}
