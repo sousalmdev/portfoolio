@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <div
       id="about"
-      className="animate-fade-in-bottom pb-24 text-left w-11/12 md:w-full"
+      className="animate-fade-in-bottom pb-24 md:text-left text-center w-11/12 md:w-full"
     >
       <div className="py-20 flex flex-col xl:flex-row items-center justify-between gap-10">
         <div>

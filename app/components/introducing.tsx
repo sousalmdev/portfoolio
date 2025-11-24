@@ -10,7 +10,7 @@ export const Introducing = () => {
       id="presentation"
       className="animate-fade-in-bottom min-h-screen w-11/12 md:w-full flex flex-col items-center justify-center text-center"
     >
-      <h2 className="text-white tracking-[1em] font-bold text-base md:text-xl mb-5">
+      <h2 className="text-white md:tracking-[1em] tracking-[.5em] font-bold md:text-base text-xs md:text-xl mb-5">
         HI, MY NAME IS LEO AND I’M A
       </h2>
 
@@ -34,7 +34,7 @@ export const Introducing = () => {
         interfaces. Feel free to explore what I’ve been building.
       </p>
 
-      <div className="mt-12 flex items-center gap-6">
+      <div className="mt-12 flex md:flex-row flex-col items-center gap-6">
         <a
           href="#projects"
           className="inline-flex items-center gap-2 text-sm md:text-lg bg-gradient-to-r from-[#23F392] to-[#0FFFC8]/80 text-black font-semibold px-6 py-3 rounded-full hover:scale-105 active:scale-95 transition-transform shadow-[0_0_20px_-5px_rgba(35,243,146,0.4)]"

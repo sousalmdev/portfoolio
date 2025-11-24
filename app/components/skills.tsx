@@ -42,7 +42,7 @@ export const Skills = () => {
         Skills.
       </h1>
 
-       <p className="w-full xl:w-2/5 md:w-4/5 sm:w-4/5 mx-auto text-base md:text-xl font-light">
+       <p className="w-full md:text-left text-center xl:w-2/5 md:w-4/5 sm:w-4/5 mx-auto text-base md:text-xl font-light">
         Technical or interpersonal — skills are skills. Below is a combination of my{" "}
         <span className="font-black text-green-400">technical and personal abilities.</span>
       </p>

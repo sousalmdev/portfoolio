@@ -77,7 +77,7 @@ const Carrossel = () => {
 
                 <br />
 
-                <p className="w-3/5 md:text-xl mx-auto text-center text-base font-light text-[#D9D9D9]">
+                <p className="md:w-3/5 w-full md:text-xl mx-auto text-center text-base font-light text-[#D9D9D9]">
                   {proj.description}
                 </p>
 
