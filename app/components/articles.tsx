@@ -6,8 +6,7 @@ import { dm } from "../fonts/dm-sans";
 export const Articles = () => {
   return (
     <div className="animate-fade-in-bottom pb-10 text-center w-11/12 md:w-full">
-      <h2 className="text-green-400 text-sm md:text-lg tracking-wider font-bold">
-        NOT JUST CODE — WELCOME TO MY
+ <h2 className="text-[#23f392] text-center text-base md:text-xl tracking-widest font-semibold">        NOT JUST CODE — WELCOME TO MY
       </h2>
 
       <br />

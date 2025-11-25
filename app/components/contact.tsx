@@ -17,7 +17,7 @@ export const Contact = () => {
       className="animate-fade-in-bottom flex flex-col items-center justify-center mb-64 text-center w-11/12 md:w-full"
     >
       <div className="flex flex-col items-center gap-2 md:pb-20">
-        <h2 className="text-green-400 text-center text-base md:text-xl tracking-widest font-semibold">
+        <h2 className="text-[#23f392] text-center text-base md:text-xl tracking-widest font-semibold">
           INTERESTED?
         </h2>
         <h1 className={`${dm.className} text-3xl md:text-5xl font-bold`}>
@@ -36,8 +36,8 @@ export const Contact = () => {
           as={Link}
           href="https://linkedin.com/in/leosousadev"
           fontSize={{ base: "medium", md: "large" }}
-          bgColor="rgb(74 222 128)"
-          border="1px solid rgb(74 222 128)"
+          bgColor="#23f392"
+          border="1px solid #23f392"
           _hover={{ bgColor: "white", color: "black" }}
           color="black"
           leftIcon={<BiLogoLinkedin size={22} />}
@@ -51,8 +51,8 @@ export const Contact = () => {
           as={Link}
           href="https://github.com/sousalmdev"
           fontSize={{ base: "medium", md: "large" }}
-          bgColor="rgb(74 222 128)"
-          border="1px solid rgb(74 222 128)"
+          bgColor="#23f392"
+          border="1px solid #23f392"
           _hover={{ bgColor: "white", color: "black" }}
           color="black"
           leftIcon={<BiLogoGithub size={22} />}
@@ -65,7 +65,7 @@ export const Contact = () => {
 
       <div className="flex items-center gap-2 md:py-20 py-10 w-full justify-center">
         <Divider width="100px" borderColor="#23F392" />
-        <h2 className="text-green-400 text-center text-base md:text-xl font-semibold">
+        <h2 className="text-[#23f392] text-center text-base md:text-xl font-semibold">
           OR
         </h2>
         <Divider width="100px" borderColor="#23F392" />
@@ -78,8 +78,8 @@ export const Contact = () => {
           as={Link}
           href="https://wa.link/sqisqd"
           fontSize={{ base: "medium", md: "large" }}
-          bgColor="rgb(74 222 128)"
-          border="1px solid rgb(74 222 128)"
+          bgColor="#23f392"
+          border="1px solid #23f392"
           _hover={{ bgColor: "white", color: "black" }}
           color="black"
           marginTop={6}

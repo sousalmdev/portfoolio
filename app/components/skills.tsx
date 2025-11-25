@@ -32,10 +32,9 @@ export const Skills = () => {
   return (
     <div
       id="skills"
-      className="animate-fade-in-bottom py-24 text-left flex flex-col items-center justify-center xl:w-11/12 md:w-full w-11/12"
+      className="animate-fade-in-bottom py-24 flex flex-col items-center justify-center xl:w-11/12 md:w-full w-11/12"
     >
-     <h2 className="text-green-400 mx-auto tracking-wider font-bold">
-        A DEVELOPER IS ONLY AS GOOD AS THEIR
+ <h2 className="text-[#23f392] text-center text-base md:text-xl tracking-widest font-semibold">        A DEVELOPER IS ONLY AS GOOD AS THEIR
       </h2>
 
        <h1 className={`text-4xl mb-5 mx-auto md:text-6xl ${dm.className}`}>
@@ -44,12 +43,12 @@ export const Skills = () => {
 
        <p className="w-full md:text-left text-center xl:w-2/5 md:w-4/5 sm:w-4/5 mx-auto text-base md:text-xl font-light">
         Technical or interpersonal — skills are skills. Below is a combination of my{" "}
-        <span className="font-black text-green-400">technical and personal abilities.</span>
+        <span className="font-black text-[#23f392]">technical and personal abilities.</span>
       </p>
 
       <div className="py-12 flex items-center gap-2 justify-center">
         <Divider width={200} />
-        <h2 className="text-green-400 text-center text-2xl md:text-5xl font-semibold">
+        <h2 className="text-[#23f392] text-center text-2xl md:text-5xl font-semibold">
           PROFESSIONAL <br /> SKILLS
         </h2>
         <Divider width={200} />
@@ -112,7 +111,7 @@ export const Skills = () => {
 
         <div className="py-12 flex items-center gap-2 justify-center">
           <Divider width={200} />
-          <h2 className="text-green-400 text-center text-2xl md:text-5xl font-semibold">
+          <h2 className="text-[#23f392] text-center text-2xl md:text-5xl font-semibold">
             DESIGN <br /> TOOLS
           </h2>
           <Divider width={200} />
@@ -147,7 +146,7 @@ export const Skills = () => {
 
         <li className="gap-3 flex flex-col items-end text-right">
           <span className="font-bold text-transparent bg-gradient-to-l from-green-400 to-cyan-400 bg-clip-text md:text-4xl text-2xl flex items-center gap-2">
-            CapCut <PiFilmReelFill className="text-green-400" />
+            CapCut <PiFilmReelFill className="text-[#23f392]" />
           </span>
           <p className="text-white text-lg md:text-2xl w-full md:w-4/5 xl:w-2/5">
             My tool for promotional videos, showcasing project outcomes and delivering polished visual materials.
@@ -156,7 +155,7 @@ export const Skills = () => {
 
         <div className="py-12 flex items-center gap-2 justify-center">
           <Divider width={200} />
-          <h2 className="text-green-400 text-center text-2xl md:text-5xl font-semibold">
+          <h2 className="text-[#23f392] text-center text-2xl md:text-5xl font-semibold">
             PERSONAL <br /> SKILLS
           </h2>
           <Divider width={200} />

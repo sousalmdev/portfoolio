@@ -11,7 +11,7 @@ export const Projects = () => {
         id="projects"
         className="animate-fade-in-bottom py-20 md:w-full w-11/12 text-center mx-auto"
       >
-        <h2 className="text-green-400 tracking-wider font-bold">
+        <h2 className="text-[#23f392] text-center text-base md:text-xl tracking-widest font-semibold">
           EVERY GREAT DEVELOPER NEEDS STRONG QUALITY
         </h2>
 

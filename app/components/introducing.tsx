@@ -3,12 +3,13 @@ import React from "react"
 import { dm } from "../fonts/dm-sans"
 import Image from "next/image"
 import skillset from "@/app/assets/Untitled.svg"
+import { BiDownArrow, BiSolidDownArrow } from "react-icons/bi"
 
 export const Introducing = () => {
   return (
     <section
       id="presentation"
-      className="animate-fade-in-bottom min-h-screen w-11/12 md:w-full flex flex-col items-center justify-center text-center"
+      className="animate-fade-in-bottom min-h-screen w-full flex flex-col items-center justify-center text-center"
     >
       <h2 className="text-white md:tracking-[1em] tracking-[.5em] font-bold md:text-base text-xs md:text-xl mb-5">
         HI, MY NAME IS LEO <br className="md:hidden" /> AND I’M A
@@ -34,17 +35,17 @@ export const Introducing = () => {
         interfaces. Feel free to explore what I’ve been building.
       </p>
 
-      <div className="mt-12 flex md:flex-row flex-col items-center gap-6">
+      <div className="mt-12 mx-auto w-full flex md:flex-row flex-col justify-center items-center gap-6">
         <a
           href="#projects"
-          className="inline-flex items-center gap-2 text-sm md:text-lg bg-gradient-to-r from-[#23F392] to-[#0FFFC8]/80 text-black font-semibold px-6 py-3 rounded-full hover:scale-105 active:scale-95 transition-transform shadow-[0_0_20px_-5px_rgba(35,243,146,0.4)]"
+          className="inline-flex gap-2 flex md:w-1/3 w-full justify-center items-center bg-gradient-to-r from-[#23F392] to-[#0FFFC8]/80 text-[#171717] px-8 py-3 rounded-full xl:text-lg text-sm font-semibold hover:scale-[1.01] transition-transform duration-200"
         >
-          View My Work →
+          View My Work <BiSolidDownArrow/>
         </a>
 
         <a
           href="#contact"
-          className="inline-flex items-center gap-2 text-sm md:text-lg border border-[#d9d9d9] text-[#d9d9d9] px-6 py-3 rounded-full hover:bg-[#23F392]/20 transition-all"
+          className="inline-flex flex md:w-1/3 w-full justify-center items-center gap-2 text-sm md:text-lg border border-[#d9d9d9] text-[#d9d9d9] px-6 py-3 rounded-full hover:bg-[#23F392]/20 transition-all"
         >
           Contact Me
         </a>

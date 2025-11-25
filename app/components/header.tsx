@@ -14,8 +14,7 @@ export const Header = () => {
       px-6 py-3
       backdrop-blur-xl bg-black/20
       border border-white/10
-      rounded-2xl
-      shadow-[0_0_40px_-15px_rgba(35,243,146,0.2)]"
+      rounded-2xl"
     >
       <div id="title" className="flex gap-3 items-center">
         <Avatar
